@@ -44,7 +44,7 @@ export function RfqForm({
 }: {
   variant?: Variant;
   submitLabel?: string;
-  presetProducts?: string;
+  presetProducts?: string | undefined;
 }) {
   const [fileNames, setFileNames] = useState<string[]>([]);
   const [sending, setSending] = useState(false);
