@@ -10,6 +10,10 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as CustomManufacturingRouteImport } from './routes/custom-manufacturing'
+import { Route as ManufacturingRouteImport } from './routes/manufacturing'
+import { Route as QualityRouteImport } from './routes/quality'
+import { Route as WholesaleRouteImport } from './routes/wholesale'
 import { Route as IndustriesIndexRouteImport } from './routes/industries.index'
 import { Route as IndustriesSlugRouteImport } from './routes/industries.$slug'
 import { Route as ProductsIndexRouteImport } from './routes/products.index'
@@ -18,6 +22,26 @@ import { Route as ProductsCategoryRouteImport } from './routes/products.$categor
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CustomManufacturingRoute = CustomManufacturingRouteImport.update({
+  id: '/custom-manufacturing',
+  path: '/custom-manufacturing',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ManufacturingRoute = ManufacturingRouteImport.update({
+  id: '/manufacturing',
+  path: '/manufacturing',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const QualityRoute = QualityRouteImport.update({
+  id: '/quality',
+  path: '/quality',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const WholesaleRoute = WholesaleRouteImport.update({
+  id: '/wholesale',
+  path: '/wholesale',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndustriesIndexRoute = IndustriesIndexRouteImport.update({
@@ -43,6 +67,10 @@ const ProductsCategoryRoute = ProductsCategoryRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/custom-manufacturing': typeof CustomManufacturingRoute
+  '/manufacturing': typeof ManufacturingRoute
+  '/quality': typeof QualityRoute
+  '/wholesale': typeof WholesaleRoute
   '/industries/$slug': typeof IndustriesSlugRoute
   '/products/$category': typeof ProductsCategoryRoute
   '/industries/': typeof IndustriesIndexRoute
@@ -50,6 +78,10 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/custom-manufacturing': typeof CustomManufacturingRoute
+  '/manufacturing': typeof ManufacturingRoute
+  '/quality': typeof QualityRoute
+  '/wholesale': typeof WholesaleRoute
   '/industries/$slug': typeof IndustriesSlugRoute
   '/products/$category': typeof ProductsCategoryRoute
   '/industries': typeof IndustriesIndexRoute
@@ -58,6 +90,10 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/custom-manufacturing': typeof CustomManufacturingRoute
+  '/manufacturing': typeof ManufacturingRoute
+  '/quality': typeof QualityRoute
+  '/wholesale': typeof WholesaleRoute
   '/industries/$slug': typeof IndustriesSlugRoute
   '/products/$category': typeof ProductsCategoryRoute
   '/industries/': typeof IndustriesIndexRoute
@@ -67,6 +103,10 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/custom-manufacturing'
+    | '/manufacturing'
+    | '/quality'
+    | '/wholesale'
     | '/industries/$slug'
     | '/products/$category'
     | '/industries/'
@@ -74,6 +114,10 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/custom-manufacturing'
+    | '/manufacturing'
+    | '/quality'
+    | '/wholesale'
     | '/industries/$slug'
     | '/products/$category'
     | '/industries'
@@ -81,6 +125,10 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/custom-manufacturing'
+    | '/manufacturing'
+    | '/quality'
+    | '/wholesale'
     | '/industries/$slug'
     | '/products/$category'
     | '/industries/'
@@ -89,6 +137,10 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  CustomManufacturingRoute: typeof CustomManufacturingRoute
+  ManufacturingRoute: typeof ManufacturingRoute
+  QualityRoute: typeof QualityRoute
+  WholesaleRoute: typeof WholesaleRoute
   IndustriesSlugRoute: typeof IndustriesSlugRoute
   ProductsCategoryRoute: typeof ProductsCategoryRoute
   IndustriesIndexRoute: typeof IndustriesIndexRoute
@@ -102,6 +154,34 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/custom-manufacturing': {
+      id: '/custom-manufacturing'
+      path: '/custom-manufacturing'
+      fullPath: '/custom-manufacturing'
+      preLoaderRoute: typeof CustomManufacturingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/manufacturing': {
+      id: '/manufacturing'
+      path: '/manufacturing'
+      fullPath: '/manufacturing'
+      preLoaderRoute: typeof ManufacturingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/quality': {
+      id: '/quality'
+      path: '/quality'
+      fullPath: '/quality'
+      preLoaderRoute: typeof QualityRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/wholesale': {
+      id: '/wholesale'
+      path: '/wholesale'
+      fullPath: '/wholesale'
+      preLoaderRoute: typeof WholesaleRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/industries/': {
@@ -137,6 +217,10 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  CustomManufacturingRoute: CustomManufacturingRoute,
+  ManufacturingRoute: ManufacturingRoute,
+  QualityRoute: QualityRoute,
+  WholesaleRoute: WholesaleRoute,
   IndustriesSlugRoute: IndustriesSlugRoute,
   ProductsCategoryRoute: ProductsCategoryRoute,
   IndustriesIndexRoute: IndustriesIndexRoute,
