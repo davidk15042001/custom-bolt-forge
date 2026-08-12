@@ -10,33 +10,206 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as ContactRouteImport } from './routes/contact'
+import { Route as CustomManufacturingRouteImport } from './routes/custom-manufacturing'
+import { Route as DistributorsRouteImport } from './routes/distributors'
+import { Route as ManufacturingRouteImport } from './routes/manufacturing'
+import { Route as QualityRouteImport } from './routes/quality'
+import { Route as ResourcesRouteImport } from './routes/resources'
+import { Route as RfqRouteImport } from './routes/rfq'
+import { Route as WholesaleRouteImport } from './routes/wholesale'
+import { Route as IndustriesIndexRouteImport } from './routes/industries.index'
+import { Route as IndustriesSlugRouteImport } from './routes/industries.$slug'
+import { Route as LegalDocRouteImport } from './routes/legal.$doc'
+import { Route as ProductsIndexRouteImport } from './routes/products.index'
+import { Route as ProductsCategoryRouteImport } from './routes/products.$category'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CustomManufacturingRoute = CustomManufacturingRouteImport.update({
+  id: '/custom-manufacturing',
+  path: '/custom-manufacturing',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DistributorsRoute = DistributorsRouteImport.update({
+  id: '/distributors',
+  path: '/distributors',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ManufacturingRoute = ManufacturingRouteImport.update({
+  id: '/manufacturing',
+  path: '/manufacturing',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const QualityRoute = QualityRouteImport.update({
+  id: '/quality',
+  path: '/quality',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ResourcesRoute = ResourcesRouteImport.update({
+  id: '/resources',
+  path: '/resources',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const RfqRoute = RfqRouteImport.update({
+  id: '/rfq',
+  path: '/rfq',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const WholesaleRoute = WholesaleRouteImport.update({
+  id: '/wholesale',
+  path: '/wholesale',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const IndustriesIndexRoute = IndustriesIndexRouteImport.update({
+  id: '/industries/',
+  path: '/industries/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const IndustriesSlugRoute = IndustriesSlugRouteImport.update({
+  id: '/industries/$slug',
+  path: '/industries/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LegalDocRoute = LegalDocRouteImport.update({
+  id: '/legal/$doc',
+  path: '/legal/$doc',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProductsIndexRoute = ProductsIndexRouteImport.update({
+  id: '/products/',
+  path: '/products/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProductsCategoryRoute = ProductsCategoryRouteImport.update({
+  id: '/products/$category',
+  path: '/products/$category',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/contact': typeof ContactRoute
+  '/custom-manufacturing': typeof CustomManufacturingRoute
+  '/distributors': typeof DistributorsRoute
+  '/manufacturing': typeof ManufacturingRoute
+  '/quality': typeof QualityRoute
+  '/resources': typeof ResourcesRoute
+  '/rfq': typeof RfqRoute
+  '/wholesale': typeof WholesaleRoute
+  '/industries/$slug': typeof IndustriesSlugRoute
+  '/legal/$doc': typeof LegalDocRoute
+  '/products/$category': typeof ProductsCategoryRoute
+  '/industries/': typeof IndustriesIndexRoute
+  '/products/': typeof ProductsIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/contact': typeof ContactRoute
+  '/custom-manufacturing': typeof CustomManufacturingRoute
+  '/distributors': typeof DistributorsRoute
+  '/manufacturing': typeof ManufacturingRoute
+  '/quality': typeof QualityRoute
+  '/resources': typeof ResourcesRoute
+  '/rfq': typeof RfqRoute
+  '/wholesale': typeof WholesaleRoute
+  '/industries/$slug': typeof IndustriesSlugRoute
+  '/legal/$doc': typeof LegalDocRoute
+  '/products/$category': typeof ProductsCategoryRoute
+  '/industries': typeof IndustriesIndexRoute
+  '/products': typeof ProductsIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/contact': typeof ContactRoute
+  '/custom-manufacturing': typeof CustomManufacturingRoute
+  '/distributors': typeof DistributorsRoute
+  '/manufacturing': typeof ManufacturingRoute
+  '/quality': typeof QualityRoute
+  '/resources': typeof ResourcesRoute
+  '/rfq': typeof RfqRoute
+  '/wholesale': typeof WholesaleRoute
+  '/industries/$slug': typeof IndustriesSlugRoute
+  '/legal/$doc': typeof LegalDocRoute
+  '/products/$category': typeof ProductsCategoryRoute
+  '/industries/': typeof IndustriesIndexRoute
+  '/products/': typeof ProductsIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/contact'
+    | '/custom-manufacturing'
+    | '/distributors'
+    | '/manufacturing'
+    | '/quality'
+    | '/resources'
+    | '/rfq'
+    | '/wholesale'
+    | '/industries/$slug'
+    | '/legal/$doc'
+    | '/products/$category'
+    | '/industries/'
+    | '/products/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/contact'
+    | '/custom-manufacturing'
+    | '/distributors'
+    | '/manufacturing'
+    | '/quality'
+    | '/resources'
+    | '/rfq'
+    | '/wholesale'
+    | '/industries/$slug'
+    | '/legal/$doc'
+    | '/products/$category'
+    | '/industries'
+    | '/products'
+  id:
+    | '__root__'
+    | '/'
+    | '/contact'
+    | '/custom-manufacturing'
+    | '/distributors'
+    | '/manufacturing'
+    | '/quality'
+    | '/resources'
+    | '/rfq'
+    | '/wholesale'
+    | '/industries/$slug'
+    | '/legal/$doc'
+    | '/products/$category'
+    | '/industries/'
+    | '/products/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ContactRoute: typeof ContactRoute
+  CustomManufacturingRoute: typeof CustomManufacturingRoute
+  DistributorsRoute: typeof DistributorsRoute
+  ManufacturingRoute: typeof ManufacturingRoute
+  QualityRoute: typeof QualityRoute
+  ResourcesRoute: typeof ResourcesRoute
+  RfqRoute: typeof RfqRoute
+  WholesaleRoute: typeof WholesaleRoute
+  IndustriesSlugRoute: typeof IndustriesSlugRoute
+  LegalDocRoute: typeof LegalDocRoute
+  ProductsCategoryRoute: typeof ProductsCategoryRoute
+  IndustriesIndexRoute: typeof IndustriesIndexRoute
+  ProductsIndexRoute: typeof ProductsIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +221,115 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/custom-manufacturing': {
+      id: '/custom-manufacturing'
+      path: '/custom-manufacturing'
+      fullPath: '/custom-manufacturing'
+      preLoaderRoute: typeof CustomManufacturingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/distributors': {
+      id: '/distributors'
+      path: '/distributors'
+      fullPath: '/distributors'
+      preLoaderRoute: typeof DistributorsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/manufacturing': {
+      id: '/manufacturing'
+      path: '/manufacturing'
+      fullPath: '/manufacturing'
+      preLoaderRoute: typeof ManufacturingRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/quality': {
+      id: '/quality'
+      path: '/quality'
+      fullPath: '/quality'
+      preLoaderRoute: typeof QualityRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/resources': {
+      id: '/resources'
+      path: '/resources'
+      fullPath: '/resources'
+      preLoaderRoute: typeof ResourcesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/rfq': {
+      id: '/rfq'
+      path: '/rfq'
+      fullPath: '/rfq'
+      preLoaderRoute: typeof RfqRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/wholesale': {
+      id: '/wholesale'
+      path: '/wholesale'
+      fullPath: '/wholesale'
+      preLoaderRoute: typeof WholesaleRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/industries/': {
+      id: '/industries/'
+      path: '/industries'
+      fullPath: '/industries/'
+      preLoaderRoute: typeof IndustriesIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/industries/$slug': {
+      id: '/industries/$slug'
+      path: '/industries/$slug'
+      fullPath: '/industries/$slug'
+      preLoaderRoute: typeof IndustriesSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/legal/$doc': {
+      id: '/legal/$doc'
+      path: '/legal/$doc'
+      fullPath: '/legal/$doc'
+      preLoaderRoute: typeof LegalDocRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/products/': {
+      id: '/products/'
+      path: '/products'
+      fullPath: '/products/'
+      preLoaderRoute: typeof ProductsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/products/$category': {
+      id: '/products/$category'
+      path: '/products/$category'
+      fullPath: '/products/$category'
+      preLoaderRoute: typeof ProductsCategoryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ContactRoute: ContactRoute,
+  CustomManufacturingRoute: CustomManufacturingRoute,
+  DistributorsRoute: DistributorsRoute,
+  ManufacturingRoute: ManufacturingRoute,
+  QualityRoute: QualityRoute,
+  ResourcesRoute: ResourcesRoute,
+  RfqRoute: RfqRoute,
+  WholesaleRoute: WholesaleRoute,
+  IndustriesSlugRoute: IndustriesSlugRoute,
+  LegalDocRoute: LegalDocRoute,
+  ProductsCategoryRoute: ProductsCategoryRoute,
+  IndustriesIndexRoute: IndustriesIndexRoute,
+  ProductsIndexRoute: ProductsIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
