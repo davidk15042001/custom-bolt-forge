@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { PageHero, Section } from "@/components/site/Section";
 import { RfqForm } from "@/components/site/RfqForm";
 import { getIndustry, industries } from "@/data/catalog";
+import { useT } from "@/lib/i18n";
 
 export const Route = createFileRoute("/industries/$slug")({
   loader: ({ params }) => {
@@ -30,38 +31,39 @@ export const Route = createFileRoute("/industries/$slug")({
 });
 
 function IndustryPage() {
+  const t = useT();
   const { industry } = Route.useLoaderData();
   const others = industries.filter((i) => i.slug !== industry.slug);
 
   return (
     <>
-      <PageHero eyebrow="Industry" title={industry.headline} intro={industry.description}>
+      <PageHero eyebrow={t("Industry", "行业")} title={t(industry.headline)} intro={t(industry.description)}>
         <Button asChild>
-          <Link to="/contact">{industry.cta}</Link>
+          <Link to="/contact">{t(industry.cta)}</Link>
         </Button>
         <Button asChild variant="outline">
-          <Link to="/products">Browse Products</Link>
+          <Link to="/products">{t("Browse Products", "浏览产品")}</Link>
         </Button>
       </PageHero>
 
-      <Section eyebrow="Relevant Products" title="Typical fastening components">
+      <Section eyebrow={t("Relevant Products", "相关产品")} title={t("Typical fastening components", "典型紧固部件")}>
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {industry.products.map((p) => (
             <div key={p} className="rule-accent border border-border bg-card p-5 font-medium">
-              {p}
+              {t(p)}
             </div>
           ))}
         </div>
       </Section>
 
-      <Section tone="muted" eyebrow="RFQ" title={industry.cta}>
+      <Section tone="muted" eyebrow={t("RFQ", "询价")} title={t(industry.cta)}>
         <div className="border border-border bg-card p-6 md:p-8">
-          <RfqForm variant="project" submitLabel={industry.cta} presetProducts={`Industry: ${industry.name}\n`} />
+          <RfqForm variant="project" submitLabel={t(industry.cta)} presetProducts={`Industry: ${industry.name}\n`} />
         </div>
       </Section>
 
       <Section className="py-12">
-        <p className="eyebrow mb-3">Other industries</p>
+        <p className="eyebrow mb-3">{t("Other industries", "其他行业")}</p>
         <div className="flex flex-wrap gap-2">
           {others.map((i) => (
             <Link
@@ -70,7 +72,7 @@ function IndustryPage() {
               params={{ slug: i.slug }}
               className="border border-border px-3 py-1.5 text-sm hover:border-primary hover:text-primary"
             >
-              {i.name}
+              {t(i.name)}
             </Link>
           ))}
         </div>

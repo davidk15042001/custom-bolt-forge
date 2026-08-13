@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { buyerTypes, categories } from "@/data/catalog";
+import { useT } from "@/lib/i18n";
 
 export function Field({
   label,
@@ -39,13 +40,14 @@ const accepts: Record<Variant, string> = {
 
 export function RfqForm({
   variant = "product",
-  submitLabel = "Submit RFQ",
+  submitLabel,
   presetProducts,
 }: {
   variant?: Variant;
-  submitLabel?: string;
+  submitLabel?: string | undefined;
   presetProducts?: string | undefined;
 }) {
+  const t = useT();
   const [fileNames, setFileNames] = useState<string[]>([]);
   const [sending, setSending] = useState(false);
 
@@ -55,7 +57,7 @@ export function RfqForm({
     const data = new FormData(form);
     const email = String(data.get("email") ?? "").trim();
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
-      toast.error("Please enter a valid business email address.");
+      toast.error(t("Please enter a valid business email address.", "请输入有效的企业邮箱地址。"));
       return;
     }
     setSending(true);
@@ -63,8 +65,11 @@ export function RfqForm({
       setSending(false);
       form.reset();
       setFileNames([]);
-      toast.success("Request received", {
-        description: "Our sales engineering team will review your requirement and reply by email.",
+      toast.success(t("Request received", "已收到您的需求"), {
+        description: t(
+          "Our sales engineering team will review your requirement and reply by email.",
+          "我们的销售工程团队将审核您的需求并通过邮件回复。",
+        ),
       });
     }, 500);
   };
@@ -75,34 +80,34 @@ export function RfqForm({
   return (
     <form onSubmit={onSubmit} className="space-y-8">
       <div>
-        <p className="eyebrow mb-3">Contact</p>
+        <p className="eyebrow mb-3">{t("Contact", "联系方式")}</p>
         <div className="grid gap-4 sm:grid-cols-2">
-          <Field label="Full name">
+          <Field label={t("Full name", "姓名")}>
             <Input name="name" required maxLength={100} />
           </Field>
-          <Field label="Company">
+          <Field label={t("Company", "公司名称")}>
             <Input name="company" required maxLength={120} />
           </Field>
-          <Field label="Business email">
+          <Field label={t("Business email", "企业邮箱")}>
             <Input name="email" type="email" required maxLength={160} />
           </Field>
-          <Field label="Phone / WhatsApp / WeChat">
+          <Field label={t("Phone / WhatsApp / WeChat", "电话 / WhatsApp / 微信")}>
             <Input name="phone" maxLength={60} />
           </Field>
-          <Field label="Country">
+          <Field label={t("Country", "国家")}>
             <Input name="country" required maxLength={80} />
           </Field>
-          <Field label="Website">
-            <Input name="website" maxLength={160} placeholder="Optional" />
+          <Field label={t("Website", "网站")}>
+            <Input name="website" maxLength={160} placeholder={t("Optional", "选填")} />
           </Field>
         </div>
       </div>
 
       {variant !== "general" && (
         <div>
-          <p className="eyebrow mb-3">Buyer profile</p>
+          <p className="eyebrow mb-3">{t("Buyer profile", "采购方信息")}</p>
           <div className="grid gap-4 sm:grid-cols-2">
-            <Field label="Buyer type">
+            <Field label={t("Buyer type", "采购类型")}>
               <select name="buyerType" className={selectClass} defaultValue="">
                 <option value="" disabled>
                   Select
@@ -112,8 +117,8 @@ export function RfqForm({
                 ))}
               </select>
             </Field>
-            <Field label="Target market">
-              <Input name="market" maxLength={120} placeholder="Optional" />
+            <Field label={t("Target market", "目标市场")}>
+              <Input name="market" maxLength={120} placeholder={t("Optional", "选填")} />
             </Field>
           </div>
         </div>
@@ -121,48 +126,48 @@ export function RfqForm({
 
       {(variant === "product" || variant === "custom" || variant === "project") && (
         <div>
-          <p className="eyebrow mb-3">Requirement</p>
+          <p className="eyebrow mb-3">{t("Requirement", "需求参数")}</p>
           <div className="grid gap-4 sm:grid-cols-3">
-            <Field label="Product category">
+            <Field label={t("Product category", "产品类别")}>
               <select name="category" className={selectClass} defaultValue="">
-                <option value="">Select</option>
+                <option value="">{t("Select", "请选择")}</option>
                 {categories.map((c) => (
                   <option key={c.slug}>{c.short}</option>
                 ))}
               </select>
             </Field>
-            <Field label="Diameter">
+            <Field label={t("Diameter", "直径")}>
               <Input name="diameter" placeholder="e.g. M20" maxLength={40} />
             </Field>
-            <Field label="Length">
+            <Field label={t("Length", "长度")}>
               <Input name="length" maxLength={40} />
             </Field>
-            <Field label="Thread">
+            <Field label={t("Thread", "螺纹")}>
               <Input name="thread" maxLength={40} />
             </Field>
-            <Field label="Grade">
+            <Field label={t("Grade", "强度等级")}>
               <Input name="grade" placeholder="e.g. 10.9" maxLength={40} />
             </Field>
-            <Field label="Material">
+            <Field label={t("Material", "材质")}>
               <Input name="material" maxLength={60} />
             </Field>
-            <Field label="Surface treatment">
+            <Field label={t("Surface treatment", "表面处理")}>
               <Input name="surface" maxLength={60} />
             </Field>
-            <Field label="Standard / drawing">
-              <Input name="standard" placeholder="DIN / ISO / GB / drawing" maxLength={60} />
+            <Field label={t("Standard / drawing", "标准 / 图纸")}>
+              <Input name="standard" placeholder={t("DIN / ISO / GB / drawing", "DIN / ISO / GB / 图纸")} maxLength={60} />
             </Field>
-            <Field label="Quantity">
+            <Field label={t("Quantity", "数量")}>
               <Input name="quantity" maxLength={40} />
             </Field>
-            <Field label="Annual volume">
-              <Input name="annual" maxLength={40} placeholder="Optional" />
+            <Field label={t("Annual volume", "年度用量")}>
+              <Input name="annual" maxLength={40} placeholder={t("Optional", "选填")} />
             </Field>
-            <Field label="Target delivery">
-              <Input name="delivery" maxLength={60} placeholder="Optional" />
+            <Field label={t("Target delivery", "交期要求")}>
+              <Input name="delivery" maxLength={60} placeholder={t("Optional", "选填")} />
             </Field>
-            <Field label="Application / industry">
-              <Input name="application" maxLength={120} placeholder="Optional" />
+            <Field label={t("Application / industry", "应用 / 行业")}>
+              <Input name="application" maxLength={120} placeholder={t("Optional", "选填")} />
             </Field>
           </div>
         </div>
@@ -170,36 +175,36 @@ export function RfqForm({
 
       {variant === "distributor" && (
         <div>
-          <p className="eyebrow mb-3">Distribution profile</p>
+          <p className="eyebrow mb-3">{t("Distribution profile", "经销信息")}</p>
           <div className="grid gap-4 sm:grid-cols-2">
-            <Field label="Markets covered">
+            <Field label={t("Markets covered", "覆盖市场")}>
               <Input name="markets" maxLength={160} />
             </Field>
-            <Field label="Years in business">
+            <Field label={t("Years in business", "经营年限")}>
               <Input name="years" maxLength={20} />
             </Field>
-            <Field label="Existing fastener business">
+            <Field label={t("Existing fastener business", "现有紧固件业务")}>
               <Input name="existing" maxLength={160} />
             </Field>
-            <Field label="Customer types">
+            <Field label={t("Customer types", "客户类型")}>
               <Input name="customers" maxLength={160} />
             </Field>
-            <Field label="Products sold">
+            <Field label={t("Products sold", "销售产品")}>
               <Input name="productsSold" maxLength={160} />
             </Field>
-            <Field label="Warehouses">
+            <Field label={t("Warehouses", "仓库")}>
               <Input name="warehouses" maxLength={120} />
             </Field>
-            <Field label="Sales channels">
+            <Field label={t("Sales channels", "销售渠道")}>
               <Input name="channels" maxLength={160} />
             </Field>
-            <Field label="Estimated annual purchase">
+            <Field label={t("Estimated annual purchase", "预计年采购额")}>
               <Input name="annualPurchase" maxLength={80} />
             </Field>
-            <Field label="Product interests">
+            <Field label={t("Product interests", "感兴趣的产品")}>
               <Input name="interests" maxLength={160} />
             </Field>
-            <Field label="Target cooperation date">
+            <Field label={t("Target cooperation date", "计划合作时间")}>
               <Input name="coopDate" maxLength={60} />
             </Field>
           </div>
@@ -207,24 +212,30 @@ export function RfqForm({
       )}
 
       <div>
-        <p className="eyebrow mb-3">Details & files</p>
+        <p className="eyebrow mb-3">{t("Details & files", "详细说明与附件")}</p>
         <div className="space-y-4">
-          <Field label="Requirement description">
+          <Field label={t("Requirement description", "需求描述")}>
             <Textarea
               name="message"
               rows={5}
               maxLength={2000}
               defaultValue={presetProducts}
-              placeholder="Product list, specifications, application, project background..."
+              placeholder={t(
+                "Product list, specifications, application, project background...",
+                "产品清单、规格、应用场景、项目背景……",
+              )}
             />
           </Field>
           <Field
             label={
               variant === "bom"
-                ? "Upload BOM (XLS, XLSX, CSV, PDF)"
+                ? t("Upload BOM (XLS, XLSX, CSV, PDF)", "上传 BOM 清单 (XLS, XLSX, CSV, PDF)")
                 : variant === "custom"
-                  ? "Upload drawing (PDF, DWG, DXF, STEP, STP, JPG, PNG, XLSX)"
-                  : "Attachments (RFQ, BOM, drawing, image)"
+                  ? t(
+                      "Upload drawing (PDF, DWG, DXF, STEP, STP, JPG, PNG, XLSX)",
+                      "上传图纸 (PDF, DWG, DXF, STEP, STP, JPG, PNG, XLSX)",
+                    )
+                  : t("Attachments (RFQ, BOM, drawing, image)", "附件（询价单、BOM、图纸、图片）")
             }
           >
             <Input
@@ -249,11 +260,13 @@ export function RfqForm({
       </div>
 
       <Button type="submit" size="lg" disabled={sending}>
-        {sending ? "Sending..." : submitLabel}
+        {sending ? t("Sending...", "发送中…") : (submitLabel ?? t("Submit RFQ", "提交询价"))}
       </Button>
       <p className="text-xs text-muted-foreground">
-        Technical fields are optional — provide what you have and our engineering team will clarify
-        the rest during review.
+        {t(
+          "Technical fields are optional — provide what you have and our engineering team will clarify the rest during review.",
+          "技术参数为选填项——请提供您已知的信息，其余内容我们的工程团队会在评审时与您确认。",
+        )}
       </p>
     </form>
   );

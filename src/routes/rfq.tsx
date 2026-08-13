@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { PageHero, Section } from "@/components/site/Section";
 import { useRfq } from "@/lib/rfq";
+import { useT } from "@/lib/i18n";
 
 export const Route = createFileRoute("/rfq")({
   head: () => ({
@@ -28,30 +29,37 @@ export const Route = createFileRoute("/rfq")({
 });
 
 function RfqPage() {
+  const t = useT();
   const { items, update, remove, clear } = useRfq();
 
   return (
     <>
       <PageHero
-        eyebrow="Request for Quotation"
-        title={`RFQ List (${items.length})`}
-        intro="Add sizes, quantities and technical notes to each line, then submit one combined request."
+        eyebrow={t("Request for Quotation", "询价请求")}
+        title={`${t("RFQ List", "询价清单")} (${items.length})`}
+        intro={t(
+          "Add sizes, quantities and technical notes to each line, then submit one combined request.",
+          "为每一行添加尺寸、数量及技术备注，然后一并提交请求。",
+        )}
       />
 
       <Section className="py-12">
         {items.length === 0 ? (
           <div className="border border-border bg-card p-10 text-center">
-            <p className="text-lg font-semibold">Your RFQ list is empty</p>
+            <p className="text-lg font-semibold">{t("Your RFQ list is empty", "您的询价清单为空")}</p>
             <p className="mt-2 text-sm text-muted-foreground">
-              Add products from the catalogue, or submit a BOM or drawing directly.
+              {t(
+                "Add products from the catalogue, or submit a BOM or drawing directly.",
+                "请从产品目录中添加产品，或直接提交BOM清单或图纸。",
+              )}
             </p>
             <div className="mt-6 flex flex-wrap justify-center gap-3">
               <Button asChild>
-                <Link to="/products">Browse Products</Link>
+                <Link to="/products">{t("Browse Products", "浏览产品")}</Link>
               </Button>
               <Button asChild variant="outline">
                 <Link to="/contact" hash="bom">
-                  Upload BOM
+                  {t("Upload BOM", "上传BOM清单")}
                 </Link>
               </Button>
             </div>
@@ -74,13 +82,13 @@ function RfqPage() {
                   <Input
                     value={item.quantity}
                     maxLength={40}
-                    placeholder="Quantity (e.g. 5,000 pcs)"
+                    placeholder={t("Quantity (e.g. 5,000 pcs)", "数量（例如：5,000件）")}
                     onChange={(e) => update(item.id, { quantity: e.target.value })}
                   />
                   <Input
                     value={item.note}
                     maxLength={200}
-                    placeholder="Size / grade / notes (e.g. M20, 10.9, HDG)"
+                    placeholder={t("Size / grade / notes (e.g. M20, 10.9, HDG)", "尺寸 / 等级 / 备注（例如：M20，10.9级，热镀锌）")}
                     onChange={(e) => update(item.id, { note: e.target.value })}
                   />
                 </div>
@@ -89,15 +97,15 @@ function RfqPage() {
 
             <div className="flex flex-wrap gap-3 pt-4">
               <Button asChild size="lg">
-                <Link to="/contact">Request Quotation</Link>
+                <Link to="/contact">{t("Request Quotation", "申请报价")}</Link>
               </Button>
               <Button asChild size="lg" variant="outline">
                 <Link to="/contact" hash="bom">
-                  Upload BOM Instead
+                  {t("Upload BOM Instead", "改为上传BOM清单")}
                 </Link>
               </Button>
               <Button variant="ghost" size="lg" onClick={clear}>
-                Clear list
+                {t("Clear list", "清空清单")}
               </Button>
             </div>
           </div>

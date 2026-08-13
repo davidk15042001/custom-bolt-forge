@@ -1,4 +1,5 @@
 import { Link } from "@tanstack/react-router";
+import { useT } from "@/lib/i18n";
 import { COMPANY } from "@/data/catalog";
 
 const columns: { title: string; links: { label: string; to: string; params?: Record<string, string> }[] }[] = [
@@ -72,26 +73,27 @@ const columns: { title: string; links: { label: string; to: string; params?: Rec
 ];
 
 export function SiteFooter() {
+  const t = useT();
   return (
     <footer className="mt-24 border-t border-border bg-graphite text-graphite-foreground">
       <div className="mx-auto max-w-7xl px-4 py-14">
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-6">
           <div className="lg:col-span-1">
             <p className="font-display text-xl font-bold">{COMPANY.shortName}</p>
-            <p className="mt-3 text-sm text-graphite-foreground/70">{COMPANY.positioning}</p>
+            <p className="mt-3 text-sm text-graphite-foreground/70">{t(COMPANY.positioning)}</p>
           </div>
           {columns.map((col) => (
-            <div key={col.title}>
-              <p className="eyebrow mb-3 text-graphite-foreground/60">{col.title}</p>
+            <div key={t(col.title)}>
+              <p className="eyebrow mb-3 text-graphite-foreground/60">{t(col.title)}</p>
               <ul className="space-y-2">
                 {col.links.map((l) => (
-                  <li key={l.label}>
+                  <li key={t(l.label)}>
                     <Link
                       to={l.to}
                       params={l.params as never}
                       className="text-sm text-graphite-foreground/85 hover:text-safety"
                     >
-                      {l.label}
+                      {t(l.label)}
                     </Link>
                   </li>
                 ))}
@@ -101,20 +103,21 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-12 border-t border-graphite-foreground/15 pt-6 text-xs text-graphite-foreground/60">
-          <p className="font-medium text-graphite-foreground/85">{COMPANY.name}</p>
-          <p className="mt-1">{COMPANY.address}</p>
+          <p className="font-medium text-graphite-foreground/85">{t(COMPANY.name)}</p>
+          <p className="mt-1">{t(COMPANY.address)}</p>
           <p className="mt-1">
-            Unified social credit code {COMPANY.creditCode} · Established {COMPANY.established}
+            {t("Unified social credit code", "统一社会信用代码")} {COMPANY.creditCode} ·{" "}
+            {t("Established", "成立时间")} {COMPANY.established}
           </p>
           <div className="mt-4 flex flex-wrap gap-4">
             <Link to="/legal/$doc" params={{ doc: "privacy" }} className="hover:text-safety">
-              Privacy
+              {t("Privacy", "隐私政策")}
             </Link>
             <Link to="/legal/$doc" params={{ doc: "terms" }} className="hover:text-safety">
-              Terms
+              {t("Terms", "使用条款")}
             </Link>
             <Link to="/legal/$doc" params={{ doc: "cookies" }} className="hover:text-safety">
-              Cookies
+              {t("Cookies", "Cookie 政策")}
             </Link>
           </div>
         </div>

@@ -12,6 +12,8 @@ import { useEffect, type ReactNode } from "react";
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
 import { RfqProvider } from "@/lib/rfq";
+import { LanguageProvider } from "@/lib/i18n";
+import { FloatingActions } from "@/components/site/FloatingActions";
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { Toaster } from "@/components/ui/sonner";
@@ -147,17 +149,20 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <RfqProvider>
-        <div className="flex min-h-screen flex-col">
-          <SiteHeader />
-          <main className="flex-1 pb-14 sm:pb-0">
-            {/* Required: nested routes render here. */}
-            <Outlet />
-          </main>
-          <SiteFooter />
-        </div>
-        <Toaster />
-      </RfqProvider>
+      <LanguageProvider>
+        <RfqProvider>
+          <div className="flex min-h-screen flex-col">
+            <SiteHeader />
+            <main className="flex-1 pb-14 sm:pb-0">
+              {/* Required: nested routes render here. */}
+              <Outlet />
+            </main>
+            <SiteFooter />
+          </div>
+          <FloatingActions />
+          <Toaster />
+        </RfqProvider>
+      </LanguageProvider>
     </QueryClientProvider>
   );
 }
