@@ -5,11 +5,13 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { categories, industries, COMPANY } from "@/data/catalog";
 import { useRfq } from "@/lib/rfq";
+import { useT } from "@/lib/i18n";
+import { LanguageSwitcher } from "@/components/site/LanguageSwitcher";
 
-const customLinks = [
-  { label: "Custom Bolts", to: "/custom-manufacturing" },
-  { label: "Large-Diameter Fasteners", to: "/products/custom-fasteners" },
-  { label: "Drawing-Based Parts", to: "/custom-manufacturing" },
+const customLinkDefs = [
+  { en: "Custom Bolts", zh: "非标螺栓", to: "/custom-manufacturing" },
+  { en: "Large-Diameter Fasteners", zh: "大规格紧固件", to: "/products/custom-fasteners" },
+  { en: "Drawing-Based Parts", zh: "图纸定制件", to: "/custom-manufacturing" },
 ];
 
 function NavDropdown({
@@ -43,12 +45,13 @@ function NavDropdown({
 
 export function SiteHeader() {
   const { items } = useRfq();
+  const t = useT();
   const [open, setOpen] = useState(false);
 
   type NavItem = { label: string; to: string; params?: Record<string, string> };
 
   const productItems: NavItem[] = [
-    { label: "All Products", to: "/products" },
+    { label: t("All Products", "全部产品"), to: "/products" },
     ...categories.map((c) => ({
       label: c.short,
       to: "/products/$category",
@@ -56,7 +59,7 @@ export function SiteHeader() {
     })),
   ];
   const industryItems: NavItem[] = [
-    { label: "All Industries", to: "/industries" },
+    { label: t("All Industries", "全部行业"), to: "/industries" },
     ...industries.slice(0, 7).map((i) => ({
       label: i.name,
       to: "/industries/$slug",
@@ -65,12 +68,12 @@ export function SiteHeader() {
   ];
 
   const flatLinks = [
-    { label: "Wholesale", to: "/wholesale" },
-    { label: "Manufacturing", to: "/manufacturing" },
-    { label: "Quality", to: "/quality" },
-    { label: "Resources", to: "/resources" },
-    { label: "Distributors", to: "/distributors" },
-    { label: "Contact", to: "/contact" },
+    { label: t("Wholesale", "批发供应"), to: "/wholesale" },
+    { label: t("Manufacturing", "生产制造"), to: "/manufacturing" },
+    { label: t("Quality", "质量管理"), to: "/quality" },
+    { label: t("Resources", "资料下载"), to: "/resources" },
+    { label: t("Distributors", "经销商"), to: "/distributors" },
+    { label: t("Contact", "联系我们"), to: "/contact" },
   ];
 
   return (
@@ -78,14 +81,20 @@ export function SiteHeader() {
       <div className="bg-graphite text-graphite-foreground">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-2 px-4 py-2">
           <p className="spec-value text-[11px] uppercase tracking-[0.14em] text-graphite-foreground/80">
-            Wholesale · Project Supply · OEM · Custom Fasteners · Drawing-Based Manufacturing
+            {t(
+              "Wholesale · Project Supply · OEM · Custom Fasteners · Drawing-Based Manufacturing",
+              "批发供应 · 工程配套 · OEM · 非标紧固件 · 图纸定制生产",
+            )}
           </p>
-          <Link
-            to="/contact"
-            className="spec-value text-[11px] uppercase tracking-[0.14em] text-safety hover:underline"
-          >
-            Request Quote →
-          </Link>
+          <div className="flex items-center gap-3">
+            <Link
+              to="/contact"
+              className="spec-value text-[11px] uppercase tracking-[0.14em] text-safety hover:underline"
+            >
+              {t("Request Quote", "获取报价")} →
+            </Link>
+            <LanguageSwitcher className="border-graphite-foreground/30 bg-transparent" />
+          </div>
         </div>
       </div>
 
@@ -99,14 +108,14 @@ export function SiteHeader() {
               <span className="block font-display text-lg font-bold tracking-tight">
                 {COMPANY.shortName}
               </span>
-              <span className="eyebrow block">Industrial Fasteners</span>
+              <span className="eyebrow block">{t("Industrial Fasteners", "工业紧固件")}</span>
             </span>
           </Link>
 
           <nav className="ml-auto hidden items-center xl:flex">
-            <NavDropdown label="Products" items={productItems} />
-            <NavDropdown label="Industries" items={industryItems} />
-            <NavDropdown label="Custom Manufacturing" items={customLinks} />
+            <NavDropdown label={t("Products", "产品中心")} items={productItems} />
+            <NavDropdown label={t("Industries", "应用行业")} items={industryItems} />
+            <NavDropdown label={t("Custom Manufacturing", "非标定制")} items={customLinkDefs.map((c) => ({ label: t(c.en, c.zh), to: c.to }))} />
             {flatLinks.slice(0, 4).map((l) => (
               <Link
                 key={l.to}
@@ -123,11 +132,11 @@ export function SiteHeader() {
             <Button asChild variant="ghost" size="sm" className="hidden sm:inline-flex">
               <Link to="/rfq">
                 <ClipboardList className="h-4 w-4" />
-                RFQ List ({items.length})
+                {t("RFQ List", "询价单")} ({items.length})
               </Link>
             </Button>
             <Button asChild size="sm" className="hidden sm:inline-flex">
-              <Link to="/contact">Request Quote</Link>
+              <Link to="/contact">{t("Request Quote", "获取报价")}</Link>
             </Button>
             <Sheet open={open} onOpenChange={setOpen}>
               <SheetTrigger asChild>
@@ -138,7 +147,7 @@ export function SiteHeader() {
               <SheetContent side="right" className="w-[88vw] overflow-y-auto sm:w-96">
                 <div className="mt-8 space-y-6 px-4 pb-24">
                   <div>
-                    <p className="eyebrow mb-2">Products</p>
+                    <p className="eyebrow mb-2">{t("Products", "产品中心")}</p>
                     <div className="grid gap-1">
                       {productItems.map((i) => (
                         <Link
@@ -154,7 +163,7 @@ export function SiteHeader() {
                     </div>
                   </div>
                   <div>
-                    <p className="eyebrow mb-2">Industries</p>
+                    <p className="eyebrow mb-2">{t("Industries", "应用行业")}</p>
                     <div className="grid gap-1">
                       {industryItems.map((i) => (
                         <Link
@@ -170,14 +179,14 @@ export function SiteHeader() {
                     </div>
                   </div>
                   <div>
-                    <p className="eyebrow mb-2">Company</p>
+                    <p className="eyebrow mb-2">{t("Company", "公司")}</p>
                     <div className="grid gap-1">
                       <Link
                         to="/custom-manufacturing"
                         onClick={() => setOpen(false)}
                         className="border-b border-border/60 py-2 text-sm"
                       >
-                        Custom Manufacturing
+                        {t("Custom Manufacturing", "非标定制")}
                       </Link>
                       {flatLinks.map((l) => (
                         <Link
@@ -204,13 +213,13 @@ export function SiteHeader() {
           to="/rfq"
           className="flex items-center justify-center gap-2 py-3 text-sm font-semibold"
         >
-          <ClipboardList className="h-4 w-4" /> RFQ ({items.length})
+          <ClipboardList className="h-4 w-4" /> {t("RFQ", "询价")} ({items.length})
         </Link>
         <Link
           to="/contact"
           className="flex items-center justify-center gap-2 bg-primary py-3 text-sm font-semibold text-primary-foreground"
         >
-          <FileUp className="h-4 w-4" /> Request Quote
+          <FileUp className="h-4 w-4" /> {t("Request Quote", "获取报价")}
         </Link>
       </div>
     </>
