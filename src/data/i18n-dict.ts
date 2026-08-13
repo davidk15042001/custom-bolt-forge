@@ -44,11 +44,9 @@ export const zhDict: Record<string, string> = {
 
   // Categories
   "Industrial Bolts": "工业螺栓",
-  "Bolts": "螺栓",
   "Standard, high-strength and structural bolts, plus large-diameter custom bolts manufactured to drawing.":
     "标准螺栓、高强度螺栓、结构螺栓，以及按图纸定制的大直径螺栓。",
   "Industrial Nuts": "工业螺母",
-  "Nuts": "螺母",
   "Hex, flange, locking, heavy forged and application-specific nuts for industrial and project supply.":
     "面向工业及项目供货的六角螺母、法兰螺母、防松螺母、重型锻造螺母及各类专用螺母。",
   "Threaded Rods & Stud Bolts": "螺纹杆与双头螺柱",
@@ -72,11 +70,9 @@ export const zhDict: Record<string, string> = {
   "Positioning, joining and retaining components for machinery and fabrication.":
     "用于机械与制造加工的定位、连接及紧固挡圈组件。",
   "Solar & Photovoltaic Fasteners": "光伏太阳能紧固件",
-  "Solar Fasteners": "光伏紧固件",
   "Fastening and connection components for PV mounting systems, ground structures and rooftop installations.":
     "用于光伏支架系统、地面结构和屋顶安装的紧固与连接组件。",
   "Custom & Non-Standard Fasteners": "定制与非标紧固件",
-  "Custom Fasteners": "定制紧固件",
   "Drawing-based components, special geometries, oversized and reverse-thread fasteners reviewed case by case.":
     "根据来图定制的零件、特殊形状、超大规格及反向螺纹紧固件，均按案例逐一评审。",
 
@@ -89,13 +85,11 @@ export const zhDict: Record<string, string> = {
   "Head type": "头型",
   "Hex": "六角",
   "General assembly": "通用装配",
-  "Construction": "建筑施工",
   "Equipment mounting": "设备安装",
   "High-Strength Hex Bolts": "高强度六角螺栓",
   "High-strength hex bolts for structural and demanding load applications.":
     "适用于结构件及高承载要求的高强度六角螺栓。",
   "Steel structures": "钢结构",
-  "Machinery": "机械设备",
   "Heavy equipment": "重型设备",
   "Extra-Large Custom Bolts": "超大规格定制螺栓",
   "Large-diameter custom bolts manufactured to customer drawing for heavy industrial applications.":
@@ -104,7 +98,6 @@ export const zhDict: Record<string, string> = {
   "Customer drawing / specification": "客户图纸/规格",
   "Contact us for details": "详情请联系我们",
   "Heavy machinery": "重型机械",
-  "Infrastructure": "基础设施",
   "Energy": "能源",
   "Mining equipment": "矿山设备",
   "Hex Flange Bolts": "六角法兰螺栓",
@@ -246,7 +239,6 @@ export const zhDict: Record<string, string> = {
   "Material": "材质",
   "Stainless steel": "不锈钢",
   "Outdoor structures": "户外结构",
-  "Solar": "太阳能",
   "Coastal projects": "沿海项目",
   "Self-Tapping & Countersunk Self-Tapping Screws": "自攻螺钉与沉头自攻螺钉",
   "Self-tapping screws in multiple head types.": "多种头型的自攻螺钉。",
@@ -340,7 +332,6 @@ export const zhDict: Record<string, string> = {
   "U-bolts": "U型螺栓",
   "Washers": "垫圈",
   "Request Construction Quote": "获取建筑项目报价",
-  "Steel Structures": "钢结构",
   "Fasteners for Steel Structures": "钢结构用紧固件",
   "High-strength and structural fastening components for fabricated steel construction.":
     "用于钢结构制造的高强度结构紧固组件。",
