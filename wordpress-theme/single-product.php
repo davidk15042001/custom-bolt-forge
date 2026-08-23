@@ -1,1 +1,14 @@
-<?php get_header(); ?><main class="content"><div class="container"><?php while(have_posts()):the_post(); ?><article><div class="eyebrow">Industrial Fastener</div><h1><?php the_title(); ?></h1><div class="product-meta"><?php echo get_the_term_list(get_the_ID(),'product_category','',' · '); ?></div><?php if(has_post_thumbnail()) the_post_thumbnail('large',['class'=>'feature-image','style'=>'margin:28px 0;max-height:500px;object-fit:cover']); ?><div class="intro"><?php the_content(); ?></div><div class="actions"><a class="button safety" href="<?php echo esc_url(home_url('/#rfq')); ?>">Request a Quote</a></div></article><?php endwhile; ?></div></main><?php get_footer(); ?>
+<?php get_header(); ?>
+<main class="content"><div class="container">
+    <?php while (have_posts()) : the_post(); ?>
+        <article>
+            <p class="eyebrow"><?php bloginfo('name'); ?></p>
+            <h1><?php the_title(); ?></h1>
+            <div class="product-meta"><?php echo wp_kses_post(get_the_term_list(get_the_ID(), 'product_category', '', ' · ')); ?></div>
+            <?php if (has_post_thumbnail()) the_post_thumbnail('large', ['class' => 'feature-image']); ?>
+            <div class="intro"><?php the_content(); ?></div>
+            <div class="actions"><a class="button" href="<?php echo esc_url(lulu_base_contact_url()); ?>"><?php echo esc_html(lulu_base_contact_label()); ?></a></div>
+        </article>
+    <?php endwhile; ?>
+</div></main>
+<?php get_footer(); ?>
