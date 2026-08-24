@@ -1,0 +1,111 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "1180px",
+      "wideSize": "1440px"
+    },
+    "color": {
+      "custom": true,
+      "customGradient": false,
+      "defaultGradients": false,
+      "palette": [
+        {
+          "name": "Primary",
+          "slug": "primary",
+          "color": "#1a3a68"
+        },
+        {
+          "name": "Accent",
+          "slug": "accent",
+          "color": "#f26904"
+        },
+        {
+          "name": "Graphite",
+          "slug": "graphite",
+          "color": "#181f27"
+        },
+        {
+          "name": "Ink",
+          "slug": "ink",
+          "color": "#121921"
+        },
+        {
+          "name": "Soft",
+          "slug": "soft",
+          "color": "#eef0f3"
+        },
+        {
+          "name": "White",
+          "slug": "white",
+          "color": "#ffffff"
+        }
+      ]
+    },
+    "spacing": {
+      "blockGap": true,
+      "margin": true,
+      "padding": true,
+      "units": ["px", "em", "rem", "%", "vw"]
+    },
+    "typography": {
+      "customFontSize": true,
+      "dropCap": false,
+      "fontSizes": [
+        {
+          "name": "Small",
+          "slug": "small",
+          "size": "0.875rem"
+        },
+        {
+          "name": "Lead",
+          "slug": "lead",
+          "size": "1.25rem"
+        },
+        {
+          "name": "Display",
+          "slug": "display",
+          "size": "clamp(2.75rem, 8vw, 6.5rem)"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#fdfdfe",
+      "text": "#121921"
+    },
+    "spacing": {
+      "blockGap": "1.5rem"
+    },
+    "typography": {
+      "fontFamily": "\"Barlow\", \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif",
+      "fontSize": "1rem",
+      "lineHeight": "1.6"
+    },
+    "elements": {
+      "button": {
+        "border": {
+          "radius": "3px"
+        },
+        "color": {
+          "background": "#1a3a68",
+          "text": "#ffffff"
+        },
+        "spacing": {
+          "padding": {
+            "bottom": "0.75rem",
+            "left": "1.125rem",
+            "right": "1.125rem",
+            "top": "0.75rem"
+          }
+        },
+        "typography": {
+          "fontWeight": "700"
+        }
+      }
+    }
+  }
+}

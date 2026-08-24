@@ -1,64 +1,115 @@
 <?php
-if (!defined('ABSPATH')) exit;
+/**
+ * Lulu Base theme bootstrap.
+ *
+ * The theme deliberately keeps a classic-template surface for compatibility
+ * with generated Lulu pages while exposing modern WordPress customization and
+ * block-pattern primitives.
+ */
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+define('LULU_BASE_VERSION', '3.2.0');
+define('LULU_BASE_SOURCE_CONTENT_VERSION', '2026-08-24.9');
+define('LULU_BASE_DIR', get_template_directory());
+define('LULU_BASE_URI', get_template_directory_uri());
+
+require_once LULU_BASE_DIR . '/inc/template-functions.php';
+require_once LULU_BASE_DIR . '/inc/customizer.php';
+require_once LULU_BASE_DIR . '/inc/content.php';
+require_once LULU_BASE_DIR . '/inc/rfq.php';
+require_once LULU_BASE_DIR . '/inc/patterns.php';
+require_once LULU_BASE_DIR . '/inc/demo-content.php';
 
 function lulu_base_setup() {
+    load_theme_textdomain('lulu-base', LULU_BASE_DIR . '/languages');
+
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
-    add_theme_support('custom-logo', ['height' => 72, 'width' => 240, 'flex-height' => true, 'flex-width' => true]);
+    add_theme_support('custom-logo', [
+        'height'      => 72,
+        'width'       => 240,
+        'flex-height' => true,
+        'flex-width'  => true,
+    ]);
+    add_theme_support('custom-background', ['default-color' => 'ffffff']);
     add_theme_support('responsive-embeds');
     add_theme_support('align-wide');
-    add_theme_support('html5', ['search-form', 'comment-form', 'comment-list', 'gallery', 'caption', 'style', 'script']);
+    add_theme_support('wp-block-styles');
+    add_theme_support('editor-styles');
+    add_theme_support('customize-selective-refresh-widgets');
+    add_theme_support('html5', [
+        'search-form',
+        'comment-form',
+        'comment-list',
+        'gallery',
+        'caption',
+        'style',
+        'script',
+    ]);
+
+    add_editor_style('style.css');
+
     register_nav_menus([
         'primary' => __('Primary Menu', 'lulu-base'),
-        'footer' => __('Footer Menu', 'lulu-base'),
+        'footer'  => __('Footer Menu', 'lulu-base'),
     ]);
 }
 add_action('after_setup_theme', 'lulu_base_setup');
 
 function lulu_base_assets() {
-    wp_enqueue_style('lulu-base-style', get_stylesheet_uri(), [], '2.0.0');
-    wp_enqueue_script('lulu-base-navigation', get_template_directory_uri() . '/assets/theme.js', [], '2.0.0', true);
+    wp_enqueue_style(
+        'lulu-base-fonts',
+        'https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap',
+        [],
+        null
+    );
+    wp_enqueue_style('lulu-base-style', get_stylesheet_uri(), [], LULU_BASE_VERSION);
+    wp_add_inline_style('lulu-base-style', lulu_base_design_tokens_css());
+
+    wp_enqueue_script(
+        'lulu-base-navigation',
+        LULU_BASE_URI . '/assets/theme.js',
+        [],
+        LULU_BASE_VERSION,
+        true
+    );
+    wp_localize_script('lulu-base-navigation', 'luluBaseSettings', [
+        'closeMenu'           => __('Close menu', 'lulu-base'),
+        'themeVersion'        => LULU_BASE_VERSION,
+        'sourceContentVersion' => function_exists('lulu_base_source_content_version')
+            ? lulu_base_source_content_version()
+            : LULU_BASE_SOURCE_CONTENT_VERSION,
+    ]);
 }
 add_action('wp_enqueue_scripts', 'lulu_base_assets');
 
-function lulu_base_contact_page() {
-    return get_page_by_path('contact');
+function lulu_base_source_version_meta() {
+    $version = function_exists('lulu_base_source_content_version')
+        ? lulu_base_source_content_version()
+        : LULU_BASE_SOURCE_CONTENT_VERSION;
+    printf(
+        "<meta name=\"lulu-source-content-version\" content=\"%s\">\n",
+        esc_attr($version)
+    );
 }
+add_action('wp_head', 'lulu_base_source_version_meta', 1);
 
-function lulu_base_contact_url() {
-    $contact = lulu_base_contact_page();
-    return $contact ? get_permalink($contact) : home_url('/#contact');
+function lulu_base_editor_assets() {
+    wp_enqueue_style('lulu-base-editor', get_stylesheet_uri(), [], LULU_BASE_VERSION);
+    wp_add_inline_style('lulu-base-editor', lulu_base_design_tokens_css());
 }
+add_action('enqueue_block_editor_assets', 'lulu_base_editor_assets');
 
-function lulu_base_contact_label() {
-    $contact = lulu_base_contact_page();
-    return $contact ? get_the_title($contact) : __('Contact', 'lulu-base');
-}
+function lulu_base_html_classes($classes) {
+    $classes[] = 'lulu-base-theme';
+    $classes[] = 'header-' . sanitize_html_class(lulu_base_option('header_style'));
 
-function lulu_base_menu_fallback() {
-    $items = get_pages(['sort_column' => 'menu_order,post_title', 'post_status' => 'publish']);
-    if (!$items) {
-        echo '<a href="' . esc_url(home_url('/')) . '">' . esc_html(get_bloginfo('name')) . '</a>';
-        return;
+    if (lulu_base_option('sticky_header')) {
+        $classes[] = 'has-sticky-header';
     }
-    foreach ($items as $item) echo '<a href="' . esc_url(get_permalink($item)) . '">' . esc_html($item->post_title) . '</a>';
-}
 
-function lulu_base_product_type() {
-    register_post_type('product', [
-        'labels' => ['name' => __('Products', 'lulu-base'), 'singular_name' => __('Product', 'lulu-base')],
-        'public' => true,
-        'has_archive' => true,
-        'menu_icon' => 'dashicons-products',
-        'supports' => ['title', 'editor', 'excerpt', 'thumbnail'],
-        'rewrite' => ['slug' => 'products'],
-        'show_in_rest' => true,
-    ]);
-    register_taxonomy('product_category', 'product', [
-        'label' => __('Product Categories', 'lulu-base'),
-        'hierarchical' => true,
-        'rewrite' => ['slug' => 'product-category'],
-        'show_in_rest' => true,
-    ]);
+    return $classes;
 }
-add_action('init', 'lulu_base_product_type');
+add_filter('body_class', 'lulu_base_html_classes');
