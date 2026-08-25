@@ -3,7 +3,7 @@ Theme Name: Xiangjinxin Industrial
 Theme URI: https://github.com/davidk15042001/custom-bolt-forge
 Author: Xiangjinxin
 Description: Production-ready bilingual B2B WordPress theme for industrial fasteners, RFQs, product catalogs and drawing-based manufacturing.
-Version: 4.0.1
+Version: 4.0.2
 Requires at least: 6.4
 Requires PHP: 7.4
 License: GNU General Public License v2 or later
@@ -1224,8 +1224,8 @@ body.admin-bar .source-site-header.is-sticky {
 
 .source-menu-toggle {
     display: inline-flex;
-    width: 36px;
-    height: 36px;
+    width: 44px;
+    height: 44px;
     align-items: center;
     justify-content: center;
     padding: 0;
@@ -1263,16 +1263,23 @@ body.admin-bar .source-site-header.is-sticky {
     transform: translateX(0);
 }
 
+body.admin-bar .source-mobile-navigation {
+    top: 32px;
+}
+
 .source-mobile-navigation-inner {
-    padding-top: 20px;
+    padding-top: 0;
 }
 
 .source-mobile-close {
     display: flex;
+    min-width: 44px;
+    min-height: 44px;
     align-items: center;
+    justify-content: center;
     gap: 8px;
-    padding: 0;
-    margin: 0 0 28px auto;
+    padding: 8px 10px;
+    margin: 0 0 20px auto;
     border: 0;
     background: transparent;
     color: var(--lulu-ink);
@@ -1375,8 +1382,15 @@ body.admin-bar .source-site-header.is-sticky {
         color: var(--lulu-primary-foreground);
     }
 
-    body:has(.source-mobile-actions) main {
+    body:has(.source-mobile-actions) {
         padding-bottom: 56px;
+    }
+}
+
+@media (max-width: 782px) {
+    body.admin-bar .source-site-header.is-sticky,
+    body.admin-bar .source-mobile-navigation {
+        top: 46px;
     }
 }
 
@@ -3534,6 +3548,12 @@ body.admin-bar .source-site-header.is-sticky {
 }
 
 .source-chat-heading button {
+    display: grid;
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+    place-items: center;
+    padding: 0;
     border: 0;
     background: transparent;
     color: var(--lulu-muted);
@@ -3971,9 +3991,16 @@ body.admin-bar .source-site-header.is-sticky {
     }
 
     .source-chat-panel {
+        left: 12px;
         right: 12px;
         bottom: 140px;
-        width: calc(100vw - 24px);
+        width: auto;
+    }
+}
+
+@media (max-width: 360px) {
+    .source-floating-actions {
+        display: none;
     }
 }
 

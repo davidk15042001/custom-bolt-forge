@@ -2,7 +2,7 @@
 Contributors: xiangjinxin
 Requires at least: 6.4
 Requires PHP: 7.4
-Stable tag: 4.0.1
+Stable tag: 4.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,13 @@ No. It sends enquiries through wp_mail() and removes temporary attachments after
 Yes. Products, specifications, pages, images, menus and theme settings remain editable in WordPress.
 
 == Changelog ==
+
+= 4.0.2 =
+
+* Completed a component-by-component responsive audit across desktop, tablet and narrow mobile viewports.
+* Corrected mobile chat and floating-action positioning, including 320-pixel screens.
+* Enlarged navigation close controls and accounted for the WordPress admin bar in mobile overlays.
+* Reserved space for the fixed mobile action bar so final footer content remains reachable.
 
 = 4.0.1 =
 
