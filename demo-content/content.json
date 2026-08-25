@@ -1,0 +1,3594 @@
+{
+  "source": {
+    "project": "custom-bolt-forge",
+    "content_version": "2026-08-25.1",
+    "generated_from": [
+      "WordPress product catalog",
+      "WordPress page templates",
+      "bilingual content dictionary",
+      "bundled theme media"
+    ],
+    "routes": [
+      "/",
+      "/products",
+      "/industries",
+      "/custom-manufacturing",
+      "/wholesale",
+      "/manufacturing",
+      "/quality",
+      "/distributors",
+      "/resources",
+      "/contact",
+      "/rfq",
+      "/industries/construction",
+      "/industries/steel-structures",
+      "/industries/machinery",
+      "/industries/solar",
+      "/industries/infrastructure",
+      "/industries/energy",
+      "/industries/equipment-manufacturing",
+      "/industries/towers",
+      "/industries/heavy-duty",
+      "/legal",
+      "/legal/privacy",
+      "/legal/terms",
+      "/legal/cookies"
+    ]
+  },
+  "company": {
+    "name": "Hebei Xiangjinxin Metal Products Co., Ltd.",
+    "shortName": "Xiangjinxin",
+    "creditCode": "91130408MAEMXJG14R",
+    "address": "Row 2 No. 3, West Industrial Zone, Xisuining Village, Liuying Town, Yongnian District, Handan, Hebei, China",
+    "established": "19 June 2025",
+    "email": "sales@xiangjinxin-fasteners.com",
+    "positioning": "Industrial fastener manufacturer and wholesale supplier for standard, high-strength and drawing-based custom applications."
+  },
+  "theme_mods": {
+    "brand_mark": "X",
+    "company_tagline": "Industrial Fasteners",
+    "announcement": "Wholesale · Project Supply · OEM · Custom Fasteners · Drawing-Based Manufacturing",
+    "hero_eyebrow": "Manufacturer · Wholesale · OEM · Export",
+    "hero_title": "Industrial Fasteners for Standard, Heavy-Duty & Custom Applications",
+    "hero_intro": "Bolts, nuts, anchors, threaded components, solar fasteners and custom hardware for distributors, manufacturers, engineering companies and project buyers.",
+    "hero_primary_label": "Request B2B Quote",
+    "hero_secondary_label": "Explore Products",
+    "hero_image": "hero-fasteners.jpg",
+    "header_cta_label": "Request Quote",
+    "footer_blurb": "Industrial fastener manufacturer and wholesale supplier for standard, high-strength and drawing-based custom applications."
+  },
+  "pages": [
+    {
+      "route": "/",
+      "slug": "home",
+      "title": "Home",
+      "title_zh": "首页",
+      "content": "<div class=\"source-home\"><section class=\"source-home-hero\">[lulu_demo_image asset=\"hero-fasteners.jpg\" alt=\"Heavy industrial hex bolts and nuts on a dark steel surface\" class=\"source-home-hero-image\"]<div class=\"source-home-hero-inner container\"><div class=\"source-home-hero-copy\"><p class=\"eyebrow source-home-eyebrow\">Manufacturer · Wholesale · OEM · Export</p><h1>Industrial Fasteners for Standard, Heavy-Duty &amp; Custom Applications</h1><p>Bolts, nuts, anchors, threaded components, solar fasteners and custom hardware for distributors, manufacturers, engineering companies and project buyers.</p><div class=\"actions\"><a class=\"button\" href=\"/contact\">Request B2B Quote →</a><a class=\"button button-secondary\" href=\"/products\">Explore Products</a><a class=\"button button-light-outline\" href=\"/custom-manufacturing\">Upload Your Drawing →</a></div></div></div></section><section class=\"source-trust-strip\"><div class=\"container\"><div class=\"source-trust-items\"><span class=\"source-spec-value\">Wholesale</span><span class=\"source-spec-value\">OEM</span><span class=\"source-spec-value\">Project Supply</span><span class=\"source-spec-value\">Custom Fasteners</span><span class=\"source-spec-value\">Drawing-Based Manufacturing</span></div></div></section><section class=\"section-block\"><div class=\"container\"><p class=\"eyebrow\">Buyer Routing</p><h2>What Do You Need?</h2><div class=\"card-grid source-home-routing-grid\"><article class=\"feature-card\"><span class=\"source-card-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z\"/><path d=\"m4 7.5 8 4.5 8-4.5M12 12v9\"/></svg></span><h3>Standard Fasteners</h3><p>Browse bolts, nuts, anchors and threaded hardware.</p><a class=\"text-link\" href=\"/products\">Browse Products →</a></article><article class=\"feature-card\"><span class=\"source-card-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m4 12 3-3 4 1 3-3 6 3-3 7-5-2-3 2-5-5Z\"/><path d=\"m8 9 2 3M14 10l3 2\"/></svg></span><h3>Wholesale Supply</h3><p>For distributors and repeat-volume buyers.</p><a class=\"text-link\" href=\"/wholesale\">Request Wholesale Pricing →</a></article><article class=\"feature-card\"><span class=\"source-card-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 3h11l3 3v15H5z\"/><path d=\"M8 10h8M8 14h8M8 18h8M12 10v8\"/></svg></span><h3>Project Supply</h3><p>Submit multiple specifications or a full BOM.</p><a class=\"text-link\" href=\"/contact\">Submit RFQ →</a></article><article class=\"feature-card\"><span class=\"source-card-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m4 19 15-15 2 2L6 21H4z\"/><path d=\"m9 14 2 2M12 11l2 2M15 8l2 2\"/></svg></span><h3>Custom Fasteners</h3><p>Upload a drawing or special requirement.</p><a class=\"text-link\" href=\"/custom-manufacturing\">Upload Drawing →</a></article></div></div></section><section class=\"section-block section-muted\"><div class=\"container\"><p class=\"eyebrow\">Product Portfolio</p><h2>Industrial Fastener Categories</h2><p class=\"section-lead\">Nine core categories covering standard assembly, structural connections, anchoring, photovoltaic mounting and non-standard components.</p><div class=\"card-grid source-home-category-grid\"><article class=\"feature-card\"><p class=\"eyebrow\">8 product families</p><h3>Industrial Bolts</h3><p>Standard, high-strength and structural bolts, plus large-diameter custom bolts manufactured to drawing.</p><a class=\"text-link\" href=\"/products/bolts\">View category →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">7 product families</p><h3>Industrial Nuts</h3><p>Hex, flange, locking, heavy forged and application-specific nuts for industrial and project supply.</p><a class=\"text-link\" href=\"/products/nuts\">View category →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">3 product families</p><h3>Threaded Rods &amp; Stud Bolts</h3><p>Double-end studs and fully threaded rods for flanges, structures and equipment.</p><a class=\"text-link\" href=\"/products/threaded-rods\">View category →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">3 product families</p><h3>Anchor &amp; Foundation Fasteners</h3><p>Foundation and embedded fastening components for structures and machinery bases.</p><a class=\"text-link\" href=\"/products/anchor-bolts\">View category →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">4 product families</p><h3>Expansion &amp; Anchoring Systems</h3><p>Mechanical and chemical anchoring systems for concrete and masonry.</p><a class=\"text-link\" href=\"/products/expansion-anchors\">View category →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">4 product families</p><h3>Self-Drilling &amp; Self-Tapping Fasteners</h3><p>Drilling and tapping screws for sheet metal, roofing, board and interior systems.</p><a class=\"text-link\" href=\"/products/self-drilling-screws\">View category →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">4 product families</p><h3>Pins, Rivets &amp; Retaining Components</h3><p>Positioning, joining and retaining components for machinery and fabrication.</p><a class=\"text-link\" href=\"/products/pins-rivets\">View category →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">5 product families</p><h3>Solar &amp; Photovoltaic Fasteners</h3><p>Fastening and connection components for PV mounting systems, ground structures and rooftop installations.</p><a class=\"text-link\" href=\"/products/solar-fasteners\">View category →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">4 product families</p><h3>Custom &amp; Non-Standard Fasteners</h3><p>Drawing-based components, special geometries, oversized and reverse-thread fasteners reviewed case by case.</p><a class=\"text-link\" href=\"/products/custom-fasteners\">View category →</a></article></div><p class=\"actions\"><a class=\"button\" href=\"/products\">View All Products</a></p></div></section><section class=\"section-block\"><div class=\"container\"><p class=\"eyebrow\">Grades 8.8 · 10.9 · 12.9</p><h2>High-Strength Fasteners for Demanding Applications</h2><p class=\"section-lead\">High-strength hex bolts and socket head cap screws are listed in grades 8.8, 10.9 and 12.9 for structural, machinery and heavy equipment connections.</p><div class=\"card-grid source-home-grade-grid\"><article class=\"feature-card rule-accent\"><p class=\"process-number\">8.8</p><p>General structural and machinery connections.</p></article><article class=\"feature-card rule-accent\"><p class=\"process-number\">10.9</p><p>Higher-load structural and equipment assemblies.</p></article><article class=\"feature-card rule-accent\"><p class=\"process-number\">12.9</p><p>High-torque socket screw applications.</p></article></div><a class=\"button button-ghost\" href=\"/products/bolts\">Explore High-Strength Bolts</a></div></section><section class=\"section-block section-dark\"><div class=\"container two-column\"><div><p class=\"eyebrow\">Large Diameter Fasteners</p><h2>Custom Heavy-Duty Bolts Up to M120</h2><p>For heavy machinery, structures, equipment and industrial projects requiring dimensions beyond standard fastener ranges. Length, grade, material and finish are confirmed against your drawing.</p><div class=\"actions\"><a class=\"button button-accent\" href=\"/contact\">Request Custom Bolt Quote →</a><a class=\"button button-secondary\" href=\"/products/custom-fasteners\">Custom Portfolio</a></div></div>[lulu_demo_image asset=\"large-bolts.jpg\" alt=\"Large diameter forged industrial bolt in a factory\" class=\"demo-content-image\"]</div></section><section class=\"section-block\"><div class=\"container\"><p class=\"eyebrow\">Anchoring</p><h2>Anchor &amp; Construction Fasteners</h2><p class=\"section-lead\">Foundation bolts, U-bolts, washers, expansion anchors, chemical anchors and sleeve or wedge anchoring systems for construction and machinery bases.</p><div class=\"source-anchor-grid\"><article class=\"feature-card source-anchor-card\"><h3>Anchor Bolts / Foundation Bolts</h3><p>Embedded anchor and foundation bolts, standard shapes or to drawing.</p></article><article class=\"feature-card source-anchor-card\"><h3>U-Bolts</h3><p>U-shaped clamping bolts for pipe, tube and structural fixing.</p></article><article class=\"feature-card source-anchor-card\"><h3>Washers, Spring Washers &amp; Special Washers</h3><p>Flat, spring and special washers supplied with bolt assemblies.</p></article><article class=\"feature-card source-anchor-card\"><h3>External Expansion Bolts</h3><p>Through-bolt style expansion anchors.</p></article><article class=\"feature-card source-anchor-card\"><h3>Internal &amp; Countersunk Expansion Anchors</h3><p>Internally set anchors including countersunk versions.</p></article><article class=\"feature-card source-anchor-card\"><h3>Chemical Anchors</h3><p>Chemically bonded anchoring components.</p></article><article class=\"feature-card source-anchor-card\"><h3>Sleeve &amp; Wedge / Heavy-Duty Anchors</h3><p>Sleeve, wedge and heavy-duty anchoring fasteners.</p></article></div></div></section><section class=\"source-home-section source-home-section-muted source-home-solar\"><div class=\"container source-home-two-column\">[lulu_demo_image asset=\"solar-fasteners.jpg\" alt=\"Stainless steel solar mounting clamps and bolts on a photovoltaic structure\" class=\"source-home-section-image\"]<div><p class=\"eyebrow\">Solar / PV</p><h2>Fasteners for Solar Mounting Systems</h2><ul class=\"source-home-solar-list\"><li>PV bolts and nuts</li><li>Pressure-block bolts</li><li>C-channel fasteners</li><li>Support components</li><li>Clamps</li><li>Triangle connectors</li><li>Tile hooks</li></ul><div class=\"actions\"><a class=\"button\" href=\"/products/solar-fasteners\">Explore Solar Fasteners →</a><a class=\"button button-outline\" href=\"/industries/solar\">Request PV Project Quote</a></div></div></div></section><section class=\"source-home-section source-home-custom\"><div class=\"container\"><p class=\"eyebrow\">Custom Manufacturing</p><h2>Standard Doesn&#039;t Fit Your Application?</h2><p class=\"source-home-section-lead\">From special geometries to oversized M30–M120 bolts and drawing-based components, submit your technical requirement for review.</p><div class=\"source-home-two-column\">[lulu_demo_image asset=\"custom-drawing.jpg\" alt=\"Technical drawing with dimension lines beside machined fastener components\" class=\"source-home-section-image\"]<div><ol class=\"source-home-workflow-list\"><li><strong>01</strong> Drawing</li><li><strong>02</strong> Engineering Requirement</li><li><strong>03</strong> Technical Review</li><li><strong>04</strong> Quotation</li><li><strong>05</strong> Production</li><li><strong>06</strong> Inspection</li><li><strong>07</strong> Delivery</li></ol><a class=\"button\" href=\"/custom-manufacturing\"><span class=\"source-inline-icon\" aria-hidden=\"true\">↗</span>Upload Your Drawing</a></div></div></div></section><section class=\"section-block section-muted\"><div class=\"container\"><p class=\"eyebrow\">Applications</p><h2>Industries We Serve</h2><div class=\"card-grid source-home-industry-grid\"><article class=\"feature-card\"><h3>Construction</h3><p>Anchoring and structural fastening components for building, civil and site works.</p><a class=\"text-link\" href=\"/industries/construction\">View application →</a></article><article class=\"feature-card\"><h3>Steel Structures</h3><p>High-strength and structural fastening components for fabricated steel construction.</p><a class=\"text-link\" href=\"/industries/steel-structures\">View application →</a></article><article class=\"feature-card\"><h3>Machinery</h3><p>Standard and drawing-based fasteners for OEM machinery production.</p><a class=\"text-link\" href=\"/industries/machinery\">View application →</a></article><article class=\"feature-card\"><h3>Solar / Photovoltaic</h3><p>Mounting hardware and connection components for PV manufacturers, EPC contractors and installers.</p><a class=\"text-link\" href=\"/industries/solar\">View application →</a></article><article class=\"feature-card\"><h3>Infrastructure</h3><p>Heavy fasteners and anchoring components for infrastructure projects.</p><a class=\"text-link\" href=\"/industries/infrastructure\">View application →</a></article><article class=\"feature-card\"><h3>Energy</h3><p>Fastening components for energy plants, equipment and project supply.</p><a class=\"text-link\" href=\"/industries/energy\">View application →</a></article><article class=\"feature-card\"><h3>Equipment Manufacturing</h3><p>Repeat-supply fasteners for equipment, trailer, agricultural and heavy machinery producers.</p><a class=\"text-link\" href=\"/industries/equipment-manufacturing\">View application →</a></article><article class=\"feature-card\"><h3>Towers</h3><p>Tower nuts and structural fastening components.</p><a class=\"text-link\" href=\"/industries/towers\">View application →</a></article><article class=\"feature-card\"><h3>Heavy-Duty Applications</h3><p>Large-diameter and special fasteners for applications beyond standard fastener ranges.</p><a class=\"text-link\" href=\"/industries/heavy-duty\">View application →</a></article></div></div></section><section class=\"section-block\"><div class=\"container\"><p class=\"eyebrow\">Capability</p><h2>Manufacturing &amp; Quality</h2><div class=\"card-grid source-home-capability-grid\"><article class=\"feature-card\"><span class=\"source-card-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 21V9l6 3V9l6 3V5h6v16H3Z\"/><path d=\"M7 21v-4h3v4M14 21v-4h3v4\"/></svg></span><h3>Manufacturing</h3><p>Standard catalogue supply alongside drawing-based production for special geometries and large-diameter components. Process details are confirmed per project.</p><a class=\"text-link\" href=\"/manufacturing\">Manufacturing Capability →</a></article><article class=\"feature-card\"><span class=\"source-card-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3 20 6v5c0 5-3.4 8.5-8 10-4.6-1.5-8-5-8-10V6l8-3Z\"/><path d=\"m8.5 12 2.2 2.2 4.8-5\"/></svg></span><h3>Quality Control</h3><p>Dimensional, thread and visual inspection stages applied to confirmed specifications. Documentation is provided according to the agreed scope.</p><a class=\"text-link\" href=\"/quality\">Quality Process →</a></article></div></div></section><section class=\"section-block section-primary\"><div class=\"container two-column\"><div><h2>Wholesale &amp; Project Supply</h2><p>Request quotations for a single product, mixed specifications, bulk quantities, annual purchasing or full project requirements.</p><a class=\"button button-secondary\" href=\"/wholesale\">Request Wholesale Quote</a></div><div><h3>Upload Your BOM</h3><p>Have multiple fastener specifications? Upload your BOM or purchasing list (XLS, XLSX, CSV, PDF) instead of entering each product manually.</p><a class=\"button button-secondary\" href=\"/contact?tab=bom\">Upload BOM</a></div></div></section><section class=\"section-block\"><div class=\"container card-grid source-home-partner-grid\"><article class=\"feature-card\"><h3>Become a Fastener Distributor</h3><p>Cooperation for fastener distributors, hardware distributors, importers, construction suppliers and solar hardware distributors.</p><a class=\"text-link\" href=\"/distributors\">Apply for Distribution →</a></article><article class=\"feature-card\"><h3>Technical Resources</h3><p>Product catalog, datasheets, drawings, standards, certificates and RFQ templates on request.</p><a class=\"text-link\" href=\"/resources\">Download Catalog →</a></article></div></section><section class=\"section-block section-muted\"><div class=\"container\">[lulu_rfq_form variant=\"product\" title=\"Submit Your Requirement\" submit_label=\"Submit RFQ\"]</div></section><section class=\"section-block\"><div class=\"container\"><p class=\"eyebrow\">FAQ</p><h2>Products &amp; B2B Questions</h2><details><summary>What fasteners do you supply?</summary><p>Bolts, nuts, threaded rods and studs, anchor and foundation fasteners, expansion anchors, self-drilling and self-tapping screws, pins, rivets and retaining components, solar / PV fasteners, and custom non-standard fasteners.</p></details><details><summary>Which bolt sizes are available?</summary><p>Hex bolts in grade 4.8 are listed from M6 to M24, high-strength hex bolts from M8 to M30, flange bolts from M6 to M16, countersunk socket screws from M4 to M24 and tension control bolts from M16 to M24. Custom large bolts are handled in the M30 to M120 category.</p></details><details><summary>Do you supply high-strength bolts?</summary><p>Yes. Grades 8.8, 10.9 and 12.9 are listed for high-strength hex bolts and socket head cap screws.</p></details><details><summary>Do you offer large-diameter bolts?</summary><p>Yes. Custom bolts are handled in an M30 to M120 category. Length, grade, material and finish are confirmed case by case against your drawing.</p></details><details><summary>Can you manufacture non-standard fasteners?</summary><p>Yes. Drawing-based custom components, special geometries, oversized and extra-long parts are reviewed against your technical documentation.</p></details><details><summary>Do you manufacture reverse-thread products?</summary><p>Reverse-thread (left-hand) screws and trapezoidal threaded rods are part of the custom portfolio.</p></details><details><summary>Do you supply solar fasteners?</summary><p>Yes — PV bolts and nuts, pressure-block bolts, support brace rods, seismic support accessories, C-channel matching bolts, clamps, triangle connectors and tile hooks.</p></details><details><summary>How can I request pricing?</summary><p>Add products to your RFQ list and submit it, or send your product list directly through the Request Center.</p></details><details><summary>Can I upload a BOM?</summary><p>Yes. XLS, XLSX, CSV and PDF purchasing lists can be submitted instead of entering each item manually.</p></details><details><summary>Can I send a drawing?</summary><p>Yes. PDF, DWG, DXF, STEP/STP, JPG, PNG and XLSX files can be submitted with a custom fastener request.</p></details><details><summary>Do you work with distributors?</summary><p>Yes. Distributor and importer cooperation is handled through the distributor application.</p></details><details><summary>What information should I provide for an RFQ?</summary><p>Product type, diameter, length, thread, grade, material, surface treatment, standard or drawing, and quantity. Provide what you have — missing details are clarified during technical review.</p></details></div></section><section class=\"source-final-cta\"><div class=\"container text-center\"><h2>Need Standard or Custom Fasteners?</h2><p>Send us your product list, dimensions, quantities, BOM or technical drawing for quotation.</p><div class=\"actions\"><a class=\"button\" href=\"/contact\">Submit RFQ</a><a class=\"button button-secondary\" href=\"/custom-manufacturing\">Upload Drawing</a><a class=\"button button-light-outline\" href=\"/resources\">Download Catalog</a></div><p class=\"source-final-meta\">Hebei Xiangjinxin Metal Products Co., Ltd. · 8-step custom manufacturing workflow</p></div></section></div>",
+      "content_zh": "<div class=\"source-home\"><section class=\"source-home-hero\">[lulu_demo_image asset=\"hero-fasteners.jpg\" alt=\"Heavy industrial hex bolts and nuts on a dark steel surface\" class=\"source-home-hero-image\"]<div class=\"source-home-hero-inner container\"><div class=\"source-home-hero-copy\"><p class=\"eyebrow source-home-eyebrow\">生产制造 · 批发供应 · OEM代工 · 出口</p><h1>工业紧固件 —— 标准件、重型及非标定制解决方案</h1><p>为经销商、制造商、工程公司及项目采购方提供螺栓、螺母、地脚螺栓、螺纹件、光伏紧固件及非标定制五金件。</p><div class=\"actions\"><a class=\"button\" href=\"/contact\">获取B2B报价 →</a><a class=\"button button-secondary\" href=\"/products\">浏览产品</a><a class=\"button button-light-outline\" href=\"/custom-manufacturing\">上传您的图纸 →</a></div></div></div></section><section class=\"source-trust-strip\"><div class=\"container\"><div class=\"source-trust-items\"><span class=\"source-spec-value\">批发供应</span><span class=\"source-spec-value\">OEM</span><span class=\"source-spec-value\">Project Supply</span><span class=\"source-spec-value\">非标紧固件</span><span class=\"source-spec-value\">Drawing-Based Manufacturing</span></div></div></section><section class=\"section-block\"><div class=\"container\"><p class=\"eyebrow\">采购导航</p><h2>您需要什么？</h2><div class=\"card-grid source-home-routing-grid\"><article class=\"feature-card\"><span class=\"source-card-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m12 3 8 4.5v9L12 21l-8-4.5v-9L12 3Z\"/><path d=\"m4 7.5 8 4.5 8-4.5M12 12v9\"/></svg></span><h3>标准紧固件</h3><p>浏览螺栓、螺母、地脚螺栓及各类螺纹紧固件。</p><a class=\"text-link\" href=\"/products\">浏览产品 →</a></article><article class=\"feature-card\"><span class=\"source-card-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m4 12 3-3 4 1 3-3 6 3-3 7-5-2-3 2-5-5Z\"/><path d=\"m8 9 2 3M14 10l3 2\"/></svg></span><h3>批发供应</h3><p>面向经销商及长期批量采购客户。</p><a class=\"text-link\" href=\"/wholesale\">获取批发价格 →</a></article><article class=\"feature-card\"><span class=\"source-card-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 3h11l3 3v15H5z\"/><path d=\"M8 10h8M8 14h8M8 18h8M12 10v8\"/></svg></span><h3>项目供货</h3><p>提交多规格需求或完整物料清单（BOM）。</p><a class=\"text-link\" href=\"/contact\">提交询价 →</a></article><article class=\"feature-card\"><span class=\"source-card-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m4 19 15-15 2 2L6 21H4z\"/><path d=\"m9 14 2 2M12 11l2 2M15 8l2 2\"/></svg></span><h3>非标定制紧固件</h3><p>上传图纸或特殊技术要求。</p><a class=\"text-link\" href=\"/custom-manufacturing\">上传图纸 →</a></article></div></div></section><section class=\"section-block section-muted\"><div class=\"container\"><p class=\"eyebrow\">产品系列</p><h2>工业紧固件分类</h2><p class=\"section-lead\">九大核心类别，涵盖标准装配、结构连接、锚固、光伏安装及非标定制件。</p><div class=\"card-grid source-home-category-grid\"><article class=\"feature-card\"><p class=\"eyebrow\">8 产品系列</p><h3>工业螺栓</h3><p>标准螺栓、高强度螺栓、结构螺栓，以及按图纸定制的大直径螺栓。</p><a class=\"text-link\" href=\"/products/bolts\">查看分类 →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">7 产品系列</p><h3>工业螺母</h3><p>面向工业及项目供货的六角螺母、法兰螺母、防松螺母、重型锻造螺母及各类专用螺母。</p><a class=\"text-link\" href=\"/products/nuts\">查看分类 →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">3 产品系列</p><h3>螺纹杆与双头螺柱</h3><p>用于法兰、结构件和设备的双头螺柱及全螺纹杆。</p><a class=\"text-link\" href=\"/products/threaded-rods\">查看分类 →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">3 产品系列</p><h3>地脚与基础紧固件</h3><p>用于结构件及机械基础的地脚与预埋紧固组件。</p><a class=\"text-link\" href=\"/products/anchor-bolts\">查看分类 →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">4 产品系列</p><h3>膨胀与锚固系统</h3><p>适用于混凝土及砌体的机械锚固与化学锚固系统。</p><a class=\"text-link\" href=\"/products/expansion-anchors\">查看分类 →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">4 产品系列</p><h3>自钻与自攻紧固件</h3><p>用于金属板材、屋面、板材及室内装修系统的自钻自攻螺钉。</p><a class=\"text-link\" href=\"/products/self-drilling-screws\">查看分类 →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">4 产品系列</p><h3>销、铆钉与挡圈组件</h3><p>用于机械与制造加工的定位、连接及紧固挡圈组件。</p><a class=\"text-link\" href=\"/products/pins-rivets\">查看分类 →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">5 产品系列</p><h3>光伏太阳能紧固件</h3><p>用于光伏支架系统、地面结构和屋顶安装的紧固与连接组件。</p><a class=\"text-link\" href=\"/products/solar-fasteners\">查看分类 →</a></article><article class=\"feature-card\"><p class=\"eyebrow\">4 产品系列</p><h3>定制与非标紧固件</h3><p>根据来图定制的零件、特殊形状、超大规格及反向螺纹紧固件，均按案例逐一评审。</p><a class=\"text-link\" href=\"/products/custom-fasteners\">查看分类 →</a></article></div><p class=\"actions\"><a class=\"button\" href=\"/products\">查看全部产品</a></p></div></section><section class=\"section-block\"><div class=\"container\"><p class=\"eyebrow\">强度等级 8.8 · 10.9 · 12.9</p><h2>高强度紧固件，满足严苛应用</h2><p class=\"section-lead\">高强度六角螺栓及内六角螺钉提供8.8、10.9、12.9强度等级，适用于结构件、机械及重型设备连接。</p><div class=\"card-grid source-home-grade-grid\"><article class=\"feature-card rule-accent\"><p class=\"process-number\">8.8</p><p>通用结构件及机械设备连接。</p></article><article class=\"feature-card rule-accent\"><p class=\"process-number\">10.9</p><p>高承载结构件及设备装配。</p></article><article class=\"feature-card rule-accent\"><p class=\"process-number\">12.9</p><p>高扭矩内六角螺钉应用。</p></article></div><a class=\"button button-ghost\" href=\"/products/bolts\">查看高强度螺栓</a></div></section><section class=\"section-block section-dark\"><div class=\"container two-column\"><div><p class=\"eyebrow\">大直径紧固件</p><h2>非标重型螺栓，最大可达M120</h2><p>适用于超出标准紧固件规格范围的重型机械、结构、设备及工业项目。长度、强度等级、材质及表面处理均根据您的图纸确认。</p><div class=\"actions\"><a class=\"button button-accent\" href=\"/contact\">获取非标螺栓报价 →</a><a class=\"button button-secondary\" href=\"/products/custom-fasteners\">非标产品系列</a></div></div>[lulu_demo_image asset=\"large-bolts.jpg\" alt=\"Large diameter forged industrial bolt in a factory\" class=\"demo-content-image\"]</div></section><section class=\"section-block\"><div class=\"container\"><p class=\"eyebrow\">锚固</p><h2>地脚螺栓及建筑紧固件</h2><p class=\"section-lead\">地脚螺栓、U型螺栓、垫圈、膨胀锚栓、化学锚栓及套筒或楔式锚固系统，适用于建筑及机械基础。</p><div class=\"source-anchor-grid\"><article class=\"feature-card source-anchor-card\"><h3>地脚螺栓/基础螺栓</h3><p>预埋地脚及基础螺栓，提供标准形状或按图定制。</p></article><article class=\"feature-card source-anchor-card\"><h3>U型螺栓</h3><p>用于管道、管材及结构固定的U型夹紧螺栓。</p></article><article class=\"feature-card source-anchor-card\"><h3>平垫圈、弹簧垫圈及特殊垫圈</h3><p>配套螺栓组件供应的平垫圈、弹簧垫圈及特殊垫圈。</p></article><article class=\"feature-card source-anchor-card\"><h3>外露式膨胀螺栓</h3><p>穿孔式膨胀锚栓。</p></article><article class=\"feature-card source-anchor-card\"><h3>内胀式及沉头膨胀锚栓</h3><p>内置式锚栓，含沉头款式。</p></article><article class=\"feature-card source-anchor-card\"><h3>化学锚栓</h3><p>化学粘结式锚固组件。</p></article><article class=\"feature-card source-anchor-card\"><h3>套筒锚栓/楔形及重型锚栓</h3><p>套筒式、楔形及重型锚固紧固件。</p></article></div></div></section><section class=\"source-home-section source-home-section-muted source-home-solar\"><div class=\"container source-home-two-column\">[lulu_demo_image asset=\"solar-fasteners.jpg\" alt=\"Stainless steel solar mounting clamps and bolts on a photovoltaic structure\" class=\"source-home-section-image\"]<div><p class=\"eyebrow\">光伏 / PV</p><h2>光伏支架安装紧固件</h2><ul class=\"source-home-solar-list\"><li>光伏螺栓与螺母</li><li>压块螺栓</li><li>C型钢连接件</li><li>支撑组件</li><li>夹具</li><li>三角连接件</li><li>瓦片挂钩</li></ul><div class=\"actions\"><a class=\"button\" href=\"/products/solar-fasteners\">查看光伏紧固件 →</a><a class=\"button button-outline\" href=\"/industries/solar\">获取光伏项目报价</a></div></div></div></section><section class=\"source-home-section source-home-custom\"><div class=\"container\"><p class=\"eyebrow\">非标定制加工</p><h2>标准件不适用于您的应用场景？</h2><p class=\"source-home-section-lead\">从特殊几何形状到超大规格M30-M120螺栓及图纸定制零件，请提交您的技术需求以供评审。</p><div class=\"source-home-two-column\">[lulu_demo_image asset=\"custom-drawing.jpg\" alt=\"Technical drawing with dimension lines beside machined fastener components\" class=\"source-home-section-image\"]<div><ol class=\"source-home-workflow-list\"><li><strong>01</strong> 图纸</li><li><strong>02</strong> 工程需求</li><li><strong>03</strong> 技术评审</li><li><strong>04</strong> 报价</li><li><strong>05</strong> 生产</li><li><strong>06</strong> 检验</li><li><strong>07</strong> 交付</li></ol><a class=\"button\" href=\"/custom-manufacturing\"><span class=\"source-inline-icon\" aria-hidden=\"true\">↗</span>上传您的图纸</a></div></div></div></section><section class=\"section-block section-muted\"><div class=\"container\"><p class=\"eyebrow\">应用领域</p><h2>服务行业</h2><div class=\"card-grid source-home-industry-grid\"><article class=\"feature-card\"><h3>建筑工程</h3><p>用于建筑、土木及现场施工的锚固与结构紧固组件。</p><a class=\"text-link\" href=\"/industries/construction\">查看应用 →</a></article><article class=\"feature-card\"><h3>钢结构</h3><p>用于钢结构制造的高强度结构紧固组件。</p><a class=\"text-link\" href=\"/industries/steel-structures\">查看应用 →</a></article><article class=\"feature-card\"><h3>机械设备</h3><p>适用于OEM机械制造的标准及来图定制紧固件。</p><a class=\"text-link\" href=\"/industries/machinery\">查看应用 →</a></article><article class=\"feature-card\"><h3>太阳能/光伏</h3><p>面向光伏制造商、EPC承包商及安装商的支架五金及连接组件。</p><a class=\"text-link\" href=\"/industries/solar\">查看应用 →</a></article><article class=\"feature-card\"><h3>基础设施</h3><p>适用于基础设施项目的重型紧固及锚固组件。</p><a class=\"text-link\" href=\"/industries/infrastructure\">查看应用 →</a></article><article class=\"feature-card\"><h3>能源</h3><p>用于能源电厂、设备及项目供货的紧固组件。</p><a class=\"text-link\" href=\"/industries/energy\">查看应用 →</a></article><article class=\"feature-card\"><h3>设备制造</h3><p>为设备、拖车、农机及重型机械制造商提供持续稳定供货的紧固件。</p><a class=\"text-link\" href=\"/industries/equipment-manufacturing\">查看应用 →</a></article><article class=\"feature-card\"><h3>塔架</h3><p>塔用螺母及结构紧固组件。</p><a class=\"text-link\" href=\"/industries/towers\">查看应用 →</a></article><article class=\"feature-card\"><h3>重载应用</h3><p>适用于超出标准紧固件规格范围的大直径及特种紧固件。</p><a class=\"text-link\" href=\"/industries/heavy-duty\">查看应用 →</a></article></div></div></section><section class=\"section-block\"><div class=\"container\"><p class=\"eyebrow\">生产能力</p><h2>生产制造与质量控制</h2><div class=\"card-grid source-home-capability-grid\"><article class=\"feature-card\"><span class=\"source-card-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 21V9l6 3V9l6 3V5h6v16H3Z\"/><path d=\"M7 21v-4h3v4M14 21v-4h3v4\"/></svg></span><h3>生产制造</h3><p>在提供标准目录产品的同时，也可根据图纸生产特殊几何形状及大直径零件。工艺细节按项目确认。</p><a class=\"text-link\" href=\"/manufacturing\">生产能力 →</a></article><article class=\"feature-card\"><span class=\"source-card-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 3 20 6v5c0 5-3.4 8.5-8 10-4.6-1.5-8-5-8-10V6l8-3Z\"/><path d=\"m8.5 12 2.2 2.2 4.8-5\"/></svg></span><h3>质量控制</h3><p>针对已确认规格进行尺寸、螺纹及外观检验。相关文件根据约定范围提供。</p><a class=\"text-link\" href=\"/quality\">质量流程 →</a></article></div></div></section><section class=\"section-block section-primary\"><div class=\"container two-column\"><div><h2>批发与项目供货</h2><p>无论是单一产品、混合规格、批量采购、年度采购还是完整项目需求，均可获取报价。</p><a class=\"button button-secondary\" href=\"/wholesale\">获取批发报价</a></div><div><h3>上传您的物料清单</h3><p>有多种紧固件规格需求？上传您的物料清单（BOM）或采购清单（XLS、XLSX、CSV、PDF），无需逐项手动填写。</p><a class=\"button button-secondary\" href=\"/contact?tab=bom\">上传物料清单</a></div></div></section><section class=\"section-block\"><div class=\"container card-grid source-home-partner-grid\"><article class=\"feature-card\"><h3>成为紧固件经销商</h3><p>面向紧固件经销商、五金经销商、进口商、建筑供应商及光伏五金经销商开展合作。</p><a class=\"text-link\" href=\"/distributors\">申请成为经销商 →</a></article><article class=\"feature-card\"><h3>技术资料</h3><p>可提供产品目录、技术数据表、图纸、标准、证书及询价模板。</p><a class=\"text-link\" href=\"/resources\">下载产品目录 →</a></article></div></section><section class=\"section-block section-muted\"><div class=\"container\">[lulu_rfq_form variant=\"product\" title=\"提交您的需求\" submit_label=\"提交询价\"]</div></section><section class=\"section-block\"><div class=\"container\"><p class=\"eyebrow\">常见问题</p><h2>产品与B2B常见问题</h2><details><summary>你们供应哪些紧固件？</summary><p>螺栓、螺母、螺纹杆及螺柱、地脚与基础紧固件、膨胀锚栓、自钻及自攻螺钉、销/铆钉及挡圈组件、光伏紧固件，以及定制非标紧固件。</p></details><details><summary>有哪些螺栓规格可选？</summary><p>4.8级六角螺栓规格为M6至M24，高强度六角螺栓为M8至M30，法兰螺栓为M6至M16，内六角沉头螺钉为M4至M24，扭剪型高强度螺栓为M16至M24。定制大规格螺栓则在M30至M120范围内处理。</p></details><details><summary>你们是否供应高强度螺栓？</summary><p>是的。高强度六角螺栓及内六角圆柱头螺钉提供8.8、10.9和12.9级。</p></details><details><summary>你们是否提供大直径螺栓？</summary><p>是的。定制螺栓涵盖M30至M120范围，长度、强度等级、材质及表面处理将根据您的图纸逐案确认。</p></details><details><summary>你们能生产非标紧固件吗？</summary><p>是的。来图定制零件、特殊形状、超大规格及超长零件均可根据您的技术文件进行评审。</p></details><details><summary>你们是否生产反牙（左旋）产品？</summary><p>反牙（左旋）螺钉及梯形螺纹杆均属于定制产品系列。</p></details><details><summary>你们是否供应光伏紧固件？</summary><p>是的——包括光伏专用螺栓螺母、压块螺栓、支撑拉杆、抗震支架配件、C型钢配套螺栓、压块、三角连接件及瓦钩。</p></details><details><summary>如何获取报价？</summary><p>将产品添加至询价清单并提交，或通过需求中心直接发送您的产品清单。</p></details><details><summary>我可以上传BOM清单吗？</summary><p>是的。可提交XLS、XLSX、CSV或PDF格式的采购清单，无需逐项手动录入。</p></details><details><summary>我可以发送图纸吗？</summary><p>是的。可随定制紧固件需求一并提交PDF、DWG、DXF、STEP/STP、JPG、PNG及XLSX格式文件。</p></details><details><summary>你们是否与经销商合作？</summary><p>是的。经销商及进口商合作请通过经销商申请渠道办理。</p></details><details><summary>提交询价时需要提供哪些信息？</summary><p>产品类型、直径、长度、螺纹、强度等级、材质、表面处理、执行标准或图纸以及数量。请提供您已有的信息——缺失的细节将在技术评审阶段进一步确认。</p></details></div></section><section class=\"source-final-cta\"><div class=\"container text-center\"><h2>需要标准件或非标定制紧固件？</h2><p>请将您的产品清单、尺寸、数量、物料清单（BOM）或技术图纸发送给我们以获取报价。</p><div class=\"actions\"><a class=\"button\" href=\"/contact\">提交询价</a><a class=\"button button-secondary\" href=\"/custom-manufacturing\">上传图纸</a><a class=\"button button-light-outline\" href=\"/resources\">下载产品目录</a></div><p class=\"source-final-meta\">Hebei Xiangjinxin Metal Products Co., Ltd. · 8步非标定制加工流程</p></div></section></div>",
+      "is_front": true
+    },
+    {
+      "route": "/products",
+      "slug": "products",
+      "title": "Industrial Fastener Products",
+      "title_zh": "工业紧固件产品",
+      "content": "<p class=\"eyebrow\">Product Portfolio</p><h1>Industrial Fastener Products</h1><p class=\"intro\">Browse the full portfolio by category, diameter, grade or application. Add any product to your RFQ list and submit one combined request.</p><p>Search, category, standard/custom, diameter and grade filters from the main site are represented by the complete product archive and specification metadata below.</p>",
+      "content_zh": "<p class=\"eyebrow\">产品系列</p><h1>工业紧固件产品</h1><p class=\"intro\">按类别、直径、强度等级或应用场景浏览完整产品系列。将任意产品加入询价单，一次性提交合并询价请求。</p><p>主站中的搜索、类别、标准件/非标件、直径及强度等级筛选由完整产品档案及规格元数据承载。</p>",
+      "archive": true
+    },
+    {
+      "route": "/industries",
+      "slug": "industries",
+      "title": "Industries We Serve",
+      "title_zh": "服务行业",
+      "content": "<p class=\"eyebrow\">Applications</p><h1>Industries We Serve</h1><p class=\"intro\">Product selection, specification and supply arrangements organised around the way industrial buyers purchase.</p><ul><li><a href=\"/industries/construction\"><strong>Construction Fasteners &amp; Anchoring</strong><br>Anchoring and structural fastening components for building, civil and site works.</a></li><li><a href=\"/industries/steel-structures\"><strong>Fasteners for Steel Structures</strong><br>High-strength and structural fastening components for fabricated steel construction.</a></li><li><a href=\"/industries/machinery\"><strong>Fasteners for Machinery Manufacturing</strong><br>Standard and drawing-based fasteners for OEM machinery production.</a></li><li><a href=\"/industries/solar\"><strong>Solar &amp; Photovoltaic Fastening Solutions</strong><br>Mounting hardware and connection components for PV manufacturers, EPC contractors and installers.</a></li><li><a href=\"/industries/infrastructure\"><strong>Infrastructure Fasteners</strong><br>Heavy fasteners and anchoring components for infrastructure projects.</a></li><li><a href=\"/industries/energy\"><strong>Industrial &amp; Project Fasteners for Energy</strong><br>Fastening components for energy plants, equipment and project supply.</a></li><li><a href=\"/industries/equipment-manufacturing\"><strong>OEM &amp; Drawing-Based Fasteners</strong><br>Repeat-supply fasteners for equipment, trailer, agricultural and heavy machinery producers.</a></li><li><a href=\"/industries/towers\"><strong>Tower Fastening Components</strong><br>Tower nuts and structural fastening components.</a></li><li><a href=\"/industries/heavy-duty\"><strong>Oversized &amp; Special Fasteners</strong><br>Large-diameter and special fasteners for applications beyond standard fastener ranges.</a></li></ul>",
+      "content_zh": "<p class=\"eyebrow\">应用领域</p><h1>服务行业</h1><p class=\"intro\">产品选型、规格及供应安排均围绕工业采购方的实际采购方式组织。</p><ul><li><a href=\"/industries/construction\"><strong>建筑紧固与锚固</strong><br>用于建筑、土木及现场施工的锚固与结构紧固组件。</a></li><li><a href=\"/industries/steel-structures\"><strong>钢结构用紧固件</strong><br>用于钢结构制造的高强度结构紧固组件。</a></li><li><a href=\"/industries/machinery\"><strong>机械制造用紧固件</strong><br>适用于OEM机械制造的标准及来图定制紧固件。</a></li><li><a href=\"/industries/solar\"><strong>光伏紧固解决方案</strong><br>面向光伏制造商、EPC承包商及安装商的支架五金及连接组件。</a></li><li><a href=\"/industries/infrastructure\"><strong>基础设施紧固件</strong><br>适用于基础设施项目的重型紧固及锚固组件。</a></li><li><a href=\"/industries/energy\"><strong>能源工业与项目用紧固件</strong><br>用于能源电厂、设备及项目供货的紧固组件。</a></li><li><a href=\"/industries/equipment-manufacturing\"><strong>OEM与来图定制紧固件</strong><br>为设备、拖车、农机及重型机械制造商提供持续稳定供货的紧固件。</a></li><li><a href=\"/industries/towers\"><strong>塔架紧固组件</strong><br>塔用螺母及结构紧固组件。</a></li><li><a href=\"/industries/heavy-duty\"><strong>超大规格及特种紧固件</strong><br>适用于超出标准紧固件规格范围的大直径及特种紧固件。</a></li></ul>",
+      "archive": false
+    },
+    {
+      "route": "/custom-manufacturing",
+      "slug": "custom-manufacturing",
+      "title": "Send Us Your Drawing. We'll Review the Requirement.",
+      "title_zh": "发送图纸给我们，我们将为您评估需求。",
+      "content": "<p class=\"eyebrow\">Custom Manufacturing</p><h1>Send Us Your Drawing. We'll Review the Requirement.</h1><p class=\"intro\">Special geometries, oversized parts, reverse threads and drawing-based components reviewed by our technical and commercial team.</p><h2>What can be customised</h2><div class=\"card-grid\"><article class=\"feature-card\"><h3>Special Bolt Shapes</h3><p>T-slot, eye, articulated, square-head and other non-standard geometries.</p></article><article class=\"feature-card\"><h3>Oversized Components</h3><p>Custom bolts handled in the M30 to M120 category.</p></article><article class=\"feature-card\"><h3>Extended Fasteners</h3><p>Extra-long components beyond standard catalogue lengths.</p></article><article class=\"feature-card\"><h3>Reverse Thread</h3><p>Left-hand thread screws for specific mechanical requirements.</p></article><article class=\"feature-card\"><h3>Trapezoidal Threads</h3><p>Trapezoidal threaded rods for motion and load transfer.</p></article><article class=\"feature-card\"><h3>Drawing-Based Products</h3><p>Components manufactured to your PDF, DWG, DXF or STEP file.</p></article><article class=\"feature-card\"><h3>Application-Specific Components</h3><p>Parts defined by application, sample or existing part.</p></article></div><h2>Custom bolts from M30 up to M120</h2>[lulu_demo_image asset=\"large-bolts.jpg\" alt=\"Large diameter custom bolt on a machining table\" class=\"demo-content-image\"]<p>For heavy machinery, steel construction, infrastructure, energy, mining equipment, heavy transport and industrial plants. Length, grade, material and finish are agreed against your documentation — contact us for details.</p><h2>Customisation Workflow</h2><ul><li><strong>01</strong> Requirement — Product list, specification or application.</li><li><strong>02</strong> Drawing / Sample — Drawing, dimensions or physical sample.</li><li><strong>03</strong> Technical Review — Feasibility and specification check.</li><li><strong>04</strong> Specification Confirmation — Agreed technical definition.</li><li><strong>05</strong> Commercial Quotation — Pricing against confirmed specification.</li><li><strong>06</strong> Production — Manufacturing to the confirmed specification.</li><li><strong>07</strong> Inspection — Dimensional and visual inspection.</li><li><strong>08</strong> Shipment — Packing and export dispatch.</li></ul><h2 id=\"drawing\">Submit Technical Requirement</h2>[lulu_demo_image asset=\"custom-drawing.jpg\" alt=\"Engineering drawing with dimension lines and machined fastener\" class=\"demo-content-image\"]<p>Accepted files: PDF, DWG, DXF, STEP, STP, JPG, PNG, XLSX. If you only have a sample or an application description, send that instead — the specification is defined during technical review.</p>[lulu_rfq_form variant=\"custom\" title=\"Submit Technical Requirement\" submit_label=\"Submit Technical Requirement\"]",
+      "content_zh": "<p class=\"eyebrow\">定制加工</p><h1>发送图纸给我们，我们将为您评估需求。</h1><p class=\"intro\">特殊外形、超大规格部件、反向螺纹及来图定制产品，均由我们的技术与商务团队进行评估。</p><h2>可定制内容</h2><div class=\"card-grid\"><article class=\"feature-card\"><h3>特殊形状螺栓</h3><p>T型槽螺栓、吊环螺栓、活节螺栓、方头螺栓及其他非标外形。</p></article><article class=\"feature-card\"><h3>超大规格部件</h3><p>可定制生产M30至M120规格的大型螺栓。</p></article><article class=\"feature-card\"><h3>加长紧固件</h3><p>超出标准目录长度范围的加长部件。</p></article><article class=\"feature-card\"><h3>反向螺纹</h3><p>用于特定机械需求的左旋螺纹螺钉。</p></article><article class=\"feature-card\"><h3>梯形螺纹</h3><p>用于传动与承载的梯形螺纹杆。</p></article><article class=\"feature-card\"><h3>来图定制产品</h3><p>根据您提供的PDF、DWG、DXF或STEP文件加工的部件。</p></article><article class=\"feature-card\"><h3>特定应用部件</h3><p>根据应用场景、样品或现有零件确定规格的部件。</p></article></div><h2>定制螺栓，规格覆盖M30至M120</h2><p>适用于重型机械、钢结构、基础设施、能源、矿山设备、重型运输及工业厂房。长度、等级、材质与表面处理将根据您的技术文件确认——详情请联系我们。</p><h2>定制流程</h2><ul><li><strong>01</strong> 需求提出 — 产品清单、规格要求或应用场景。</li><li><strong>02</strong> 图纸/样品 — 图纸、尺寸或实物样品。</li><li><strong>03</strong> 技术评审 — 可行性及规格核查。</li><li><strong>04</strong> 规格确认 — 确认后的技术定义。</li><li><strong>05</strong> 商务报价 — 根据确认规格进行的报价。</li><li><strong>06</strong> 生产制造 — 按确认规格进行生产。</li><li><strong>07</strong> 检验 — 尺寸及外观检验。</li><li><strong>08</strong> 发货 — 包装及出口发运。</li></ul><h2 id=\"drawing\">提交技术需求</h2><p>支持的文件格式：PDF、DWG、DXF、STEP、STP、JPG、PNG、XLSX。如果您只有样品或应用场景说明，也可以直接提供——具体规格将在技术评审阶段确定。</p>[lulu_rfq_form variant=\"custom\" title=\"提交技术需求\" submit_label=\"提交技术需求\"]"
+    },
+    {
+      "route": "/wholesale",
+      "slug": "wholesale",
+      "title": "Fastener Supply for Distributors, Importers and Industrial Buyers",
+      "title_zh": "经销商、进口商及工业采购方紧固件供应",
+      "content": "<p class=\"eyebrow\">Wholesale</p><h1>Fastener Supply for Distributors, Importers and Industrial Buyers</h1><p class=\"intro\">Request quotations across the full portfolio — from a single specification to a complete mixed purchasing list.</p><h2>What you can request a quotation for</h2><ul><li>Single product</li><li>Multiple products</li><li>Mixed specifications</li><li>Bulk quantities</li><li>Annual purchasing</li><li>Project requirements</li></ul><p>Packaging, documentation, commercial terms and delivery arrangements are confirmed per requirement. Provide the specifications you have and our team will clarify the rest.</p><h2 id=\"form\">Request Wholesale Pricing</h2>[lulu_rfq_form variant=\"product\" title=\"Request Wholesale Pricing\" submit_label=\"Submit RFQ\"]",
+      "content_zh": "<p class=\"eyebrow\">批发供应</p><h1>经销商、进口商及工业采购方紧固件供应</h1><p class=\"intro\">可针对全系列产品询价——从单一规格到完整的混合采购清单。</p><h2>可申请报价的内容</h2><ul><li>Single product</li><li>Multiple products</li><li>Mixed specifications</li><li>Bulk quantities</li><li>Annual purchasing</li><li>Project requirements</li></ul><p>包装、文件、商务条款及交付安排根据需求确认。请提供您已有的规格信息，其余内容由我们的团队协助确认。</p><h2 id=\"form\">获取批发价格</h2>[lulu_rfq_form variant=\"product\" title=\"获取批发价格\" submit_label=\"提交询价\"]"
+    },
+    {
+      "route": "/manufacturing",
+      "slug": "manufacturing",
+      "title": "Manufacturing Capability",
+      "title_zh": "生产制造能力",
+      "content": "<p class=\"eyebrow\">Capability</p><h1>Manufacturing Capability</h1><p class=\"intro\">Supply covers standard catalogue products alongside drawing-based production for special and large-diameter components.</p><h2>Production sequence</h2><ul><li><strong>01 Raw Material</strong><br>Applied according to the confirmed product specification — contact us for details of a specific process.</li><li><strong>02 Cold Forming</strong><br>Applied according to the confirmed product specification — contact us for details of a specific process.</li><li><strong>03 Hot Forging</strong><br>Applied according to the confirmed product specification — contact us for details of a specific process.</li><li><strong>04 Machining</strong><br>Applied according to the confirmed product specification — contact us for details of a specific process.</li><li><strong>05 Thread Rolling</strong><br>Applied according to the confirmed product specification — contact us for details of a specific process.</li><li><strong>06 Heat Treatment</strong><br>Applied according to the confirmed product specification — contact us for details of a specific process.</li><li><strong>07 Surface Treatment</strong><br>Applied according to the confirmed product specification — contact us for details of a specific process.</li><li><strong>08 Inspection</strong><br>Applied according to the confirmed product specification — contact us for details of a specific process.</li><li><strong>09 Packaging</strong><br>Applied according to the confirmed product specification — contact us for details of a specific process.</li></ul><p>Equipment lists, capacities and process certifications are shared on request once the product requirement is defined. We do not publish figures that have not been confirmed.</p><h2>Large fastener manufacturing</h2><p>Custom bolts are handled in an M30 to M120 category for heavy industrial applications. Production quantity, dimensions and finishing are agreed case by case against your drawing.</p><a class=\"button\" href=\"/custom-manufacturing\">Custom Manufacturing</a>",
+      "content_zh": "<p class=\"eyebrow\">生产能力</p><h1>生产制造能力</h1><p class=\"intro\">在提供标准目录产品的同时，也可根据图纸生产特殊及大直径零件。</p><h2>生产流程</h2><ul><li><strong>01 Raw Material</strong><br>根据已确认的产品规格执行——具体工艺详情请联系我们。</li><li><strong>02 Cold Forming</strong><br>根据已确认的产品规格执行——具体工艺详情请联系我们。</li><li><strong>03 Hot Forging</strong><br>根据已确认的产品规格执行——具体工艺详情请联系我们。</li><li><strong>04 Machining</strong><br>根据已确认的产品规格执行——具体工艺详情请联系我们。</li><li><strong>05 Thread Rolling</strong><br>根据已确认的产品规格执行——具体工艺详情请联系我们。</li><li><strong>06 Heat Treatment</strong><br>根据已确认的产品规格执行——具体工艺详情请联系我们。</li><li><strong>07 Surface Treatment</strong><br>根据已确认的产品规格执行——具体工艺详情请联系我们。</li><li><strong>08 检验</strong><br>根据已确认的产品规格执行——具体工艺详情请联系我们。</li><li><strong>09 Packaging</strong><br>根据已确认的产品规格执行——具体工艺详情请联系我们。</li></ul><p>产品需求明确后，可按需提供设备清单、产能及工艺认证。我们不会发布未经确认的数据。</p><h2>大型紧固件制造</h2><p>针对重工业应用，定制螺栓涵盖M30至M120范围。生产数量、尺寸及表面处理将根据图纸逐案确认。</p><a class=\"button\" href=\"/custom-manufacturing\">非标定制加工</a>"
+    },
+    {
+      "route": "/quality",
+      "slug": "quality",
+      "title": "Quality Control",
+      "title_zh": "质量控制",
+      "content": "<p class=\"eyebrow\">Quality</p><h1>Quality Control</h1><p class=\"intro\">Inspection is applied against the specification confirmed for each order. Scope and documentation are agreed before production.</p><h2>Control stages</h2><ul><li><strong>01 Incoming Materials</strong></li><li><strong>02 Production Inspection</strong></li><li><strong>03 Dimension Inspection</strong></li><li><strong>04 Thread Inspection</strong></li><li><strong>05 Mechanical Testing</strong></li><li><strong>06 Surface Inspection</strong></li><li><strong>07 Final Inspection</strong></li><li><strong>08 Packaging</strong></li></ul><h2>Documentation on request</h2><div class=\"card-grid\"><article class=\"feature-card\"><h3>Certifications</h3><p>Certification records — name, standard, issuer, number, date, product scope and PDF — are provided when they apply to your product scope. Contact us for details.</p></article><article class=\"feature-card\"><h3>Standards</h3><p>Products can be quoted against DIN, ISO, GB, ANSI, ASTM, JIS, a customer standard or a drawing. The applicable standard is confirmed per item before quotation.</p></article></div>",
+      "content_zh": "<p class=\"eyebrow\">质量</p><h1>质量控制</h1><p class=\"intro\">检验按照每个订单确认的规格执行。生产前确认检验范围及文件要求。</p><h2>控制流程</h2><ul><li><strong>01 Incoming Materials</strong></li><li><strong>02 Production Inspection</strong></li><li><strong>03 Dimension Inspection</strong></li><li><strong>04 Thread Inspection</strong></li><li><strong>05 Mechanical Testing</strong></li><li><strong>06 Surface Inspection</strong></li><li><strong>07 Final Inspection</strong></li><li><strong>08 Packaging</strong></li></ul><h2>按需提供文件</h2><div class=\"card-grid\"><article class=\"feature-card\"><h3>认证</h3><p>如适用于您的产品范围，可提供认证记录——名称、标准、颁发机构、编号、日期、产品范围及PDF。详情请联系我们。</p></article><article class=\"feature-card\"><h3>执行标准</h3><p>产品可按DIN、ISO、GB、ANSI、ASTM、JIS、客户标准或图纸报价。适用标准将在报价前逐项确认。</p></article></div>"
+    },
+    {
+      "route": "/distributors",
+      "slug": "distributors",
+      "title": "Become a Fastener Distributor",
+      "title_zh": "成为紧固件经销商",
+      "content": "<p class=\"eyebrow\">Partnership</p><h1>Become a Fastener Distributor</h1><p class=\"intro\">Cooperation for distributors, importers, construction suppliers and solar hardware resellers across the full portfolio.</p><h2>What cooperation can cover</h2><ul><li>Broad product portfolio across nine fastener categories</li><li>Bulk sourcing and repeat purchasing</li><li>Standard catalogue products</li><li>Special and drawing-based products</li><li>Mixed RFQs across multiple categories</li><li>Regional sales agent discussions for construction, machinery, steel, fastener, solar and industrial procurement networks</li></ul><p>Commercial terms, territory arrangements and agent conditions are discussed individually. No exclusivity is implied before a written agreement.</p><h2>Submit Distributor Application</h2>[lulu_rfq_form variant=\"distributor\" title=\"Submit Distributor Application\" submit_label=\"Submit Distributor Application\"]",
+      "content_zh": "<p class=\"eyebrow\">合作伙伴</p><h1>成为紧固件经销商</h1><p class=\"intro\">面向经销商、进口商、建筑供应商及光伏五金分销商的全系列产品合作。</p><h2>合作可涵盖的内容</h2><ul><li>覆盖九大紧固件品类的丰富产品线</li><li>批量采购与长期复购</li><li>标准目录产品</li><li>特殊及来图定制产品</li><li>跨品类混合询价</li><li>面向建筑、机械、钢结构、紧固件、光伏及工业采购网络的区域销售代理合作洽谈</li></ul><p>商务条款、区域安排及代理条件将逐一商议。在签署书面协议之前，不隐含任何排他性安排。</p><h2>提交经销商申请</h2>[lulu_rfq_form variant=\"distributor\" title=\"提交经销商申请\" submit_label=\"提交经销商申请\"]"
+    },
+    {
+      "route": "/resources",
+      "slug": "resources",
+      "title": "Technical Resources",
+      "title_zh": "技术资料",
+      "content": "<p class=\"eyebrow\">Resources</p><h1>Technical Resources</h1><p class=\"intro\">Documents are released against your product scope. Tell us what you need and we will send the relevant files.</p><h2>What you can request</h2><ul><li><strong>Product Catalog</strong><br>Overview of the fastener portfolio by category.</li><li><strong>Technical Datasheets</strong><br>Specification sheets for confirmed product families.</li><li><strong>Drawings</strong><br>Dimensional drawings for standard and custom items.</li><li><strong>Standards</strong><br>Applicable standard references per quoted item.</li><li><strong>Certificates</strong><br>Certification documents relevant to your product scope.</li><li><strong>Installation Information</strong><br>Handling and installation notes where available.</li><li><strong>RFQ Templates</strong><br>Structured templates for product and BOM requests.</li></ul><h2>Request Technical Document</h2>[lulu_rfq_form variant=\"general\" title=\"Request Technical Document\" submit_label=\"Request Document\"]",
+      "content_zh": "<p class=\"eyebrow\">资料中心</p><h1>技术资料</h1><p class=\"intro\">文件将根据您的产品范围提供。请告知我们您的需求，我们会发送相关文件。</p><h2>可申请的内容</h2><ul><li><strong>产品目录</strong><br>按类别划分的紧固件产品概览。</li><li><strong>技术数据表</strong><br>已确认产品系列的规格数据表。</li><li><strong>图纸</strong><br>标准件及定制件的尺寸图纸。</li><li><strong>执行标准</strong><br>每个报价项目对应的适用标准参考。</li><li><strong>认证证书</strong><br>与您的产品范围相关的认证文件。</li><li><strong>安装信息</strong><br>如有提供，将附带搬运及安装说明。</li><li><strong>询价模板</strong><br>用于产品及BOM请求的标准化模板。</li></ul><h2>申请技术文件</h2>[lulu_rfq_form variant=\"general\" title=\"申请技术文件\" submit_label=\"申请文件\"]"
+    },
+    {
+      "route": "/contact",
+      "slug": "contact",
+      "title": "Send your requirement to our sales engineering team",
+      "title_zh": "将您的需求发送给我们的销售工程团队",
+      "content": "<p class=\"eyebrow\">Request Center</p><h1>Send your requirement to our sales engineering team</h1><p class=\"intro\">Choose the request type that matches your need. Each request is routed to the responsible team internally.</p><h2>Product RFQ</h2>[lulu_rfq_form variant=\"product\" title=\"Product RFQ\" submit_label=\"Submit RFQ\"]<h2>BOM RFQ</h2><p>Have multiple fastener specifications? Upload your BOM or purchasing list (XLS, XLSX, CSV, PDF) instead of entering each product manually.</p>[lulu_rfq_form variant=\"bom\" title=\"BOM RFQ\" submit_label=\"Upload BOM\"]<h2>Custom Drawing</h2>[lulu_rfq_form variant=\"custom\" title=\"Custom Drawing\" submit_label=\"Submit Technical Requirement\"]<h2>Project Inquiry</h2>[lulu_rfq_form variant=\"project\" title=\"Project Inquiry\" submit_label=\"Submit Project RFQ\"]<h2>Distributor Application</h2>[lulu_rfq_form variant=\"distributor\" title=\"Distributor Application\" submit_label=\"Submit Distributor Application\"]<h2>General Inquiry</h2>[lulu_rfq_form variant=\"general\" title=\"General Inquiry\" submit_label=\"Send Inquiry\"]<aside><p>Hebei Xiangjinxin Metal Products Co., Ltd.</p><p>Row 2 No. 3, West Industrial Zone, Xisuining Village, Liuying Town, Yongnian District, Handan, Hebei, China</p><p>sales@xiangjinxin-fasteners.com</p></aside>",
+      "content_zh": "<p class=\"eyebrow\">请求中心</p><h1>将您的需求发送给我们的销售工程团队</h1><p class=\"intro\">请选择与您需求相符的请求类型。每项请求都会在内部转交给相应的负责团队。</p><h2>产品询价</h2>[lulu_rfq_form variant=\"product\" title=\"产品询价\" submit_label=\"提交询价\"]<h2>BOM清单询价</h2><p>有多种紧固件规格？可直接上传您的BOM或采购清单（XLS、XLSX、CSV、PDF），无需逐项手动填写。</p>[lulu_rfq_form variant=\"bom\" title=\"BOM清单询价\" submit_label=\"上传BOM清单\"]<h2>定制图纸</h2>[lulu_rfq_form variant=\"custom\" title=\"定制图纸\" submit_label=\"提交技术需求\"]<h2>项目询盘</h2>[lulu_rfq_form variant=\"project\" title=\"项目询盘\" submit_label=\"提交项目询价\"]<h2>经销商申请</h2>[lulu_rfq_form variant=\"distributor\" title=\"经销商申请\" submit_label=\"提交经销商申请\"]<h2>一般咨询</h2>[lulu_rfq_form variant=\"general\" title=\"一般咨询\" submit_label=\"发送咨询\"]<aside><p>Hebei Xiangjinxin Metal Products Co., Ltd.</p><p>Row 2 No. 3, West Industrial Zone, Xisuining Village, Liuying Town, Yongnian District, Handan, Hebei, China</p><p>sales@xiangjinxin-fasteners.com</p></aside>"
+    },
+    {
+      "route": "/rfq",
+      "slug": "rfq",
+      "title": "RFQ List",
+      "title_zh": "询价清单",
+      "content": "<p class=\"eyebrow\">Request for Quotation</p><h1>RFQ List</h1><p class=\"intro\">Add sizes, quantities and technical notes to each line, then submit one combined request.</p><h2>Your RFQ list is empty</h2><p>Add products from the catalogue, or submit a BOM or drawing directly.</p><a class=\"button\" href=\"/products\">Browse Products</a><a class=\"button button-ghost\" href=\"/contact?tab=bom\">Upload BOM</a><h2>Request Quotation</h2>[lulu_rfq_form variant=\"product\" title=\"Request Quotation\" submit_label=\"Request Quotation\"]",
+      "content_zh": "<p class=\"eyebrow\">询价请求</p><h1>询价清单</h1><p class=\"intro\">为每一行添加尺寸、数量及技术备注，然后一并提交请求。</p><h2>您的询价清单为空</h2><p>请从产品目录中添加产品，或直接提交BOM清单或图纸。</p><a class=\"button\" href=\"/products\">浏览产品</a><a class=\"button button-ghost\" href=\"/contact?tab=bom\">上传BOM清单</a><h2>申请报价</h2>[lulu_rfq_form variant=\"product\" title=\"申请报价\" submit_label=\"申请报价\"]",
+      "noindex": true
+    },
+    {
+      "route": "/industries/construction",
+      "slug": "construction",
+      "title": "Construction Fasteners & Anchoring",
+      "title_zh": "建筑紧固与锚固",
+      "content": "<p class=\"eyebrow\">Industry</p><h1>Construction Fasteners &amp; Anchoring</h1><p class=\"intro\">Anchoring and structural fastening components for building, civil and site works.</p><h2>Typical fastening components</h2><ul><li>Anchor bolts</li><li>Foundation bolts</li><li>Expansion bolts</li><li>Chemical anchors</li><li>Sleeve anchors</li><li>U-bolts</li><li>Washers</li></ul><h2>Request Construction Quote</h2>[lulu_rfq_form variant=\"project\" title=\"Request Construction Quote\" submit_label=\"Request Construction Quote\"]",
+      "content_zh": "<p class=\"eyebrow\">行业</p><h1>建筑紧固与锚固</h1><p class=\"intro\">用于建筑、土木及现场施工的锚固与结构紧固组件。</p><h2>典型紧固部件</h2><ul><li>地脚螺栓</li><li>基础螺栓</li><li>膨胀螺栓</li><li>化学锚栓</li><li>套筒锚栓</li><li>U型螺栓</li><li>垫圈</li></ul><h2>获取建筑项目报价</h2>[lulu_rfq_form variant=\"project\" title=\"获取建筑项目报价\" submit_label=\"获取建筑项目报价\"]",
+      "parent": "industries",
+      "industry": "construction"
+    },
+    {
+      "route": "/industries/steel-structures",
+      "slug": "steel-structures",
+      "title": "Fasteners for Steel Structures",
+      "title_zh": "钢结构用紧固件",
+      "content": "<p class=\"eyebrow\">Industry</p><h1>Fasteners for Steel Structures</h1><p class=\"intro\">High-strength and structural fastening components for fabricated steel construction.</p><h2>Typical fastening components</h2><ul><li>High-strength bolts</li><li>Tension control bolts</li><li>Heavy nuts</li><li>Washers</li><li>Anchor bolts</li><li>Welding studs</li></ul><h2>Request Structural Fastener Quote</h2>[lulu_rfq_form variant=\"project\" title=\"Request Structural Fastener Quote\" submit_label=\"Request Structural Fastener Quote\"]",
+      "content_zh": "<p class=\"eyebrow\">行业</p><h1>钢结构用紧固件</h1><p class=\"intro\">用于钢结构制造的高强度结构紧固组件。</p><h2>典型紧固部件</h2><ul><li>高强度螺栓</li><li>扭剪型高强度螺栓</li><li>重型螺母</li><li>垫圈</li><li>地脚螺栓</li><li>焊钉</li></ul><h2>获取结构紧固件报价</h2>[lulu_rfq_form variant=\"project\" title=\"获取结构紧固件报价\" submit_label=\"获取结构紧固件报价\"]",
+      "parent": "industries",
+      "industry": "steel-structures"
+    },
+    {
+      "route": "/industries/machinery",
+      "slug": "machinery",
+      "title": "Fasteners for Machinery Manufacturing",
+      "title_zh": "机械制造用紧固件",
+      "content": "<p class=\"eyebrow\">Industry</p><h1>Fasteners for Machinery Manufacturing</h1><p class=\"intro\">Standard and drawing-based fasteners for OEM machinery production.</p><h2>Typical fastening components</h2><ul><li>High-strength bolts</li><li>Socket screws</li><li>Studs</li><li>Locking nuts</li><li>Pins</li><li>Retaining rings</li><li>Custom components</li></ul><h2>Discuss OEM Requirements</h2>[lulu_rfq_form variant=\"project\" title=\"Discuss OEM Requirements\" submit_label=\"Discuss OEM Requirements\"]",
+      "content_zh": "<p class=\"eyebrow\">行业</p><h1>机械制造用紧固件</h1><p class=\"intro\">适用于OEM机械制造的标准及来图定制紧固件。</p><h2>典型紧固部件</h2><ul><li>高强度螺栓</li><li>内六角螺钉</li><li>螺柱</li><li>锁紧螺母</li><li>销</li><li>挡圈</li><li>定制零件</li></ul><h2>洽谈OEM需求</h2>[lulu_rfq_form variant=\"project\" title=\"洽谈OEM需求\" submit_label=\"洽谈OEM需求\"]",
+      "parent": "industries",
+      "industry": "machinery"
+    },
+    {
+      "route": "/industries/solar",
+      "slug": "solar",
+      "title": "Solar & Photovoltaic Fastening Solutions",
+      "title_zh": "光伏紧固解决方案",
+      "content": "<p class=\"eyebrow\">Industry</p><h1>Solar &amp; Photovoltaic Fastening Solutions</h1><p class=\"intro\">Mounting hardware and connection components for PV manufacturers, EPC contractors and installers.</p><h2>Typical fastening components</h2><ul><li>PV bolts and nuts</li><li>Pressure-block bolts</li><li>Bracing components</li><li>C-channel bolts</li><li>Clamps</li><li>Triangle connectors</li><li>Tile hooks</li></ul><h2>Request Solar Fastener Quote</h2>[lulu_rfq_form variant=\"project\" title=\"Request Solar Fastener Quote\" submit_label=\"Request Solar Fastener Quote\"]",
+      "content_zh": "<p class=\"eyebrow\">行业</p><h1>光伏紧固解决方案</h1><p class=\"intro\">面向光伏制造商、EPC承包商及安装商的支架五金及连接组件。</p><h2>典型紧固部件</h2><ul><li>光伏螺栓螺母</li><li>压块螺栓</li><li>支撑组件</li><li>C型钢螺栓</li><li>压块</li><li>三角连接件</li><li>瓦钩</li></ul><h2>获取光伏紧固件报价</h2>[lulu_rfq_form variant=\"project\" title=\"获取光伏紧固件报价\" submit_label=\"获取光伏紧固件报价\"]",
+      "parent": "industries",
+      "industry": "solar"
+    },
+    {
+      "route": "/industries/infrastructure",
+      "slug": "infrastructure",
+      "title": "Infrastructure Fasteners",
+      "title_zh": "基础设施紧固件",
+      "content": "<p class=\"eyebrow\">Industry</p><h1>Infrastructure Fasteners</h1><p class=\"intro\">Heavy fasteners and anchoring components for infrastructure projects.</p><h2>Typical fastening components</h2><ul><li>Anchor bolts</li><li>Heavy nuts</li><li>Large-diameter custom bolts</li><li>Threaded rods</li></ul><h2>Submit Project RFQ</h2>[lulu_rfq_form variant=\"project\" title=\"Submit Project RFQ\" submit_label=\"Submit Project RFQ\"]",
+      "content_zh": "<p class=\"eyebrow\">行业</p><h1>基础设施紧固件</h1><p class=\"intro\">适用于基础设施项目的重型紧固及锚固组件。</p><h2>典型紧固部件</h2><ul><li>地脚螺栓</li><li>重型螺母</li><li>大直径定制螺栓</li><li>螺纹杆</li></ul><h2>提交项目询价</h2>[lulu_rfq_form variant=\"project\" title=\"提交项目询价\" submit_label=\"提交项目询价\"]",
+      "parent": "industries",
+      "industry": "infrastructure"
+    },
+    {
+      "route": "/industries/energy",
+      "slug": "energy",
+      "title": "Industrial & Project Fasteners for Energy",
+      "title_zh": "能源工业与项目用紧固件",
+      "content": "<p class=\"eyebrow\">Industry</p><h1>Industrial &amp; Project Fasteners for Energy</h1><p class=\"intro\">Fastening components for energy plants, equipment and project supply.</p><h2>Typical fastening components</h2><ul><li>Stud bolts</li><li>High-strength bolts</li><li>Heavy nuts</li><li>Custom bolts</li></ul><h2>Submit Project RFQ</h2>[lulu_rfq_form variant=\"project\" title=\"Submit Project RFQ\" submit_label=\"Submit Project RFQ\"]",
+      "content_zh": "<p class=\"eyebrow\">行业</p><h1>能源工业与项目用紧固件</h1><p class=\"intro\">用于能源电厂、设备及项目供货的紧固组件。</p><h2>典型紧固部件</h2><ul><li>双头螺柱</li><li>高强度螺栓</li><li>重型螺母</li><li>定制螺栓</li></ul><h2>提交项目询价</h2>[lulu_rfq_form variant=\"project\" title=\"提交项目询价\" submit_label=\"提交项目询价\"]",
+      "parent": "industries",
+      "industry": "energy"
+    },
+    {
+      "route": "/industries/equipment-manufacturing",
+      "slug": "equipment-manufacturing",
+      "title": "OEM & Drawing-Based Fasteners",
+      "title_zh": "OEM与来图定制紧固件",
+      "content": "<p class=\"eyebrow\">Industry</p><h1>OEM &amp; Drawing-Based Fasteners</h1><p class=\"intro\">Repeat-supply fasteners for equipment, trailer, agricultural and heavy machinery producers.</p><h2>Typical fastening components</h2><ul><li>Custom bolts</li><li>Flange bolts</li><li>Socket screws</li><li>Weld nuts</li><li>Pins</li></ul><h2>Request OEM Quote</h2>[lulu_rfq_form variant=\"project\" title=\"Request OEM Quote\" submit_label=\"Request OEM Quote\"]",
+      "content_zh": "<p class=\"eyebrow\">行业</p><h1>OEM与来图定制紧固件</h1><p class=\"intro\">为设备、拖车、农机及重型机械制造商提供持续稳定供货的紧固件。</p><h2>典型紧固部件</h2><ul><li>定制螺栓</li><li>法兰螺栓</li><li>内六角螺钉</li><li>焊接螺母</li><li>销</li></ul><h2>获取OEM报价</h2>[lulu_rfq_form variant=\"project\" title=\"获取OEM报价\" submit_label=\"获取OEM报价\"]",
+      "parent": "industries",
+      "industry": "equipment-manufacturing"
+    },
+    {
+      "route": "/industries/towers",
+      "slug": "towers",
+      "title": "Tower Fastening Components",
+      "title_zh": "塔架紧固组件",
+      "content": "<p class=\"eyebrow\">Industry</p><h1>Tower Fastening Components</h1><p class=\"intro\">Tower nuts and structural fastening components.</p><h2>Typical fastening components</h2><ul><li>Tower nuts</li><li>High-strength bolts</li><li>Washers</li><li>Anchor bolts</li></ul><h2>Request Project Quote</h2>[lulu_rfq_form variant=\"project\" title=\"Request Project Quote\" submit_label=\"Request Project Quote\"]",
+      "content_zh": "<p class=\"eyebrow\">行业</p><h1>塔架紧固组件</h1><p class=\"intro\">塔用螺母及结构紧固组件。</p><h2>典型紧固部件</h2><ul><li>塔用螺母</li><li>高强度螺栓</li><li>垫圈</li><li>地脚螺栓</li></ul><h2>获取项目报价</h2>[lulu_rfq_form variant=\"project\" title=\"获取项目报价\" submit_label=\"获取项目报价\"]",
+      "parent": "industries",
+      "industry": "towers"
+    },
+    {
+      "route": "/industries/heavy-duty",
+      "slug": "heavy-duty",
+      "title": "Oversized & Special Fasteners",
+      "title_zh": "超大规格及特种紧固件",
+      "content": "<p class=\"eyebrow\">Industry</p><h1>Oversized &amp; Special Fasteners</h1><p class=\"intro\">Large-diameter and special fasteners for applications beyond standard fastener ranges.</p><h2>Typical fastening components</h2><ul><li>Custom bolts M30 – M120</li><li>Special-shaped bolts</li><li>Hot-forged heavy nuts</li></ul><h2>Request Large Bolt Quote</h2>[lulu_rfq_form variant=\"project\" title=\"Request Large Bolt Quote\" submit_label=\"Request Large Bolt Quote\"]",
+      "content_zh": "<p class=\"eyebrow\">行业</p><h1>超大规格及特种紧固件</h1><p class=\"intro\">适用于超出标准紧固件规格范围的大直径及特种紧固件。</p><h2>典型紧固部件</h2><ul><li>定制螺栓 M30 – M120</li><li>异形螺栓</li><li>热锻重型螺母</li></ul><h2>获取大规格螺栓报价</h2>[lulu_rfq_form variant=\"project\" title=\"获取大规格螺栓报价\" submit_label=\"获取大规格螺栓报价\"]",
+      "parent": "industries",
+      "industry": "heavy-duty"
+    },
+    {
+      "route": "/legal",
+      "slug": "legal",
+      "title": "Legal",
+      "title_zh": "法律信息",
+      "content": "<p class=\"eyebrow\">Legal</p><h1>Legal information</h1><p class=\"intro\">Privacy, terms and cookie information for this website.</p>",
+      "content_zh": "<p class=\"eyebrow\">法律信息</p><h1>法律信息</h1><p class=\"intro\">本网站的隐私、条款及Cookie信息。</p>"
+    },
+    {
+      "route": "/legal/privacy",
+      "slug": "privacy",
+      "title": "Privacy",
+      "title_zh": "隐私政策",
+      "content": "<p class=\"eyebrow\">Legal</p><h1>Privacy</h1><p>We process the contact and requirement details you submit through our request forms solely to review your enquiry, prepare a quotation and communicate with you about it.</p><p>Uploaded files such as BOMs, drawings and specifications are treated as confidential business information and shared internally only with the technical and commercial team handling your request.</p><p>You can ask us to correct or delete your data at any time by contacting sales@xiangjinxin-fasteners.com.</p>",
+      "content_zh": "<p class=\"eyebrow\">法律信息</p><h1>隐私政策</h1><p>我们仅将您通过请求表单提交的联系方式及需求信息用于审核您的咨询、准备报价并与您沟通相关事宜。</p><p>上传的BOM清单、图纸及规格等文件将作为保密商业信息处理，仅在内部与负责处理您请求的技术及商务团队共享。</p><p>您可以随时通过联系 sales@xiangjinxin-fasteners.com 要求更正或删除您的数据。</p>",
+      "parent": "legal",
+      "legal": "privacy"
+    },
+    {
+      "route": "/legal/terms",
+      "slug": "terms",
+      "title": "Terms",
+      "title_zh": "条款",
+      "content": "<p class=\"eyebrow\">Legal</p><h1>Terms</h1><p>Information published on this website describes the product portfolio and capability scope. It does not constitute a binding offer.</p><p>Specifications, quantities, packaging, delivery and commercial terms become binding only in a written quotation or order confirmation issued by Hebei Xiangjinxin Metal Products Co., Ltd..</p><p>Technical values are confirmed per item before quotation. Where a value is not published, it has not yet been confirmed for that product.</p>",
+      "content_zh": "<p class=\"eyebrow\">法律信息</p><h1>条款</h1><p>本网站发布的信息用于介绍产品系列及能力范围，不构成具有约束力的要约。</p><p>规格、数量、包装、交货及商务条款仅在由 Hebei Xiangjinxin Metal Products Co., Ltd. 出具的书面报价或订单确认中方具有约束力。</p><p>技术参数将在报价前逐项确认。如某项数值未公开，则表示该产品尚未确认该参数。</p>",
+      "parent": "legal",
+      "legal": "terms"
+    },
+    {
+      "route": "/legal/cookies",
+      "slug": "cookies",
+      "title": "Cookies",
+      "title_zh": "Cookie政策",
+      "content": "<p class=\"eyebrow\">Legal</p><h1>Cookies</h1><p>This website stores your RFQ list in your browser&#039;s local storage so your selection is preserved between visits. It is not transmitted until you submit a request.</p><p>No advertising or third-party tracking cookies are set by default.</p>",
+      "content_zh": "<p class=\"eyebrow\">法律信息</p><h1>Cookie政策</h1><p>本网站将您的询价清单存储在浏览器本地存储中，以便在多次访问间保留您的选择。在您提交请求之前，该数据不会被传输。</p><p>默认情况下不会设置任何广告或第三方跟踪Cookie。</p>",
+      "parent": "legal",
+      "legal": "cookies"
+    }
+  ],
+  "archive_pages": [
+    {
+      "route": "/products",
+      "slug": "products",
+      "title": "Industrial Fastener Products",
+      "title_zh": "工业紧固件产品",
+      "content": "<p class=\"eyebrow\">Product Portfolio</p><h1>Industrial Fastener Products</h1><p class=\"intro\">Browse the full portfolio by category, diameter, grade or application. Add any product to your RFQ list and submit one combined request.</p><p>Search, category, standard/custom, diameter and grade filters from the main site are represented by the complete product archive and specification metadata below.</p>",
+      "content_zh": "<p class=\"eyebrow\">产品系列</p><h1>工业紧固件产品</h1><p class=\"intro\">按类别、直径、强度等级或应用场景浏览完整产品系列。将任意产品加入询价单，一次性提交合并询价请求。</p><p>主站中的搜索、类别、标准件/非标件、直径及强度等级筛选由完整产品档案及规格元数据承载。</p>",
+      "archive": true
+    }
+  ],
+  "categories": [
+    {
+      "slug": "bolts",
+      "name": "Industrial Bolts",
+      "name_zh": "工业螺栓",
+      "short": "Bolts",
+      "short_zh": "螺栓",
+      "intro": "Standard, high-strength and structural bolts, plus large-diameter custom bolts manufactured to drawing.",
+      "intro_zh": "标准螺栓、高强度螺栓、结构螺栓，以及按图纸定制的大直径螺栓。",
+      "products": [
+        {
+          "slug": "hex-bolts",
+          "name": "Hex Bolts — Grade 4.8",
+          "name_zh": "六角头螺栓 — 4.8级",
+          "summary": "General purpose hex head bolts for standard industrial assembly.",
+          "summary_zh": "适用于标准工业装配的通用六角头螺栓。",
+          "specs": [
+            {
+              "label": "Diameter",
+              "value": "M6 – M24"
+            },
+            {
+              "label": "Grade",
+              "value": "4.8"
+            },
+            {
+              "label": "Head type",
+              "value": "Hex"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "直径",
+              "value": "M6 – M24"
+            },
+            {
+              "label": "强度等级",
+              "value": "4.8"
+            },
+            {
+              "label": "头型",
+              "value": "六角"
+            }
+          ],
+          "applications": [
+            "General assembly",
+            "Construction",
+            "Equipment mounting"
+          ],
+          "applications_zh": [
+            "通用装配",
+            "建筑工程",
+            "设备安装"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "high-strength-bolts",
+          "name": "High-Strength Hex Bolts",
+          "name_zh": "高强度六角螺栓",
+          "summary": "High-strength hex bolts for structural and demanding load applications.",
+          "summary_zh": "适用于结构件及高承载要求的高强度六角螺栓。",
+          "specs": [
+            {
+              "label": "Diameter",
+              "value": "M8 – M30"
+            },
+            {
+              "label": "Grade",
+              "value": "8.8 / 10.9 / 12.9"
+            },
+            {
+              "label": "Head type",
+              "value": "Hex"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "直径",
+              "value": "M8 – M30"
+            },
+            {
+              "label": "强度等级",
+              "value": "8.8 / 10.9 / 12.9"
+            },
+            {
+              "label": "头型",
+              "value": "六角"
+            }
+          ],
+          "applications": [
+            "Steel structures",
+            "Machinery",
+            "Heavy equipment"
+          ],
+          "applications_zh": [
+            "钢结构",
+            "机械设备",
+            "重型设备"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "custom-large-bolts",
+          "name": "Extra-Large Custom Bolts",
+          "name_zh": "超大规格定制螺栓",
+          "summary": "Large-diameter custom bolts manufactured to customer drawing for heavy industrial applications.",
+          "summary_zh": "按客户图纸定制生产的大直径螺栓，适用于重工业应用。",
+          "specs": [
+            {
+              "label": "Diameter",
+              "value": "M30 – M120"
+            },
+            {
+              "label": "Basis",
+              "value": "Customer drawing / specification"
+            },
+            {
+              "label": "Grade",
+              "value": "Contact us for details"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "直径",
+              "value": "M30 – M120"
+            },
+            {
+              "label": "依据",
+              "value": "客户图纸/规格"
+            },
+            {
+              "label": "强度等级",
+              "value": "详情请联系我们"
+            }
+          ],
+          "applications": [
+            "Heavy machinery",
+            "Infrastructure",
+            "Energy",
+            "Mining equipment"
+          ],
+          "applications_zh": [
+            "重型机械",
+            "基础设施",
+            "能源",
+            "矿山设备"
+          ],
+          "custom": true
+        },
+        {
+          "slug": "flange-bolts",
+          "name": "Hex Flange Bolts",
+          "name_zh": "六角法兰螺栓",
+          "summary": "Integrated flange head bolts distributing load without a separate washer.",
+          "summary_zh": "带一体化法兰头的螺栓，无需额外垫圈即可分散载荷。",
+          "specs": [
+            {
+              "label": "Diameter",
+              "value": "M6 – M16"
+            },
+            {
+              "label": "Head type",
+              "value": "Hex flange"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "直径",
+              "value": "M6 – M16"
+            },
+            {
+              "label": "头型",
+              "value": "六角法兰"
+            }
+          ],
+          "applications": [
+            "Machinery",
+            "Vehicle and trailer assembly"
+          ],
+          "applications_zh": [
+            "机械设备",
+            "车辆与拖车装配"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "socket-head-screws",
+          "name": "Socket Head Cap Screws",
+          "name_zh": "内六角圆柱头螺钉",
+          "summary": "Internal hex drive cap screws for compact, high-torque assemblies.",
+          "summary_zh": "内六角驱动的圆柱头螺钉，适用于紧凑、高扭矩装配。",
+          "specs": [
+            {
+              "label": "Grade",
+              "value": "8.8 / 10.9 / 12.9"
+            },
+            {
+              "label": "Drive",
+              "value": "Internal hex"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "强度等级",
+              "value": "8.8 / 10.9 / 12.9"
+            },
+            {
+              "label": "驱动方式",
+              "value": "内六角"
+            }
+          ],
+          "applications": [
+            "Machinery",
+            "Tooling",
+            "Equipment manufacturing"
+          ],
+          "applications_zh": [
+            "机械设备",
+            "工装工具",
+            "设备制造"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "countersunk-socket-screws",
+          "name": "Countersunk Socket Screws",
+          "name_zh": "内六角沉头螺钉",
+          "summary": "Flat head socket screws for flush-mounted assemblies.",
+          "summary_zh": "平头内六角螺钉，适用于齐平安装的装配。",
+          "specs": [
+            {
+              "label": "Diameter",
+              "value": "M4 – M24"
+            },
+            {
+              "label": "Head type",
+              "value": "Countersunk"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "直径",
+              "value": "M4 – M24"
+            },
+            {
+              "label": "头型",
+              "value": "沉头"
+            }
+          ],
+          "applications": [
+            "Machinery",
+            "Panels and fixtures"
+          ],
+          "applications_zh": [
+            "机械设备",
+            "面板与夹具"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "tension-control-bolts",
+          "name": "Tension Control / Torshear Bolts",
+          "name_zh": "扭剪型高强度螺栓",
+          "summary": "Torshear type bolt assemblies for controlled structural bolting.",
+          "summary_zh": "扭剪型螺栓组件，用于可控结构连接。",
+          "specs": [
+            {
+              "label": "Diameter",
+              "value": "M16 – M24"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "直径",
+              "value": "M16 – M24"
+            }
+          ],
+          "applications": [
+            "Steel structures",
+            "Bridges",
+            "Towers"
+          ],
+          "applications_zh": [
+            "钢结构",
+            "桥梁",
+            "塔架"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "special-shaped-bolts",
+          "name": "Special-Shaped Bolts",
+          "name_zh": "异形螺栓",
+          "summary": "T-slot bolts, eye bolts, articulated and lifting eye bolts, square-head and reverse-thread bolts.",
+          "summary_zh": "T型槽螺栓、吊环螺栓、活节吊环螺栓、方头螺栓及反牙螺栓。",
+          "specs": [
+            {
+              "label": "Basis",
+              "value": "Standard range or customer drawing"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "依据",
+              "value": "标准系列或客户图纸"
+            }
+          ],
+          "applications": [
+            "Lifting",
+            "Machine tooling",
+            "Special fixtures"
+          ],
+          "applications_zh": [
+            "起重吊装",
+            "机床工装",
+            "专用夹具"
+          ],
+          "custom": true
+        }
+      ]
+    },
+    {
+      "slug": "nuts",
+      "name": "Industrial Nuts",
+      "name_zh": "工业螺母",
+      "short": "Nuts",
+      "short_zh": "螺母",
+      "intro": "Hex, flange, locking, heavy forged and application-specific nuts for industrial and project supply.",
+      "intro_zh": "面向工业及项目供货的六角螺母、法兰螺母、防松螺母、重型锻造螺母及各类专用螺母。",
+      "products": [
+        {
+          "slug": "hex-nuts",
+          "name": "Hex Nuts",
+          "name_zh": "六角螺母",
+          "summary": "Standard hex nuts, coarse and fine thread variants where applicable.",
+          "summary_zh": "标准六角螺母，视需要提供粗牙和细牙螺纹规格。",
+          "specs": [
+            {
+              "label": "Thread",
+              "value": "Coarse / fine"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "螺纹",
+              "value": "粗牙/细牙"
+            }
+          ],
+          "applications": [
+            "General assembly",
+            "Construction",
+            "Machinery"
+          ],
+          "applications_zh": [
+            "通用装配",
+            "建筑工程",
+            "机械设备"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "flange-nuts",
+          "name": "Flange Nuts",
+          "name_zh": "法兰螺母",
+          "summary": "Flanged nuts with integrated bearing surface.",
+          "summary_zh": "带一体化承压面的法兰螺母。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Flange"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "法兰"
+            }
+          ],
+          "applications": [
+            "Machinery",
+            "Vehicle assembly"
+          ],
+          "applications_zh": [
+            "机械设备",
+            "车辆装配"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "lock-nuts",
+          "name": "Nylon Lock Nuts & Slotted Self-Locking Nuts",
+          "name_zh": "尼龙锁紧螺母与开槽自锁螺母",
+          "summary": "Prevailing-torque and nylon insert locking nuts for vibration environments.",
+          "summary_zh": "适用于振动环境的预紧扭矩型及尼龙嵌件锁紧螺母。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Nylon insert / slotted self-locking"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "尼龙嵌件/开槽自锁"
+            }
+          ],
+          "applications": [
+            "Machinery",
+            "Transport equipment"
+          ],
+          "applications_zh": [
+            "机械设备",
+            "运输设备"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "heavy-nuts",
+          "name": "Thick / Heavy & Hot-Forged Nuts",
+          "name_zh": "厚型/重型及热锻螺母",
+          "summary": "Heavy pattern and hot-forged nuts for high-load structural connections.",
+          "summary_zh": "适用于高承载结构连接的重型和热锻螺母。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Heavy hex / hot forged"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "重型六角/热锻"
+            }
+          ],
+          "applications": [
+            "Steel structures",
+            "Infrastructure",
+            "Towers"
+          ],
+          "applications_zh": [
+            "钢结构",
+            "基础设施",
+            "塔架"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "weld-nuts",
+          "name": "Weld Nuts",
+          "name_zh": "焊接螺母",
+          "summary": "Weldable nuts for fabricated and OEM assemblies.",
+          "summary_zh": "适用于制造加工及OEM装配的可焊接螺母。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Weld"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "焊接"
+            }
+          ],
+          "applications": [
+            "Fabrication",
+            "OEM manufacturing"
+          ],
+          "applications_zh": [
+            "加工制造",
+            "OEM制造"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "special-nuts",
+          "name": "Round, Wing, Cap, Slotted, Cylindrical & Anti-Theft Nuts",
+          "name_zh": "圆螺母、蝶形螺母、盖形螺母、开槽螺母、圆柱螺母及防盗螺母",
+          "summary": "Application-specific nut families available across the portfolio.",
+          "summary_zh": "涵盖多种应用场景的专用螺母系列。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Multiple families"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "多种系列"
+            }
+          ],
+          "applications": [
+            "Equipment",
+            "Fixtures",
+            "Security fastening"
+          ],
+          "applications_zh": [
+            "设备",
+            "夹具",
+            "防护紧固"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "solar-tower-nuts",
+          "name": "Solar / PV Nuts & Tower Nuts",
+          "name_zh": "光伏螺母与塔用螺母",
+          "summary": "Nuts supplied for photovoltaic mounting systems and tower structures.",
+          "summary_zh": "适用于光伏支架系统及塔架结构的螺母。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "PV / tower"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "光伏/塔架"
+            }
+          ],
+          "applications": [
+            "Solar mounting",
+            "Towers"
+          ],
+          "applications_zh": [
+            "光伏支架安装",
+            "塔架"
+          ],
+          "custom": false
+        }
+      ]
+    },
+    {
+      "slug": "threaded-rods",
+      "name": "Threaded Rods & Stud Bolts",
+      "name_zh": "螺纹杆与双头螺柱",
+      "short": "Threaded Rods & Studs",
+      "short_zh": "螺纹杆与螺柱",
+      "intro": "Double-end studs and fully threaded rods for flanges, structures and equipment.",
+      "intro_zh": "用于法兰、结构件和设备的双头螺柱及全螺纹杆。",
+      "products": [
+        {
+          "slug": "stud-bolts",
+          "name": "Double-End Studs",
+          "name_zh": "双头螺柱",
+          "summary": "Double-end stud bolts for flanged and bolted connections.",
+          "summary_zh": "用于法兰及螺栓连接的双头螺柱。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Double-end stud"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "双头螺柱"
+            }
+          ],
+          "applications": [
+            "Flange connections",
+            "Machinery",
+            "Energy"
+          ],
+          "applications_zh": [
+            "法兰连接",
+            "机械设备",
+            "能源"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "fully-threaded-rods",
+          "name": "Fully Threaded Rods",
+          "name_zh": "全螺纹杆",
+          "summary": "Fully threaded rod supplied in standard and cut-to-requirement lengths.",
+          "summary_zh": "提供标准长度及按需切割长度的全螺纹杆。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Fully threaded"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "全螺纹"
+            }
+          ],
+          "applications": [
+            "Construction",
+            "Suspension systems",
+            "Anchoring"
+          ],
+          "applications_zh": [
+            "建筑工程",
+            "悬挂系统",
+            "锚固"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "trapezoidal-thread-rods",
+          "name": "Trapezoidal Threaded Rods",
+          "name_zh": "梯形螺纹杆",
+          "summary": "Trapezoidal thread rods for motion and load transfer applications.",
+          "summary_zh": "适用于运动传动及载荷传递应用的梯形螺纹杆。",
+          "specs": [
+            {
+              "label": "Thread",
+              "value": "Trapezoidal"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "螺纹",
+              "value": "梯形"
+            }
+          ],
+          "applications": [
+            "Machinery",
+            "Lifting equipment"
+          ],
+          "applications_zh": [
+            "机械设备",
+            "起重设备"
+          ],
+          "custom": true
+        }
+      ]
+    },
+    {
+      "slug": "anchor-bolts",
+      "name": "Anchor & Foundation Fasteners",
+      "name_zh": "地脚与基础紧固件",
+      "short": "Anchor Fasteners",
+      "short_zh": "地脚紧固件",
+      "intro": "Foundation and embedded fastening components for structures and machinery bases.",
+      "intro_zh": "用于结构件及机械基础的地脚与预埋紧固组件。",
+      "products": [
+        {
+          "slug": "foundation-bolts",
+          "name": "Anchor Bolts / Foundation Bolts",
+          "name_zh": "地脚螺栓/基础螺栓",
+          "summary": "Embedded anchor and foundation bolts, standard shapes or to drawing.",
+          "summary_zh": "预埋地脚及基础螺栓，提供标准形状或按图定制。",
+          "specs": [
+            {
+              "label": "Basis",
+              "value": "Standard shapes or customer drawing"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "依据",
+              "value": "Standard shapes or customer drawing"
+            }
+          ],
+          "applications": [
+            "Steel structures",
+            "Machinery foundations",
+            "Infrastructure"
+          ],
+          "applications_zh": [
+            "钢结构",
+            "机械基础",
+            "基础设施"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "u-bolts",
+          "name": "U-Bolts",
+          "name_zh": "U型螺栓",
+          "summary": "U-shaped clamping bolts for pipe, tube and structural fixing.",
+          "summary_zh": "用于管道、管材及结构固定的U型夹紧螺栓。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "U-bolt"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "U型螺栓"
+            }
+          ],
+          "applications": [
+            "Piping",
+            "Transport",
+            "Construction"
+          ],
+          "applications_zh": [
+            "管道",
+            "运输",
+            "建筑工程"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "washers",
+          "name": "Washers, Spring Washers & Special Washers",
+          "name_zh": "平垫圈、弹簧垫圈及特殊垫圈",
+          "summary": "Flat, spring and special washers supplied with bolt assemblies.",
+          "summary_zh": "配套螺栓组件供应的平垫圈、弹簧垫圈及特殊垫圈。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Flat / spring / special"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "平垫/弹簧/特殊"
+            }
+          ],
+          "applications": [
+            "All bolted connections"
+          ],
+          "applications_zh": [
+            "所有螺栓连接"
+          ],
+          "custom": false
+        }
+      ]
+    },
+    {
+      "slug": "expansion-anchors",
+      "name": "Expansion & Anchoring Systems",
+      "name_zh": "膨胀与锚固系统",
+      "short": "Expansion Anchors",
+      "short_zh": "膨胀锚栓",
+      "intro": "Mechanical and chemical anchoring systems for concrete and masonry.",
+      "intro_zh": "适用于混凝土及砌体的机械锚固与化学锚固系统。",
+      "products": [
+        {
+          "slug": "external-expansion-bolts",
+          "name": "External Expansion Bolts",
+          "name_zh": "外露式膨胀螺栓",
+          "summary": "Through-bolt style expansion anchors.",
+          "summary_zh": "穿孔式膨胀锚栓。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "External expansion"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "外露式膨胀"
+            }
+          ],
+          "applications": [
+            "Construction",
+            "Equipment mounting"
+          ],
+          "applications_zh": [
+            "建筑工程",
+            "设备安装"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "internal-expansion-anchors",
+          "name": "Internal & Countersunk Expansion Anchors",
+          "name_zh": "内胀式及沉头膨胀锚栓",
+          "summary": "Internally set anchors including countersunk versions.",
+          "summary_zh": "内置式锚栓，含沉头款式。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Internal / countersunk"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "内置式/沉头"
+            }
+          ],
+          "applications": [
+            "Concrete fixing",
+            "Interior structures"
+          ],
+          "applications_zh": [
+            "混凝土固定",
+            "室内结构"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "chemical-anchors",
+          "name": "Chemical Anchors",
+          "name_zh": "化学锚栓",
+          "summary": "Chemically bonded anchoring components.",
+          "summary_zh": "化学粘结式锚固组件。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Chemical"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "化学"
+            }
+          ],
+          "applications": [
+            "Concrete",
+            "Retrofit anchoring"
+          ],
+          "applications_zh": [
+            "混凝土",
+            "改造加固锚固"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "sleeve-wedge-anchors",
+          "name": "Sleeve & Wedge / Heavy-Duty Anchors",
+          "name_zh": "套筒锚栓/楔形及重型锚栓",
+          "summary": "Sleeve, wedge and heavy-duty anchoring fasteners.",
+          "summary_zh": "套筒式、楔形及重型锚固紧固件。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Sleeve / wedge / heavy duty"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "套筒/楔形/重型"
+            }
+          ],
+          "applications": [
+            "Structural fixing",
+            "Machinery bases"
+          ],
+          "applications_zh": [
+            "结构固定",
+            "机械底座"
+          ],
+          "custom": false
+        }
+      ]
+    },
+    {
+      "slug": "self-drilling-screws",
+      "name": "Self-Drilling & Self-Tapping Fasteners",
+      "name_zh": "自钻与自攻紧固件",
+      "short": "Self-Drilling Fasteners",
+      "short_zh": "自钻紧固件",
+      "intro": "Drilling and tapping screws for sheet metal, roofing, board and interior systems.",
+      "intro_zh": "用于金属板材、屋面、板材及室内装修系统的自钻自攻螺钉。",
+      "products": [
+        {
+          "slug": "hex-self-drilling-screws",
+          "name": "Hex Self-Drilling Screws",
+          "name_zh": "六角自钻螺钉",
+          "summary": "Hex washer head self-drilling screws.",
+          "summary_zh": "六角法兰头自钻螺钉。",
+          "specs": [
+            {
+              "label": "Head type",
+              "value": "Hex washer"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "头型",
+              "value": "六角法兰头"
+            }
+          ],
+          "applications": [
+            "Roofing",
+            "Steel sheet",
+            "Cladding"
+          ],
+          "applications_zh": [
+            "屋面",
+            "钢板",
+            "外墙覆板"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "stainless-self-drilling-screws",
+          "name": "Stainless Steel Self-Drilling Screws",
+          "name_zh": "不锈钢自钻螺钉",
+          "summary": "Stainless self-drilling screws for corrosion-exposed assemblies.",
+          "summary_zh": "适用于易腐蚀环境装配的不锈钢自钻螺钉。",
+          "specs": [
+            {
+              "label": "Material",
+              "value": "Stainless steel"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "材质",
+              "value": "不锈钢"
+            }
+          ],
+          "applications": [
+            "Outdoor structures",
+            "Solar",
+            "Coastal projects"
+          ],
+          "applications_zh": [
+            "户外结构",
+            "太阳能光伏",
+            "沿海项目"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "self-tapping-screws",
+          "name": "Self-Tapping & Countersunk Self-Tapping Screws",
+          "name_zh": "自攻螺钉与沉头自攻螺钉",
+          "summary": "Self-tapping screws in multiple head types.",
+          "summary_zh": "多种头型的自攻螺钉。",
+          "specs": [
+            {
+              "label": "Head type",
+              "value": "Multiple"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "头型",
+              "value": "多种"
+            }
+          ],
+          "applications": [
+            "Sheet metal",
+            "Assembly"
+          ],
+          "applications_zh": [
+            "金属板材",
+            "装配"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "drywall-fiberboard-screws",
+          "name": "Drywall & Fiberboard Screws",
+          "name_zh": "石膏板与纤维板螺钉",
+          "summary": "Board fixing screws for interior construction.",
+          "summary_zh": "用于室内装修的板材固定螺钉。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Drywall / fiberboard"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "石膏板/纤维板"
+            }
+          ],
+          "applications": [
+            "Interior construction",
+            "Board systems"
+          ],
+          "applications_zh": [
+            "室内装修",
+            "板材系统"
+          ],
+          "custom": false
+        }
+      ]
+    },
+    {
+      "slug": "pins-rivets",
+      "name": "Pins, Rivets & Retaining Components",
+      "name_zh": "销、铆钉与挡圈组件",
+      "short": "Pins & Rivets",
+      "short_zh": "销与铆钉",
+      "intro": "Positioning, joining and retaining components for machinery and fabrication.",
+      "intro_zh": "用于机械与制造加工的定位、连接及紧固挡圈组件。",
+      "products": [
+        {
+          "slug": "pins",
+          "name": "Cylindrical, Taper, Cotter & Locating Pins",
+          "name_zh": "圆柱销、锥销、开口销及定位销",
+          "summary": "Pin families for positioning and securing components.",
+          "summary_zh": "用于零件定位及固定的各类销。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Cylindrical / taper / cotter / locating"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "圆柱销/锥销/开口销/定位销"
+            }
+          ],
+          "applications": [
+            "Machinery",
+            "Equipment assembly"
+          ],
+          "applications_zh": [
+            "机械设备",
+            "设备装配"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "rivets",
+          "name": "Round-Head & Blind Rivets",
+          "name_zh": "圆头铆钉与抽芯铆钉",
+          "summary": "Solid and blind rivets for permanent joints.",
+          "summary_zh": "用于永久连接的实心铆钉及抽芯铆钉。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Round head / blind"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "圆头/抽芯"
+            }
+          ],
+          "applications": [
+            "Fabrication",
+            "Sheet assembly"
+          ],
+          "applications_zh": [
+            "加工制造",
+            "板材装配"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "welding-studs",
+          "name": "Structural Welding Studs",
+          "name_zh": "结构焊钉",
+          "summary": "Shear connector style welding studs for structural work.",
+          "summary_zh": "用于结构工程的剪力钉式焊钉。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Welding stud"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "焊钉"
+            }
+          ],
+          "applications": [
+            "Steel structures",
+            "Composite decks"
+          ],
+          "applications_zh": [
+            "钢结构",
+            "组合楼板"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "retaining-rings",
+          "name": "Shaft & Internal Retaining Rings / Circlips",
+          "name_zh": "轴用及孔用挡圈/卡簧",
+          "summary": "External and internal retaining rings.",
+          "summary_zh": "轴用（外部）及孔用（内部）挡圈。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "External / internal"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "轴用/孔用"
+            }
+          ],
+          "applications": [
+            "Machinery",
+            "Drive assemblies"
+          ],
+          "applications_zh": [
+            "机械设备",
+            "传动装置"
+          ],
+          "custom": false
+        }
+      ]
+    },
+    {
+      "slug": "solar-fasteners",
+      "name": "Solar & Photovoltaic Fasteners",
+      "name_zh": "光伏太阳能紧固件",
+      "short": "Solar Fasteners",
+      "short_zh": "光伏紧固件",
+      "intro": "Fastening and connection components for PV mounting systems, ground structures and rooftop installations.",
+      "intro_zh": "用于光伏支架系统、地面结构和屋顶安装的紧固与连接组件。",
+      "products": [
+        {
+          "slug": "pv-bolts-nuts",
+          "name": "PV Bolts & Nuts",
+          "name_zh": "光伏专用螺栓螺母",
+          "summary": "Bolt and nut components for photovoltaic mounting structures.",
+          "summary_zh": "用于光伏支架结构的螺栓螺母组件。",
+          "specs": [
+            {
+              "label": "Application",
+              "value": "PV mounting"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "应用",
+              "value": "光伏支架安装"
+            }
+          ],
+          "applications": [
+            "Solar mounting",
+            "EPC projects"
+          ],
+          "applications_zh": [
+            "光伏支架安装",
+            "EPC工程项目"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "pressure-block-bolts",
+          "name": "Pressure Block Bolts",
+          "name_zh": "压块螺栓",
+          "summary": "Module pressure block bolt sets.",
+          "summary_zh": "组件压块螺栓套件。",
+          "specs": [
+            {
+              "label": "Application",
+              "value": "Module clamping"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "应用",
+              "value": "组件压紧"
+            }
+          ],
+          "applications": [
+            "Solar mounting"
+          ],
+          "applications_zh": [
+            "光伏支架安装"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "c-channel-bolts",
+          "name": "C-Channel Matching Bolts",
+          "name_zh": "C型钢配套螺栓",
+          "summary": "Bolts matched to C-channel mounting profiles.",
+          "summary_zh": "与C型钢安装型材配套的螺栓。",
+          "specs": [
+            {
+              "label": "Application",
+              "value": "C-channel profiles"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "应用",
+              "value": "C型钢型材"
+            }
+          ],
+          "applications": [
+            "Solar structures"
+          ],
+          "applications_zh": [
+            "光伏支架结构"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "solar-support-components",
+          "name": "Support Brace Rods & Seismic Support Accessories",
+          "name_zh": "支撑拉杆与抗震支架配件",
+          "summary": "Bracing rods and seismic support accessory components.",
+          "summary_zh": "支撑拉杆及抗震支撑配件组件。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Support / bracing"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "支撑/拉撑"
+            }
+          ],
+          "applications": [
+            "Solar structures",
+            "Building services"
+          ],
+          "applications_zh": [
+            "光伏支架结构",
+            "建筑机电设施"
+          ],
+          "custom": false
+        },
+        {
+          "slug": "clamps-connectors-hooks",
+          "name": "Clamps, Triangle Connectors & Tile Hooks",
+          "name_zh": "压块、三角连接件与瓦钩",
+          "summary": "Connection hardware for rooftop and ground-mount systems.",
+          "summary_zh": "适用于屋顶及地面光伏系统的连接五金件。",
+          "specs": [
+            {
+              "label": "Type",
+              "value": "Clamp / connector / hook"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "类型",
+              "value": "压块/连接件/挂钩"
+            }
+          ],
+          "applications": [
+            "Rooftop PV",
+            "Ground mount PV"
+          ],
+          "applications_zh": [
+            "屋顶光伏",
+            "地面光伏"
+          ],
+          "custom": false
+        }
+      ]
+    },
+    {
+      "slug": "custom-fasteners",
+      "name": "Custom & Non-Standard Fasteners",
+      "name_zh": "定制与非标紧固件",
+      "short": "Custom Fasteners",
+      "short_zh": "非标紧固件",
+      "intro": "Drawing-based components, special geometries, oversized and reverse-thread fasteners reviewed case by case.",
+      "intro_zh": "根据来图定制的零件、特殊形状、超大规格及反向螺纹紧固件，均按案例逐一评审。",
+      "products": [
+        {
+          "slug": "custom-special-shaped-bolts",
+          "name": "Custom Special-Shaped Bolts",
+          "name_zh": "定制异形螺栓",
+          "summary": "Non-standard geometries manufactured to customer drawing.",
+          "summary_zh": "按客户图纸生产的非标形状螺栓。",
+          "specs": [
+            {
+              "label": "Basis",
+              "value": "Customer drawing"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "依据",
+              "value": "客户图纸"
+            }
+          ],
+          "applications": [
+            "OEM",
+            "Machinery",
+            "Special equipment"
+          ],
+          "applications_zh": [
+            "OEM",
+            "机械设备",
+            "特种设备"
+          ],
+          "custom": true
+        },
+        {
+          "slug": "oversized-components",
+          "name": "Oversized & Extra-Long Components",
+          "name_zh": "超大规格及超长零件",
+          "summary": "Components beyond standard catalogue dimensions.",
+          "summary_zh": "超出标准目录规格范围的零件。",
+          "specs": [
+            {
+              "label": "Diameter",
+              "value": "Custom bolts M30 – M120"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "直径",
+              "value": "定制螺栓 M30 – M120"
+            }
+          ],
+          "applications": [
+            "Heavy industry",
+            "Infrastructure",
+            "Energy"
+          ],
+          "applications_zh": [
+            "重工业",
+            "基础设施",
+            "能源"
+          ],
+          "custom": true
+        },
+        {
+          "slug": "reverse-thread-fasteners",
+          "name": "Reverse-Thread Screws",
+          "name_zh": "反牙螺钉",
+          "summary": "Left-hand thread fasteners for specific mechanical requirements.",
+          "summary_zh": "满足特定机械需求的左旋螺纹紧固件。",
+          "specs": [
+            {
+              "label": "Thread",
+              "value": "Left-hand / reverse"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "螺纹",
+              "value": "左旋/反牙"
+            }
+          ],
+          "applications": [
+            "Machinery",
+            "Rotating assemblies"
+          ],
+          "applications_zh": [
+            "机械设备",
+            "旋转装置"
+          ],
+          "custom": true
+        },
+        {
+          "slug": "drawing-based-fasteners",
+          "name": "Drawing-Based Custom Components",
+          "name_zh": "来图定制零件",
+          "summary": "Send a drawing, sample or specification for technical and commercial review.",
+          "summary_zh": "提交图纸、样品或规格以进行技术与商务评审。",
+          "specs": [
+            {
+              "label": "Input",
+              "value": "PDF / DWG / DXF / STEP / sample"
+            }
+          ],
+          "specs_zh": [
+            {
+              "label": "输入方式",
+              "value": "PDF/DWG/DXF/STEP/样品"
+            }
+          ],
+          "applications": [
+            "All industrial sectors"
+          ],
+          "applications_zh": [
+            "所有工业领域"
+          ],
+          "custom": true
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "slug": "hex-bolts",
+      "title": "Hex Bolts — Grade 4.8",
+      "title_zh": "六角头螺栓 — 4.8级",
+      "excerpt": "General purpose hex head bolts for standard industrial assembly.",
+      "excerpt_zh": "适用于标准工业装配的通用六角头螺栓。",
+      "content": "<p>General purpose hex head bolts for standard industrial assembly.</p><h2>Applications</h2><ul><li>General assembly</li><li>Construction</li><li>Equipment mounting</li></ul>",
+      "content_zh": "<p>适用于标准工业装配的通用六角头螺栓。</p><h2>应用场景</h2><ul><li>通用装配</li><li>建筑工程</li><li>设备安装</li></ul>",
+      "category": "bolts",
+      "category_name": "Industrial Bolts",
+      "category_name_zh": "工业螺栓",
+      "asset": "",
+      "meta": {
+        "subtitle": "General purpose hex head bolts for standard industrial assembly.",
+        "subtitle_zh": "适用于标准工业装配的通用六角头螺栓。",
+        "specifications": "Diameter: M6 – M24\nGrade: 4.8\nHead type: Hex",
+        "specifications_zh": "直径: M6 – M24\n强度等级: 4.8\n头型: 六角",
+        "applications": "General assembly\nConstruction\nEquipment mounting",
+        "applications_zh": "通用装配\n建筑工程\n设备安装",
+        "custom_manufacturing": "",
+        "diameter": "M6 – M24",
+        "grade": "4.8",
+        "head_type": "Hex"
+      }
+    },
+    {
+      "slug": "high-strength-bolts",
+      "title": "High-Strength Hex Bolts",
+      "title_zh": "高强度六角螺栓",
+      "excerpt": "High-strength hex bolts for structural and demanding load applications.",
+      "excerpt_zh": "适用于结构件及高承载要求的高强度六角螺栓。",
+      "content": "<p>High-strength hex bolts for structural and demanding load applications.</p><h2>Applications</h2><ul><li>Steel structures</li><li>Machinery</li><li>Heavy equipment</li></ul>",
+      "content_zh": "<p>适用于结构件及高承载要求的高强度六角螺栓。</p><h2>应用场景</h2><ul><li>钢结构</li><li>机械设备</li><li>重型设备</li></ul>",
+      "category": "bolts",
+      "category_name": "Industrial Bolts",
+      "category_name_zh": "工业螺栓",
+      "asset": "",
+      "meta": {
+        "subtitle": "High-strength hex bolts for structural and demanding load applications.",
+        "subtitle_zh": "适用于结构件及高承载要求的高强度六角螺栓。",
+        "specifications": "Diameter: M8 – M30\nGrade: 8.8 / 10.9 / 12.9\nHead type: Hex",
+        "specifications_zh": "直径: M8 – M30\n强度等级: 8.8 / 10.9 / 12.9\n头型: 六角",
+        "applications": "Steel structures\nMachinery\nHeavy equipment",
+        "applications_zh": "钢结构\n机械设备\n重型设备",
+        "custom_manufacturing": "",
+        "diameter": "M8 – M30",
+        "grade": "8.8 / 10.9 / 12.9",
+        "head_type": "Hex"
+      }
+    },
+    {
+      "slug": "custom-large-bolts",
+      "title": "Extra-Large Custom Bolts",
+      "title_zh": "超大规格定制螺栓",
+      "excerpt": "Large-diameter custom bolts manufactured to customer drawing for heavy industrial applications.",
+      "excerpt_zh": "按客户图纸定制生产的大直径螺栓，适用于重工业应用。",
+      "content": "<p>Large-diameter custom bolts manufactured to customer drawing for heavy industrial applications.</p><h2>Applications</h2><ul><li>Heavy machinery</li><li>Infrastructure</li><li>Energy</li><li>Mining equipment</li></ul><p><strong>Custom / drawing-based manufacturing available.</strong></p>",
+      "content_zh": "<p>按客户图纸定制生产的大直径螺栓，适用于重工业应用。</p><h2>应用场景</h2><ul><li>重型机械</li><li>基础设施</li><li>能源</li><li>矿山设备</li></ul><p><strong>支持非标/来图定制加工。</strong></p>",
+      "category": "bolts",
+      "category_name": "Industrial Bolts",
+      "category_name_zh": "工业螺栓",
+      "asset": "large-bolts.jpg",
+      "meta": {
+        "subtitle": "Large-diameter custom bolts manufactured to customer drawing for heavy industrial applications.",
+        "subtitle_zh": "按客户图纸定制生产的大直径螺栓，适用于重工业应用。",
+        "specifications": "Diameter: M30 – M120\nBasis: Customer drawing / specification\nGrade: Contact us for details",
+        "specifications_zh": "直径: M30 – M120\n依据: 客户图纸/规格\n强度等级: 详情请联系我们",
+        "applications": "Heavy machinery\nInfrastructure\nEnergy\nMining equipment",
+        "applications_zh": "重型机械\n基础设施\n能源\n矿山设备",
+        "custom_manufacturing": "1",
+        "diameter": "M30 – M120",
+        "basis": "Customer drawing / specification",
+        "grade": "Contact us for details"
+      }
+    },
+    {
+      "slug": "flange-bolts",
+      "title": "Hex Flange Bolts",
+      "title_zh": "六角法兰螺栓",
+      "excerpt": "Integrated flange head bolts distributing load without a separate washer.",
+      "excerpt_zh": "带一体化法兰头的螺栓，无需额外垫圈即可分散载荷。",
+      "content": "<p>Integrated flange head bolts distributing load without a separate washer.</p><h2>Applications</h2><ul><li>Machinery</li><li>Vehicle and trailer assembly</li></ul>",
+      "content_zh": "<p>带一体化法兰头的螺栓，无需额外垫圈即可分散载荷。</p><h2>应用场景</h2><ul><li>机械设备</li><li>车辆与拖车装配</li></ul>",
+      "category": "bolts",
+      "category_name": "Industrial Bolts",
+      "category_name_zh": "工业螺栓",
+      "asset": "",
+      "meta": {
+        "subtitle": "Integrated flange head bolts distributing load without a separate washer.",
+        "subtitle_zh": "带一体化法兰头的螺栓，无需额外垫圈即可分散载荷。",
+        "specifications": "Diameter: M6 – M16\nHead type: Hex flange",
+        "specifications_zh": "直径: M6 – M16\n头型: 六角法兰",
+        "applications": "Machinery\nVehicle and trailer assembly",
+        "applications_zh": "机械设备\n车辆与拖车装配",
+        "custom_manufacturing": "",
+        "diameter": "M6 – M16",
+        "head_type": "Hex flange"
+      }
+    },
+    {
+      "slug": "socket-head-screws",
+      "title": "Socket Head Cap Screws",
+      "title_zh": "内六角圆柱头螺钉",
+      "excerpt": "Internal hex drive cap screws for compact, high-torque assemblies.",
+      "excerpt_zh": "内六角驱动的圆柱头螺钉，适用于紧凑、高扭矩装配。",
+      "content": "<p>Internal hex drive cap screws for compact, high-torque assemblies.</p><h2>Applications</h2><ul><li>Machinery</li><li>Tooling</li><li>Equipment manufacturing</li></ul>",
+      "content_zh": "<p>内六角驱动的圆柱头螺钉，适用于紧凑、高扭矩装配。</p><h2>应用场景</h2><ul><li>机械设备</li><li>工装工具</li><li>设备制造</li></ul>",
+      "category": "bolts",
+      "category_name": "Industrial Bolts",
+      "category_name_zh": "工业螺栓",
+      "asset": "",
+      "meta": {
+        "subtitle": "Internal hex drive cap screws for compact, high-torque assemblies.",
+        "subtitle_zh": "内六角驱动的圆柱头螺钉，适用于紧凑、高扭矩装配。",
+        "specifications": "Grade: 8.8 / 10.9 / 12.9\nDrive: Internal hex",
+        "specifications_zh": "强度等级: 8.8 / 10.9 / 12.9\n驱动方式: 内六角",
+        "applications": "Machinery\nTooling\nEquipment manufacturing",
+        "applications_zh": "机械设备\n工装工具\n设备制造",
+        "custom_manufacturing": "",
+        "grade": "8.8 / 10.9 / 12.9",
+        "drive": "Internal hex"
+      }
+    },
+    {
+      "slug": "countersunk-socket-screws",
+      "title": "Countersunk Socket Screws",
+      "title_zh": "内六角沉头螺钉",
+      "excerpt": "Flat head socket screws for flush-mounted assemblies.",
+      "excerpt_zh": "平头内六角螺钉，适用于齐平安装的装配。",
+      "content": "<p>Flat head socket screws for flush-mounted assemblies.</p><h2>Applications</h2><ul><li>Machinery</li><li>Panels and fixtures</li></ul>",
+      "content_zh": "<p>平头内六角螺钉，适用于齐平安装的装配。</p><h2>应用场景</h2><ul><li>机械设备</li><li>面板与夹具</li></ul>",
+      "category": "bolts",
+      "category_name": "Industrial Bolts",
+      "category_name_zh": "工业螺栓",
+      "asset": "",
+      "meta": {
+        "subtitle": "Flat head socket screws for flush-mounted assemblies.",
+        "subtitle_zh": "平头内六角螺钉，适用于齐平安装的装配。",
+        "specifications": "Diameter: M4 – M24\nHead type: Countersunk",
+        "specifications_zh": "直径: M4 – M24\n头型: 沉头",
+        "applications": "Machinery\nPanels and fixtures",
+        "applications_zh": "机械设备\n面板与夹具",
+        "custom_manufacturing": "",
+        "diameter": "M4 – M24",
+        "head_type": "Countersunk"
+      }
+    },
+    {
+      "slug": "tension-control-bolts",
+      "title": "Tension Control / Torshear Bolts",
+      "title_zh": "扭剪型高强度螺栓",
+      "excerpt": "Torshear type bolt assemblies for controlled structural bolting.",
+      "excerpt_zh": "扭剪型螺栓组件，用于可控结构连接。",
+      "content": "<p>Torshear type bolt assemblies for controlled structural bolting.</p><h2>Applications</h2><ul><li>Steel structures</li><li>Bridges</li><li>Towers</li></ul>",
+      "content_zh": "<p>扭剪型螺栓组件，用于可控结构连接。</p><h2>应用场景</h2><ul><li>钢结构</li><li>桥梁</li><li>塔架</li></ul>",
+      "category": "bolts",
+      "category_name": "Industrial Bolts",
+      "category_name_zh": "工业螺栓",
+      "asset": "",
+      "meta": {
+        "subtitle": "Torshear type bolt assemblies for controlled structural bolting.",
+        "subtitle_zh": "扭剪型螺栓组件，用于可控结构连接。",
+        "specifications": "Diameter: M16 – M24",
+        "specifications_zh": "直径: M16 – M24",
+        "applications": "Steel structures\nBridges\nTowers",
+        "applications_zh": "钢结构\n桥梁\n塔架",
+        "custom_manufacturing": "",
+        "diameter": "M16 – M24"
+      }
+    },
+    {
+      "slug": "special-shaped-bolts",
+      "title": "Special-Shaped Bolts",
+      "title_zh": "异形螺栓",
+      "excerpt": "T-slot bolts, eye bolts, articulated and lifting eye bolts, square-head and reverse-thread bolts.",
+      "excerpt_zh": "T型槽螺栓、吊环螺栓、活节吊环螺栓、方头螺栓及反牙螺栓。",
+      "content": "<p>T-slot bolts, eye bolts, articulated and lifting eye bolts, square-head and reverse-thread bolts.</p><h2>Applications</h2><ul><li>Lifting</li><li>Machine tooling</li><li>Special fixtures</li></ul><p><strong>Custom / drawing-based manufacturing available.</strong></p>",
+      "content_zh": "<p>T型槽螺栓、吊环螺栓、活节吊环螺栓、方头螺栓及反牙螺栓。</p><h2>应用场景</h2><ul><li>起重吊装</li><li>机床工装</li><li>专用夹具</li></ul><p><strong>支持非标/来图定制加工。</strong></p>",
+      "category": "bolts",
+      "category_name": "Industrial Bolts",
+      "category_name_zh": "工业螺栓",
+      "asset": "",
+      "meta": {
+        "subtitle": "T-slot bolts, eye bolts, articulated and lifting eye bolts, square-head and reverse-thread bolts.",
+        "subtitle_zh": "T型槽螺栓、吊环螺栓、活节吊环螺栓、方头螺栓及反牙螺栓。",
+        "specifications": "Basis: Standard range or customer drawing",
+        "specifications_zh": "依据: 标准系列或客户图纸",
+        "applications": "Lifting\nMachine tooling\nSpecial fixtures",
+        "applications_zh": "起重吊装\n机床工装\n专用夹具",
+        "custom_manufacturing": "1",
+        "basis": "Standard range or customer drawing"
+      }
+    },
+    {
+      "slug": "hex-nuts",
+      "title": "Hex Nuts",
+      "title_zh": "六角螺母",
+      "excerpt": "Standard hex nuts, coarse and fine thread variants where applicable.",
+      "excerpt_zh": "标准六角螺母，视需要提供粗牙和细牙螺纹规格。",
+      "content": "<p>Standard hex nuts, coarse and fine thread variants where applicable.</p><h2>Applications</h2><ul><li>General assembly</li><li>Construction</li><li>Machinery</li></ul>",
+      "content_zh": "<p>标准六角螺母，视需要提供粗牙和细牙螺纹规格。</p><h2>应用场景</h2><ul><li>通用装配</li><li>建筑工程</li><li>机械设备</li></ul>",
+      "category": "nuts",
+      "category_name": "Industrial Nuts",
+      "category_name_zh": "工业螺母",
+      "asset": "",
+      "meta": {
+        "subtitle": "Standard hex nuts, coarse and fine thread variants where applicable.",
+        "subtitle_zh": "标准六角螺母，视需要提供粗牙和细牙螺纹规格。",
+        "specifications": "Thread: Coarse / fine",
+        "specifications_zh": "螺纹: 粗牙/细牙",
+        "applications": "General assembly\nConstruction\nMachinery",
+        "applications_zh": "通用装配\n建筑工程\n机械设备",
+        "custom_manufacturing": "",
+        "thread": "Coarse / fine"
+      }
+    },
+    {
+      "slug": "flange-nuts",
+      "title": "Flange Nuts",
+      "title_zh": "法兰螺母",
+      "excerpt": "Flanged nuts with integrated bearing surface.",
+      "excerpt_zh": "带一体化承压面的法兰螺母。",
+      "content": "<p>Flanged nuts with integrated bearing surface.</p><h2>Applications</h2><ul><li>Machinery</li><li>Vehicle assembly</li></ul>",
+      "content_zh": "<p>带一体化承压面的法兰螺母。</p><h2>应用场景</h2><ul><li>机械设备</li><li>车辆装配</li></ul>",
+      "category": "nuts",
+      "category_name": "Industrial Nuts",
+      "category_name_zh": "工业螺母",
+      "asset": "",
+      "meta": {
+        "subtitle": "Flanged nuts with integrated bearing surface.",
+        "subtitle_zh": "带一体化承压面的法兰螺母。",
+        "specifications": "Type: Flange",
+        "specifications_zh": "类型: 法兰",
+        "applications": "Machinery\nVehicle assembly",
+        "applications_zh": "机械设备\n车辆装配",
+        "custom_manufacturing": "",
+        "type": "Flange"
+      }
+    },
+    {
+      "slug": "lock-nuts",
+      "title": "Nylon Lock Nuts & Slotted Self-Locking Nuts",
+      "title_zh": "尼龙锁紧螺母与开槽自锁螺母",
+      "excerpt": "Prevailing-torque and nylon insert locking nuts for vibration environments.",
+      "excerpt_zh": "适用于振动环境的预紧扭矩型及尼龙嵌件锁紧螺母。",
+      "content": "<p>Prevailing-torque and nylon insert locking nuts for vibration environments.</p><h2>Applications</h2><ul><li>Machinery</li><li>Transport equipment</li></ul>",
+      "content_zh": "<p>适用于振动环境的预紧扭矩型及尼龙嵌件锁紧螺母。</p><h2>应用场景</h2><ul><li>机械设备</li><li>运输设备</li></ul>",
+      "category": "nuts",
+      "category_name": "Industrial Nuts",
+      "category_name_zh": "工业螺母",
+      "asset": "",
+      "meta": {
+        "subtitle": "Prevailing-torque and nylon insert locking nuts for vibration environments.",
+        "subtitle_zh": "适用于振动环境的预紧扭矩型及尼龙嵌件锁紧螺母。",
+        "specifications": "Type: Nylon insert / slotted self-locking",
+        "specifications_zh": "类型: 尼龙嵌件/开槽自锁",
+        "applications": "Machinery\nTransport equipment",
+        "applications_zh": "机械设备\n运输设备",
+        "custom_manufacturing": "",
+        "type": "Nylon insert / slotted self-locking"
+      }
+    },
+    {
+      "slug": "heavy-nuts",
+      "title": "Thick / Heavy & Hot-Forged Nuts",
+      "title_zh": "厚型/重型及热锻螺母",
+      "excerpt": "Heavy pattern and hot-forged nuts for high-load structural connections.",
+      "excerpt_zh": "适用于高承载结构连接的重型和热锻螺母。",
+      "content": "<p>Heavy pattern and hot-forged nuts for high-load structural connections.</p><h2>Applications</h2><ul><li>Steel structures</li><li>Infrastructure</li><li>Towers</li></ul>",
+      "content_zh": "<p>适用于高承载结构连接的重型和热锻螺母。</p><h2>应用场景</h2><ul><li>钢结构</li><li>基础设施</li><li>塔架</li></ul>",
+      "category": "nuts",
+      "category_name": "Industrial Nuts",
+      "category_name_zh": "工业螺母",
+      "asset": "",
+      "meta": {
+        "subtitle": "Heavy pattern and hot-forged nuts for high-load structural connections.",
+        "subtitle_zh": "适用于高承载结构连接的重型和热锻螺母。",
+        "specifications": "Type: Heavy hex / hot forged",
+        "specifications_zh": "类型: 重型六角/热锻",
+        "applications": "Steel structures\nInfrastructure\nTowers",
+        "applications_zh": "钢结构\n基础设施\n塔架",
+        "custom_manufacturing": "",
+        "type": "Heavy hex / hot forged"
+      }
+    },
+    {
+      "slug": "weld-nuts",
+      "title": "Weld Nuts",
+      "title_zh": "焊接螺母",
+      "excerpt": "Weldable nuts for fabricated and OEM assemblies.",
+      "excerpt_zh": "适用于制造加工及OEM装配的可焊接螺母。",
+      "content": "<p>Weldable nuts for fabricated and OEM assemblies.</p><h2>Applications</h2><ul><li>Fabrication</li><li>OEM manufacturing</li></ul>",
+      "content_zh": "<p>适用于制造加工及OEM装配的可焊接螺母。</p><h2>应用场景</h2><ul><li>加工制造</li><li>OEM制造</li></ul>",
+      "category": "nuts",
+      "category_name": "Industrial Nuts",
+      "category_name_zh": "工业螺母",
+      "asset": "",
+      "meta": {
+        "subtitle": "Weldable nuts for fabricated and OEM assemblies.",
+        "subtitle_zh": "适用于制造加工及OEM装配的可焊接螺母。",
+        "specifications": "Type: Weld",
+        "specifications_zh": "类型: 焊接",
+        "applications": "Fabrication\nOEM manufacturing",
+        "applications_zh": "加工制造\nOEM制造",
+        "custom_manufacturing": "",
+        "type": "Weld"
+      }
+    },
+    {
+      "slug": "special-nuts",
+      "title": "Round, Wing, Cap, Slotted, Cylindrical & Anti-Theft Nuts",
+      "title_zh": "圆螺母、蝶形螺母、盖形螺母、开槽螺母、圆柱螺母及防盗螺母",
+      "excerpt": "Application-specific nut families available across the portfolio.",
+      "excerpt_zh": "涵盖多种应用场景的专用螺母系列。",
+      "content": "<p>Application-specific nut families available across the portfolio.</p><h2>Applications</h2><ul><li>Equipment</li><li>Fixtures</li><li>Security fastening</li></ul>",
+      "content_zh": "<p>涵盖多种应用场景的专用螺母系列。</p><h2>应用场景</h2><ul><li>设备</li><li>夹具</li><li>防护紧固</li></ul>",
+      "category": "nuts",
+      "category_name": "Industrial Nuts",
+      "category_name_zh": "工业螺母",
+      "asset": "",
+      "meta": {
+        "subtitle": "Application-specific nut families available across the portfolio.",
+        "subtitle_zh": "涵盖多种应用场景的专用螺母系列。",
+        "specifications": "Type: Multiple families",
+        "specifications_zh": "类型: 多种系列",
+        "applications": "Equipment\nFixtures\nSecurity fastening",
+        "applications_zh": "设备\n夹具\n防护紧固",
+        "custom_manufacturing": "",
+        "type": "Multiple families"
+      }
+    },
+    {
+      "slug": "solar-tower-nuts",
+      "title": "Solar / PV Nuts & Tower Nuts",
+      "title_zh": "光伏螺母与塔用螺母",
+      "excerpt": "Nuts supplied for photovoltaic mounting systems and tower structures.",
+      "excerpt_zh": "适用于光伏支架系统及塔架结构的螺母。",
+      "content": "<p>Nuts supplied for photovoltaic mounting systems and tower structures.</p><h2>Applications</h2><ul><li>Solar mounting</li><li>Towers</li></ul>",
+      "content_zh": "<p>适用于光伏支架系统及塔架结构的螺母。</p><h2>应用场景</h2><ul><li>光伏支架安装</li><li>塔架</li></ul>",
+      "category": "nuts",
+      "category_name": "Industrial Nuts",
+      "category_name_zh": "工业螺母",
+      "asset": "",
+      "meta": {
+        "subtitle": "Nuts supplied for photovoltaic mounting systems and tower structures.",
+        "subtitle_zh": "适用于光伏支架系统及塔架结构的螺母。",
+        "specifications": "Type: PV / tower",
+        "specifications_zh": "类型: 光伏/塔架",
+        "applications": "Solar mounting\nTowers",
+        "applications_zh": "光伏支架安装\n塔架",
+        "custom_manufacturing": "",
+        "type": "PV / tower"
+      }
+    },
+    {
+      "slug": "stud-bolts",
+      "title": "Double-End Studs",
+      "title_zh": "双头螺柱",
+      "excerpt": "Double-end stud bolts for flanged and bolted connections.",
+      "excerpt_zh": "用于法兰及螺栓连接的双头螺柱。",
+      "content": "<p>Double-end stud bolts for flanged and bolted connections.</p><h2>Applications</h2><ul><li>Flange connections</li><li>Machinery</li><li>Energy</li></ul>",
+      "content_zh": "<p>用于法兰及螺栓连接的双头螺柱。</p><h2>应用场景</h2><ul><li>法兰连接</li><li>机械设备</li><li>能源</li></ul>",
+      "category": "threaded-rods",
+      "category_name": "Threaded Rods & Stud Bolts",
+      "category_name_zh": "螺纹杆与双头螺柱",
+      "asset": "",
+      "meta": {
+        "subtitle": "Double-end stud bolts for flanged and bolted connections.",
+        "subtitle_zh": "用于法兰及螺栓连接的双头螺柱。",
+        "specifications": "Type: Double-end stud",
+        "specifications_zh": "类型: 双头螺柱",
+        "applications": "Flange connections\nMachinery\nEnergy",
+        "applications_zh": "法兰连接\n机械设备\n能源",
+        "custom_manufacturing": "",
+        "type": "Double-end stud"
+      }
+    },
+    {
+      "slug": "fully-threaded-rods",
+      "title": "Fully Threaded Rods",
+      "title_zh": "全螺纹杆",
+      "excerpt": "Fully threaded rod supplied in standard and cut-to-requirement lengths.",
+      "excerpt_zh": "提供标准长度及按需切割长度的全螺纹杆。",
+      "content": "<p>Fully threaded rod supplied in standard and cut-to-requirement lengths.</p><h2>Applications</h2><ul><li>Construction</li><li>Suspension systems</li><li>Anchoring</li></ul>",
+      "content_zh": "<p>提供标准长度及按需切割长度的全螺纹杆。</p><h2>应用场景</h2><ul><li>建筑工程</li><li>悬挂系统</li><li>锚固</li></ul>",
+      "category": "threaded-rods",
+      "category_name": "Threaded Rods & Stud Bolts",
+      "category_name_zh": "螺纹杆与双头螺柱",
+      "asset": "",
+      "meta": {
+        "subtitle": "Fully threaded rod supplied in standard and cut-to-requirement lengths.",
+        "subtitle_zh": "提供标准长度及按需切割长度的全螺纹杆。",
+        "specifications": "Type: Fully threaded",
+        "specifications_zh": "类型: 全螺纹",
+        "applications": "Construction\nSuspension systems\nAnchoring",
+        "applications_zh": "建筑工程\n悬挂系统\n锚固",
+        "custom_manufacturing": "",
+        "type": "Fully threaded"
+      }
+    },
+    {
+      "slug": "trapezoidal-thread-rods",
+      "title": "Trapezoidal Threaded Rods",
+      "title_zh": "梯形螺纹杆",
+      "excerpt": "Trapezoidal thread rods for motion and load transfer applications.",
+      "excerpt_zh": "适用于运动传动及载荷传递应用的梯形螺纹杆。",
+      "content": "<p>Trapezoidal thread rods for motion and load transfer applications.</p><h2>Applications</h2><ul><li>Machinery</li><li>Lifting equipment</li></ul><p><strong>Custom / drawing-based manufacturing available.</strong></p>",
+      "content_zh": "<p>适用于运动传动及载荷传递应用的梯形螺纹杆。</p><h2>应用场景</h2><ul><li>机械设备</li><li>起重设备</li></ul><p><strong>支持非标/来图定制加工。</strong></p>",
+      "category": "threaded-rods",
+      "category_name": "Threaded Rods & Stud Bolts",
+      "category_name_zh": "螺纹杆与双头螺柱",
+      "asset": "",
+      "meta": {
+        "subtitle": "Trapezoidal thread rods for motion and load transfer applications.",
+        "subtitle_zh": "适用于运动传动及载荷传递应用的梯形螺纹杆。",
+        "specifications": "Thread: Trapezoidal",
+        "specifications_zh": "螺纹: 梯形",
+        "applications": "Machinery\nLifting equipment",
+        "applications_zh": "机械设备\n起重设备",
+        "custom_manufacturing": "1",
+        "thread": "Trapezoidal"
+      }
+    },
+    {
+      "slug": "foundation-bolts",
+      "title": "Anchor Bolts / Foundation Bolts",
+      "title_zh": "地脚螺栓/基础螺栓",
+      "excerpt": "Embedded anchor and foundation bolts, standard shapes or to drawing.",
+      "excerpt_zh": "预埋地脚及基础螺栓，提供标准形状或按图定制。",
+      "content": "<p>Embedded anchor and foundation bolts, standard shapes or to drawing.</p><h2>Applications</h2><ul><li>Steel structures</li><li>Machinery foundations</li><li>Infrastructure</li></ul>",
+      "content_zh": "<p>预埋地脚及基础螺栓，提供标准形状或按图定制。</p><h2>应用场景</h2><ul><li>钢结构</li><li>机械基础</li><li>基础设施</li></ul>",
+      "category": "anchor-bolts",
+      "category_name": "Anchor & Foundation Fasteners",
+      "category_name_zh": "地脚与基础紧固件",
+      "asset": "",
+      "meta": {
+        "subtitle": "Embedded anchor and foundation bolts, standard shapes or to drawing.",
+        "subtitle_zh": "预埋地脚及基础螺栓，提供标准形状或按图定制。",
+        "specifications": "Basis: Standard shapes or customer drawing",
+        "specifications_zh": "依据: Standard shapes or customer drawing",
+        "applications": "Steel structures\nMachinery foundations\nInfrastructure",
+        "applications_zh": "钢结构\n机械基础\n基础设施",
+        "custom_manufacturing": "",
+        "basis": "Standard shapes or customer drawing"
+      }
+    },
+    {
+      "slug": "u-bolts",
+      "title": "U-Bolts",
+      "title_zh": "U型螺栓",
+      "excerpt": "U-shaped clamping bolts for pipe, tube and structural fixing.",
+      "excerpt_zh": "用于管道、管材及结构固定的U型夹紧螺栓。",
+      "content": "<p>U-shaped clamping bolts for pipe, tube and structural fixing.</p><h2>Applications</h2><ul><li>Piping</li><li>Transport</li><li>Construction</li></ul>",
+      "content_zh": "<p>用于管道、管材及结构固定的U型夹紧螺栓。</p><h2>应用场景</h2><ul><li>管道</li><li>运输</li><li>建筑工程</li></ul>",
+      "category": "anchor-bolts",
+      "category_name": "Anchor & Foundation Fasteners",
+      "category_name_zh": "地脚与基础紧固件",
+      "asset": "",
+      "meta": {
+        "subtitle": "U-shaped clamping bolts for pipe, tube and structural fixing.",
+        "subtitle_zh": "用于管道、管材及结构固定的U型夹紧螺栓。",
+        "specifications": "Type: U-bolt",
+        "specifications_zh": "类型: U型螺栓",
+        "applications": "Piping\nTransport\nConstruction",
+        "applications_zh": "管道\n运输\n建筑工程",
+        "custom_manufacturing": "",
+        "type": "U-bolt"
+      }
+    },
+    {
+      "slug": "washers",
+      "title": "Washers, Spring Washers & Special Washers",
+      "title_zh": "平垫圈、弹簧垫圈及特殊垫圈",
+      "excerpt": "Flat, spring and special washers supplied with bolt assemblies.",
+      "excerpt_zh": "配套螺栓组件供应的平垫圈、弹簧垫圈及特殊垫圈。",
+      "content": "<p>Flat, spring and special washers supplied with bolt assemblies.</p><h2>Applications</h2><ul><li>All bolted connections</li></ul>",
+      "content_zh": "<p>配套螺栓组件供应的平垫圈、弹簧垫圈及特殊垫圈。</p><h2>应用场景</h2><ul><li>所有螺栓连接</li></ul>",
+      "category": "anchor-bolts",
+      "category_name": "Anchor & Foundation Fasteners",
+      "category_name_zh": "地脚与基础紧固件",
+      "asset": "",
+      "meta": {
+        "subtitle": "Flat, spring and special washers supplied with bolt assemblies.",
+        "subtitle_zh": "配套螺栓组件供应的平垫圈、弹簧垫圈及特殊垫圈。",
+        "specifications": "Type: Flat / spring / special",
+        "specifications_zh": "类型: 平垫/弹簧/特殊",
+        "applications": "All bolted connections",
+        "applications_zh": "所有螺栓连接",
+        "custom_manufacturing": "",
+        "type": "Flat / spring / special"
+      }
+    },
+    {
+      "slug": "external-expansion-bolts",
+      "title": "External Expansion Bolts",
+      "title_zh": "外露式膨胀螺栓",
+      "excerpt": "Through-bolt style expansion anchors.",
+      "excerpt_zh": "穿孔式膨胀锚栓。",
+      "content": "<p>Through-bolt style expansion anchors.</p><h2>Applications</h2><ul><li>Construction</li><li>Equipment mounting</li></ul>",
+      "content_zh": "<p>穿孔式膨胀锚栓。</p><h2>应用场景</h2><ul><li>建筑工程</li><li>设备安装</li></ul>",
+      "category": "expansion-anchors",
+      "category_name": "Expansion & Anchoring Systems",
+      "category_name_zh": "膨胀与锚固系统",
+      "asset": "",
+      "meta": {
+        "subtitle": "Through-bolt style expansion anchors.",
+        "subtitle_zh": "穿孔式膨胀锚栓。",
+        "specifications": "Type: External expansion",
+        "specifications_zh": "类型: 外露式膨胀",
+        "applications": "Construction\nEquipment mounting",
+        "applications_zh": "建筑工程\n设备安装",
+        "custom_manufacturing": "",
+        "type": "External expansion"
+      }
+    },
+    {
+      "slug": "internal-expansion-anchors",
+      "title": "Internal & Countersunk Expansion Anchors",
+      "title_zh": "内胀式及沉头膨胀锚栓",
+      "excerpt": "Internally set anchors including countersunk versions.",
+      "excerpt_zh": "内置式锚栓，含沉头款式。",
+      "content": "<p>Internally set anchors including countersunk versions.</p><h2>Applications</h2><ul><li>Concrete fixing</li><li>Interior structures</li></ul>",
+      "content_zh": "<p>内置式锚栓，含沉头款式。</p><h2>应用场景</h2><ul><li>混凝土固定</li><li>室内结构</li></ul>",
+      "category": "expansion-anchors",
+      "category_name": "Expansion & Anchoring Systems",
+      "category_name_zh": "膨胀与锚固系统",
+      "asset": "",
+      "meta": {
+        "subtitle": "Internally set anchors including countersunk versions.",
+        "subtitle_zh": "内置式锚栓，含沉头款式。",
+        "specifications": "Type: Internal / countersunk",
+        "specifications_zh": "类型: 内置式/沉头",
+        "applications": "Concrete fixing\nInterior structures",
+        "applications_zh": "混凝土固定\n室内结构",
+        "custom_manufacturing": "",
+        "type": "Internal / countersunk"
+      }
+    },
+    {
+      "slug": "chemical-anchors",
+      "title": "Chemical Anchors",
+      "title_zh": "化学锚栓",
+      "excerpt": "Chemically bonded anchoring components.",
+      "excerpt_zh": "化学粘结式锚固组件。",
+      "content": "<p>Chemically bonded anchoring components.</p><h2>Applications</h2><ul><li>Concrete</li><li>Retrofit anchoring</li></ul>",
+      "content_zh": "<p>化学粘结式锚固组件。</p><h2>应用场景</h2><ul><li>混凝土</li><li>改造加固锚固</li></ul>",
+      "category": "expansion-anchors",
+      "category_name": "Expansion & Anchoring Systems",
+      "category_name_zh": "膨胀与锚固系统",
+      "asset": "",
+      "meta": {
+        "subtitle": "Chemically bonded anchoring components.",
+        "subtitle_zh": "化学粘结式锚固组件。",
+        "specifications": "Type: Chemical",
+        "specifications_zh": "类型: 化学",
+        "applications": "Concrete\nRetrofit anchoring",
+        "applications_zh": "混凝土\n改造加固锚固",
+        "custom_manufacturing": "",
+        "type": "Chemical"
+      }
+    },
+    {
+      "slug": "sleeve-wedge-anchors",
+      "title": "Sleeve & Wedge / Heavy-Duty Anchors",
+      "title_zh": "套筒锚栓/楔形及重型锚栓",
+      "excerpt": "Sleeve, wedge and heavy-duty anchoring fasteners.",
+      "excerpt_zh": "套筒式、楔形及重型锚固紧固件。",
+      "content": "<p>Sleeve, wedge and heavy-duty anchoring fasteners.</p><h2>Applications</h2><ul><li>Structural fixing</li><li>Machinery bases</li></ul>",
+      "content_zh": "<p>套筒式、楔形及重型锚固紧固件。</p><h2>应用场景</h2><ul><li>结构固定</li><li>机械底座</li></ul>",
+      "category": "expansion-anchors",
+      "category_name": "Expansion & Anchoring Systems",
+      "category_name_zh": "膨胀与锚固系统",
+      "asset": "",
+      "meta": {
+        "subtitle": "Sleeve, wedge and heavy-duty anchoring fasteners.",
+        "subtitle_zh": "套筒式、楔形及重型锚固紧固件。",
+        "specifications": "Type: Sleeve / wedge / heavy duty",
+        "specifications_zh": "类型: 套筒/楔形/重型",
+        "applications": "Structural fixing\nMachinery bases",
+        "applications_zh": "结构固定\n机械底座",
+        "custom_manufacturing": "",
+        "type": "Sleeve / wedge / heavy duty"
+      }
+    },
+    {
+      "slug": "hex-self-drilling-screws",
+      "title": "Hex Self-Drilling Screws",
+      "title_zh": "六角自钻螺钉",
+      "excerpt": "Hex washer head self-drilling screws.",
+      "excerpt_zh": "六角法兰头自钻螺钉。",
+      "content": "<p>Hex washer head self-drilling screws.</p><h2>Applications</h2><ul><li>Roofing</li><li>Steel sheet</li><li>Cladding</li></ul>",
+      "content_zh": "<p>六角法兰头自钻螺钉。</p><h2>应用场景</h2><ul><li>屋面</li><li>钢板</li><li>外墙覆板</li></ul>",
+      "category": "self-drilling-screws",
+      "category_name": "Self-Drilling & Self-Tapping Fasteners",
+      "category_name_zh": "自钻与自攻紧固件",
+      "asset": "",
+      "meta": {
+        "subtitle": "Hex washer head self-drilling screws.",
+        "subtitle_zh": "六角法兰头自钻螺钉。",
+        "specifications": "Head type: Hex washer",
+        "specifications_zh": "头型: 六角法兰头",
+        "applications": "Roofing\nSteel sheet\nCladding",
+        "applications_zh": "屋面\n钢板\n外墙覆板",
+        "custom_manufacturing": "",
+        "head_type": "Hex washer"
+      }
+    },
+    {
+      "slug": "stainless-self-drilling-screws",
+      "title": "Stainless Steel Self-Drilling Screws",
+      "title_zh": "不锈钢自钻螺钉",
+      "excerpt": "Stainless self-drilling screws for corrosion-exposed assemblies.",
+      "excerpt_zh": "适用于易腐蚀环境装配的不锈钢自钻螺钉。",
+      "content": "<p>Stainless self-drilling screws for corrosion-exposed assemblies.</p><h2>Applications</h2><ul><li>Outdoor structures</li><li>Solar</li><li>Coastal projects</li></ul>",
+      "content_zh": "<p>适用于易腐蚀环境装配的不锈钢自钻螺钉。</p><h2>应用场景</h2><ul><li>户外结构</li><li>太阳能光伏</li><li>沿海项目</li></ul>",
+      "category": "self-drilling-screws",
+      "category_name": "Self-Drilling & Self-Tapping Fasteners",
+      "category_name_zh": "自钻与自攻紧固件",
+      "asset": "",
+      "meta": {
+        "subtitle": "Stainless self-drilling screws for corrosion-exposed assemblies.",
+        "subtitle_zh": "适用于易腐蚀环境装配的不锈钢自钻螺钉。",
+        "specifications": "Material: Stainless steel",
+        "specifications_zh": "材质: 不锈钢",
+        "applications": "Outdoor structures\nSolar\nCoastal projects",
+        "applications_zh": "户外结构\n太阳能光伏\n沿海项目",
+        "custom_manufacturing": "",
+        "material": "Stainless steel"
+      }
+    },
+    {
+      "slug": "self-tapping-screws",
+      "title": "Self-Tapping & Countersunk Self-Tapping Screws",
+      "title_zh": "自攻螺钉与沉头自攻螺钉",
+      "excerpt": "Self-tapping screws in multiple head types.",
+      "excerpt_zh": "多种头型的自攻螺钉。",
+      "content": "<p>Self-tapping screws in multiple head types.</p><h2>Applications</h2><ul><li>Sheet metal</li><li>Assembly</li></ul>",
+      "content_zh": "<p>多种头型的自攻螺钉。</p><h2>应用场景</h2><ul><li>金属板材</li><li>装配</li></ul>",
+      "category": "self-drilling-screws",
+      "category_name": "Self-Drilling & Self-Tapping Fasteners",
+      "category_name_zh": "自钻与自攻紧固件",
+      "asset": "",
+      "meta": {
+        "subtitle": "Self-tapping screws in multiple head types.",
+        "subtitle_zh": "多种头型的自攻螺钉。",
+        "specifications": "Head type: Multiple",
+        "specifications_zh": "头型: 多种",
+        "applications": "Sheet metal\nAssembly",
+        "applications_zh": "金属板材\n装配",
+        "custom_manufacturing": "",
+        "head_type": "Multiple"
+      }
+    },
+    {
+      "slug": "drywall-fiberboard-screws",
+      "title": "Drywall & Fiberboard Screws",
+      "title_zh": "石膏板与纤维板螺钉",
+      "excerpt": "Board fixing screws for interior construction.",
+      "excerpt_zh": "用于室内装修的板材固定螺钉。",
+      "content": "<p>Board fixing screws for interior construction.</p><h2>Applications</h2><ul><li>Interior construction</li><li>Board systems</li></ul>",
+      "content_zh": "<p>用于室内装修的板材固定螺钉。</p><h2>应用场景</h2><ul><li>室内装修</li><li>板材系统</li></ul>",
+      "category": "self-drilling-screws",
+      "category_name": "Self-Drilling & Self-Tapping Fasteners",
+      "category_name_zh": "自钻与自攻紧固件",
+      "asset": "",
+      "meta": {
+        "subtitle": "Board fixing screws for interior construction.",
+        "subtitle_zh": "用于室内装修的板材固定螺钉。",
+        "specifications": "Type: Drywall / fiberboard",
+        "specifications_zh": "类型: 石膏板/纤维板",
+        "applications": "Interior construction\nBoard systems",
+        "applications_zh": "室内装修\n板材系统",
+        "custom_manufacturing": "",
+        "type": "Drywall / fiberboard"
+      }
+    },
+    {
+      "slug": "pins",
+      "title": "Cylindrical, Taper, Cotter & Locating Pins",
+      "title_zh": "圆柱销、锥销、开口销及定位销",
+      "excerpt": "Pin families for positioning and securing components.",
+      "excerpt_zh": "用于零件定位及固定的各类销。",
+      "content": "<p>Pin families for positioning and securing components.</p><h2>Applications</h2><ul><li>Machinery</li><li>Equipment assembly</li></ul>",
+      "content_zh": "<p>用于零件定位及固定的各类销。</p><h2>应用场景</h2><ul><li>机械设备</li><li>设备装配</li></ul>",
+      "category": "pins-rivets",
+      "category_name": "Pins, Rivets & Retaining Components",
+      "category_name_zh": "销、铆钉与挡圈组件",
+      "asset": "",
+      "meta": {
+        "subtitle": "Pin families for positioning and securing components.",
+        "subtitle_zh": "用于零件定位及固定的各类销。",
+        "specifications": "Type: Cylindrical / taper / cotter / locating",
+        "specifications_zh": "类型: 圆柱销/锥销/开口销/定位销",
+        "applications": "Machinery\nEquipment assembly",
+        "applications_zh": "机械设备\n设备装配",
+        "custom_manufacturing": "",
+        "type": "Cylindrical / taper / cotter / locating"
+      }
+    },
+    {
+      "slug": "rivets",
+      "title": "Round-Head & Blind Rivets",
+      "title_zh": "圆头铆钉与抽芯铆钉",
+      "excerpt": "Solid and blind rivets for permanent joints.",
+      "excerpt_zh": "用于永久连接的实心铆钉及抽芯铆钉。",
+      "content": "<p>Solid and blind rivets for permanent joints.</p><h2>Applications</h2><ul><li>Fabrication</li><li>Sheet assembly</li></ul>",
+      "content_zh": "<p>用于永久连接的实心铆钉及抽芯铆钉。</p><h2>应用场景</h2><ul><li>加工制造</li><li>板材装配</li></ul>",
+      "category": "pins-rivets",
+      "category_name": "Pins, Rivets & Retaining Components",
+      "category_name_zh": "销、铆钉与挡圈组件",
+      "asset": "",
+      "meta": {
+        "subtitle": "Solid and blind rivets for permanent joints.",
+        "subtitle_zh": "用于永久连接的实心铆钉及抽芯铆钉。",
+        "specifications": "Type: Round head / blind",
+        "specifications_zh": "类型: 圆头/抽芯",
+        "applications": "Fabrication\nSheet assembly",
+        "applications_zh": "加工制造\n板材装配",
+        "custom_manufacturing": "",
+        "type": "Round head / blind"
+      }
+    },
+    {
+      "slug": "welding-studs",
+      "title": "Structural Welding Studs",
+      "title_zh": "结构焊钉",
+      "excerpt": "Shear connector style welding studs for structural work.",
+      "excerpt_zh": "用于结构工程的剪力钉式焊钉。",
+      "content": "<p>Shear connector style welding studs for structural work.</p><h2>Applications</h2><ul><li>Steel structures</li><li>Composite decks</li></ul>",
+      "content_zh": "<p>用于结构工程的剪力钉式焊钉。</p><h2>应用场景</h2><ul><li>钢结构</li><li>组合楼板</li></ul>",
+      "category": "pins-rivets",
+      "category_name": "Pins, Rivets & Retaining Components",
+      "category_name_zh": "销、铆钉与挡圈组件",
+      "asset": "",
+      "meta": {
+        "subtitle": "Shear connector style welding studs for structural work.",
+        "subtitle_zh": "用于结构工程的剪力钉式焊钉。",
+        "specifications": "Type: Welding stud",
+        "specifications_zh": "类型: 焊钉",
+        "applications": "Steel structures\nComposite decks",
+        "applications_zh": "钢结构\n组合楼板",
+        "custom_manufacturing": "",
+        "type": "Welding stud"
+      }
+    },
+    {
+      "slug": "retaining-rings",
+      "title": "Shaft & Internal Retaining Rings / Circlips",
+      "title_zh": "轴用及孔用挡圈/卡簧",
+      "excerpt": "External and internal retaining rings.",
+      "excerpt_zh": "轴用（外部）及孔用（内部）挡圈。",
+      "content": "<p>External and internal retaining rings.</p><h2>Applications</h2><ul><li>Machinery</li><li>Drive assemblies</li></ul>",
+      "content_zh": "<p>轴用（外部）及孔用（内部）挡圈。</p><h2>应用场景</h2><ul><li>机械设备</li><li>传动装置</li></ul>",
+      "category": "pins-rivets",
+      "category_name": "Pins, Rivets & Retaining Components",
+      "category_name_zh": "销、铆钉与挡圈组件",
+      "asset": "",
+      "meta": {
+        "subtitle": "External and internal retaining rings.",
+        "subtitle_zh": "轴用（外部）及孔用（内部）挡圈。",
+        "specifications": "Type: External / internal",
+        "specifications_zh": "类型: 轴用/孔用",
+        "applications": "Machinery\nDrive assemblies",
+        "applications_zh": "机械设备\n传动装置",
+        "custom_manufacturing": "",
+        "type": "External / internal"
+      }
+    },
+    {
+      "slug": "pv-bolts-nuts",
+      "title": "PV Bolts & Nuts",
+      "title_zh": "光伏专用螺栓螺母",
+      "excerpt": "Bolt and nut components for photovoltaic mounting structures.",
+      "excerpt_zh": "用于光伏支架结构的螺栓螺母组件。",
+      "content": "<p>Bolt and nut components for photovoltaic mounting structures.</p><h2>Applications</h2><ul><li>Solar mounting</li><li>EPC projects</li></ul>",
+      "content_zh": "<p>用于光伏支架结构的螺栓螺母组件。</p><h2>应用场景</h2><ul><li>光伏支架安装</li><li>EPC工程项目</li></ul>",
+      "category": "solar-fasteners",
+      "category_name": "Solar & Photovoltaic Fasteners",
+      "category_name_zh": "光伏太阳能紧固件",
+      "asset": "solar-fasteners.jpg",
+      "meta": {
+        "subtitle": "Bolt and nut components for photovoltaic mounting structures.",
+        "subtitle_zh": "用于光伏支架结构的螺栓螺母组件。",
+        "specifications": "Application: PV mounting",
+        "specifications_zh": "应用: 光伏支架安装",
+        "applications": "Solar mounting\nEPC projects",
+        "applications_zh": "光伏支架安装\nEPC工程项目",
+        "custom_manufacturing": "",
+        "application": "PV mounting"
+      }
+    },
+    {
+      "slug": "pressure-block-bolts",
+      "title": "Pressure Block Bolts",
+      "title_zh": "压块螺栓",
+      "excerpt": "Module pressure block bolt sets.",
+      "excerpt_zh": "组件压块螺栓套件。",
+      "content": "<p>Module pressure block bolt sets.</p><h2>Applications</h2><ul><li>Solar mounting</li></ul>",
+      "content_zh": "<p>组件压块螺栓套件。</p><h2>应用场景</h2><ul><li>光伏支架安装</li></ul>",
+      "category": "solar-fasteners",
+      "category_name": "Solar & Photovoltaic Fasteners",
+      "category_name_zh": "光伏太阳能紧固件",
+      "asset": "solar-fasteners.jpg",
+      "meta": {
+        "subtitle": "Module pressure block bolt sets.",
+        "subtitle_zh": "组件压块螺栓套件。",
+        "specifications": "Application: Module clamping",
+        "specifications_zh": "应用: 组件压紧",
+        "applications": "Solar mounting",
+        "applications_zh": "光伏支架安装",
+        "custom_manufacturing": "",
+        "application": "Module clamping"
+      }
+    },
+    {
+      "slug": "c-channel-bolts",
+      "title": "C-Channel Matching Bolts",
+      "title_zh": "C型钢配套螺栓",
+      "excerpt": "Bolts matched to C-channel mounting profiles.",
+      "excerpt_zh": "与C型钢安装型材配套的螺栓。",
+      "content": "<p>Bolts matched to C-channel mounting profiles.</p><h2>Applications</h2><ul><li>Solar structures</li></ul>",
+      "content_zh": "<p>与C型钢安装型材配套的螺栓。</p><h2>应用场景</h2><ul><li>光伏支架结构</li></ul>",
+      "category": "solar-fasteners",
+      "category_name": "Solar & Photovoltaic Fasteners",
+      "category_name_zh": "光伏太阳能紧固件",
+      "asset": "solar-fasteners.jpg",
+      "meta": {
+        "subtitle": "Bolts matched to C-channel mounting profiles.",
+        "subtitle_zh": "与C型钢安装型材配套的螺栓。",
+        "specifications": "Application: C-channel profiles",
+        "specifications_zh": "应用: C型钢型材",
+        "applications": "Solar structures",
+        "applications_zh": "光伏支架结构",
+        "custom_manufacturing": "",
+        "application": "C-channel profiles"
+      }
+    },
+    {
+      "slug": "solar-support-components",
+      "title": "Support Brace Rods & Seismic Support Accessories",
+      "title_zh": "支撑拉杆与抗震支架配件",
+      "excerpt": "Bracing rods and seismic support accessory components.",
+      "excerpt_zh": "支撑拉杆及抗震支撑配件组件。",
+      "content": "<p>Bracing rods and seismic support accessory components.</p><h2>Applications</h2><ul><li>Solar structures</li><li>Building services</li></ul>",
+      "content_zh": "<p>支撑拉杆及抗震支撑配件组件。</p><h2>应用场景</h2><ul><li>光伏支架结构</li><li>建筑机电设施</li></ul>",
+      "category": "solar-fasteners",
+      "category_name": "Solar & Photovoltaic Fasteners",
+      "category_name_zh": "光伏太阳能紧固件",
+      "asset": "solar-fasteners.jpg",
+      "meta": {
+        "subtitle": "Bracing rods and seismic support accessory components.",
+        "subtitle_zh": "支撑拉杆及抗震支撑配件组件。",
+        "specifications": "Type: Support / bracing",
+        "specifications_zh": "类型: 支撑/拉撑",
+        "applications": "Solar structures\nBuilding services",
+        "applications_zh": "光伏支架结构\n建筑机电设施",
+        "custom_manufacturing": "",
+        "type": "Support / bracing"
+      }
+    },
+    {
+      "slug": "clamps-connectors-hooks",
+      "title": "Clamps, Triangle Connectors & Tile Hooks",
+      "title_zh": "压块、三角连接件与瓦钩",
+      "excerpt": "Connection hardware for rooftop and ground-mount systems.",
+      "excerpt_zh": "适用于屋顶及地面光伏系统的连接五金件。",
+      "content": "<p>Connection hardware for rooftop and ground-mount systems.</p><h2>Applications</h2><ul><li>Rooftop PV</li><li>Ground mount PV</li></ul>",
+      "content_zh": "<p>适用于屋顶及地面光伏系统的连接五金件。</p><h2>应用场景</h2><ul><li>屋顶光伏</li><li>地面光伏</li></ul>",
+      "category": "solar-fasteners",
+      "category_name": "Solar & Photovoltaic Fasteners",
+      "category_name_zh": "光伏太阳能紧固件",
+      "asset": "solar-fasteners.jpg",
+      "meta": {
+        "subtitle": "Connection hardware for rooftop and ground-mount systems.",
+        "subtitle_zh": "适用于屋顶及地面光伏系统的连接五金件。",
+        "specifications": "Type: Clamp / connector / hook",
+        "specifications_zh": "类型: 压块/连接件/挂钩",
+        "applications": "Rooftop PV\nGround mount PV",
+        "applications_zh": "屋顶光伏\n地面光伏",
+        "custom_manufacturing": "",
+        "type": "Clamp / connector / hook"
+      }
+    },
+    {
+      "slug": "custom-special-shaped-bolts",
+      "title": "Custom Special-Shaped Bolts",
+      "title_zh": "定制异形螺栓",
+      "excerpt": "Non-standard geometries manufactured to customer drawing.",
+      "excerpt_zh": "按客户图纸生产的非标形状螺栓。",
+      "content": "<p>Non-standard geometries manufactured to customer drawing.</p><h2>Applications</h2><ul><li>OEM</li><li>Machinery</li><li>Special equipment</li></ul><p><strong>Custom / drawing-based manufacturing available.</strong></p>",
+      "content_zh": "<p>按客户图纸生产的非标形状螺栓。</p><h2>应用场景</h2><ul><li>OEM</li><li>机械设备</li><li>特种设备</li></ul><p><strong>支持非标/来图定制加工。</strong></p>",
+      "category": "custom-fasteners",
+      "category_name": "Custom & Non-Standard Fasteners",
+      "category_name_zh": "定制与非标紧固件",
+      "asset": "custom-drawing.jpg",
+      "meta": {
+        "subtitle": "Non-standard geometries manufactured to customer drawing.",
+        "subtitle_zh": "按客户图纸生产的非标形状螺栓。",
+        "specifications": "Basis: Customer drawing",
+        "specifications_zh": "依据: 客户图纸",
+        "applications": "OEM\nMachinery\nSpecial equipment",
+        "applications_zh": "OEM\n机械设备\n特种设备",
+        "custom_manufacturing": "1",
+        "basis": "Customer drawing"
+      }
+    },
+    {
+      "slug": "oversized-components",
+      "title": "Oversized & Extra-Long Components",
+      "title_zh": "超大规格及超长零件",
+      "excerpt": "Components beyond standard catalogue dimensions.",
+      "excerpt_zh": "超出标准目录规格范围的零件。",
+      "content": "<p>Components beyond standard catalogue dimensions.</p><h2>Applications</h2><ul><li>Heavy industry</li><li>Infrastructure</li><li>Energy</li></ul><p><strong>Custom / drawing-based manufacturing available.</strong></p>",
+      "content_zh": "<p>超出标准目录规格范围的零件。</p><h2>应用场景</h2><ul><li>重工业</li><li>基础设施</li><li>能源</li></ul><p><strong>支持非标/来图定制加工。</strong></p>",
+      "category": "custom-fasteners",
+      "category_name": "Custom & Non-Standard Fasteners",
+      "category_name_zh": "定制与非标紧固件",
+      "asset": "custom-drawing.jpg",
+      "meta": {
+        "subtitle": "Components beyond standard catalogue dimensions.",
+        "subtitle_zh": "超出标准目录规格范围的零件。",
+        "specifications": "Diameter: Custom bolts M30 – M120",
+        "specifications_zh": "直径: 定制螺栓 M30 – M120",
+        "applications": "Heavy industry\nInfrastructure\nEnergy",
+        "applications_zh": "重工业\n基础设施\n能源",
+        "custom_manufacturing": "1",
+        "diameter": "Custom bolts M30 – M120"
+      }
+    },
+    {
+      "slug": "reverse-thread-fasteners",
+      "title": "Reverse-Thread Screws",
+      "title_zh": "反牙螺钉",
+      "excerpt": "Left-hand thread fasteners for specific mechanical requirements.",
+      "excerpt_zh": "满足特定机械需求的左旋螺纹紧固件。",
+      "content": "<p>Left-hand thread fasteners for specific mechanical requirements.</p><h2>Applications</h2><ul><li>Machinery</li><li>Rotating assemblies</li></ul><p><strong>Custom / drawing-based manufacturing available.</strong></p>",
+      "content_zh": "<p>满足特定机械需求的左旋螺纹紧固件。</p><h2>应用场景</h2><ul><li>机械设备</li><li>旋转装置</li></ul><p><strong>支持非标/来图定制加工。</strong></p>",
+      "category": "custom-fasteners",
+      "category_name": "Custom & Non-Standard Fasteners",
+      "category_name_zh": "定制与非标紧固件",
+      "asset": "custom-drawing.jpg",
+      "meta": {
+        "subtitle": "Left-hand thread fasteners for specific mechanical requirements.",
+        "subtitle_zh": "满足特定机械需求的左旋螺纹紧固件。",
+        "specifications": "Thread: Left-hand / reverse",
+        "specifications_zh": "螺纹: 左旋/反牙",
+        "applications": "Machinery\nRotating assemblies",
+        "applications_zh": "机械设备\n旋转装置",
+        "custom_manufacturing": "1",
+        "thread": "Left-hand / reverse"
+      }
+    },
+    {
+      "slug": "drawing-based-fasteners",
+      "title": "Drawing-Based Custom Components",
+      "title_zh": "来图定制零件",
+      "excerpt": "Send a drawing, sample or specification for technical and commercial review.",
+      "excerpt_zh": "提交图纸、样品或规格以进行技术与商务评审。",
+      "content": "<p>Send a drawing, sample or specification for technical and commercial review.</p><h2>Applications</h2><ul><li>All industrial sectors</li></ul><p><strong>Custom / drawing-based manufacturing available.</strong></p>",
+      "content_zh": "<p>提交图纸、样品或规格以进行技术与商务评审。</p><h2>应用场景</h2><ul><li>所有工业领域</li></ul><p><strong>支持非标/来图定制加工。</strong></p>",
+      "category": "custom-fasteners",
+      "category_name": "Custom & Non-Standard Fasteners",
+      "category_name_zh": "定制与非标紧固件",
+      "asset": "custom-drawing.jpg",
+      "meta": {
+        "subtitle": "Send a drawing, sample or specification for technical and commercial review.",
+        "subtitle_zh": "提交图纸、样品或规格以进行技术与商务评审。",
+        "specifications": "Input: PDF / DWG / DXF / STEP / sample",
+        "specifications_zh": "输入方式: PDF/DWG/DXF/STEP/样品",
+        "applications": "All industrial sectors",
+        "applications_zh": "所有工业领域",
+        "custom_manufacturing": "1",
+        "input": "PDF / DWG / DXF / STEP / sample"
+      }
+    }
+  ],
+  "industries": [
+    {
+      "slug": "construction",
+      "name": "Construction",
+      "headline": "Construction Fasteners & Anchoring",
+      "description": "Anchoring and structural fastening components for building, civil and site works.",
+      "products": [
+        "Anchor bolts",
+        "Foundation bolts",
+        "Expansion bolts",
+        "Chemical anchors",
+        "Sleeve anchors",
+        "U-bolts",
+        "Washers"
+      ],
+      "cta": "Request Construction Quote",
+      "name_zh": "建筑工程",
+      "headline_zh": "建筑紧固与锚固",
+      "description_zh": "用于建筑、土木及现场施工的锚固与结构紧固组件。",
+      "products_zh": [
+        "地脚螺栓",
+        "基础螺栓",
+        "膨胀螺栓",
+        "化学锚栓",
+        "套筒锚栓",
+        "U型螺栓",
+        "垫圈"
+      ],
+      "cta_zh": "获取建筑项目报价"
+    },
+    {
+      "slug": "steel-structures",
+      "name": "Steel Structures",
+      "headline": "Fasteners for Steel Structures",
+      "description": "High-strength and structural fastening components for fabricated steel construction.",
+      "products": [
+        "High-strength bolts",
+        "Tension control bolts",
+        "Heavy nuts",
+        "Washers",
+        "Anchor bolts",
+        "Welding studs"
+      ],
+      "cta": "Request Structural Fastener Quote",
+      "name_zh": "钢结构",
+      "headline_zh": "钢结构用紧固件",
+      "description_zh": "用于钢结构制造的高强度结构紧固组件。",
+      "products_zh": [
+        "高强度螺栓",
+        "扭剪型高强度螺栓",
+        "重型螺母",
+        "垫圈",
+        "地脚螺栓",
+        "焊钉"
+      ],
+      "cta_zh": "获取结构紧固件报价"
+    },
+    {
+      "slug": "machinery",
+      "name": "Machinery",
+      "headline": "Fasteners for Machinery Manufacturing",
+      "description": "Standard and drawing-based fasteners for OEM machinery production.",
+      "products": [
+        "High-strength bolts",
+        "Socket screws",
+        "Studs",
+        "Locking nuts",
+        "Pins",
+        "Retaining rings",
+        "Custom components"
+      ],
+      "cta": "Discuss OEM Requirements",
+      "name_zh": "机械设备",
+      "headline_zh": "机械制造用紧固件",
+      "description_zh": "适用于OEM机械制造的标准及来图定制紧固件。",
+      "products_zh": [
+        "高强度螺栓",
+        "内六角螺钉",
+        "螺柱",
+        "锁紧螺母",
+        "销",
+        "挡圈",
+        "定制零件"
+      ],
+      "cta_zh": "洽谈OEM需求"
+    },
+    {
+      "slug": "solar",
+      "name": "Solar / Photovoltaic",
+      "headline": "Solar & Photovoltaic Fastening Solutions",
+      "description": "Mounting hardware and connection components for PV manufacturers, EPC contractors and installers.",
+      "products": [
+        "PV bolts and nuts",
+        "Pressure-block bolts",
+        "Bracing components",
+        "C-channel bolts",
+        "Clamps",
+        "Triangle connectors",
+        "Tile hooks"
+      ],
+      "cta": "Request Solar Fastener Quote",
+      "name_zh": "太阳能/光伏",
+      "headline_zh": "光伏紧固解决方案",
+      "description_zh": "面向光伏制造商、EPC承包商及安装商的支架五金及连接组件。",
+      "products_zh": [
+        "光伏螺栓螺母",
+        "压块螺栓",
+        "支撑组件",
+        "C型钢螺栓",
+        "压块",
+        "三角连接件",
+        "瓦钩"
+      ],
+      "cta_zh": "获取光伏紧固件报价"
+    },
+    {
+      "slug": "infrastructure",
+      "name": "Infrastructure",
+      "headline": "Infrastructure Fasteners",
+      "description": "Heavy fasteners and anchoring components for infrastructure projects.",
+      "products": [
+        "Anchor bolts",
+        "Heavy nuts",
+        "Large-diameter custom bolts",
+        "Threaded rods"
+      ],
+      "cta": "Submit Project RFQ",
+      "name_zh": "基础设施",
+      "headline_zh": "基础设施紧固件",
+      "description_zh": "适用于基础设施项目的重型紧固及锚固组件。",
+      "products_zh": [
+        "地脚螺栓",
+        "重型螺母",
+        "大直径定制螺栓",
+        "螺纹杆"
+      ],
+      "cta_zh": "提交项目询价"
+    },
+    {
+      "slug": "energy",
+      "name": "Energy",
+      "headline": "Industrial & Project Fasteners for Energy",
+      "description": "Fastening components for energy plants, equipment and project supply.",
+      "products": [
+        "Stud bolts",
+        "High-strength bolts",
+        "Heavy nuts",
+        "Custom bolts"
+      ],
+      "cta": "Submit Project RFQ",
+      "name_zh": "能源",
+      "headline_zh": "能源工业与项目用紧固件",
+      "description_zh": "用于能源电厂、设备及项目供货的紧固组件。",
+      "products_zh": [
+        "双头螺柱",
+        "高强度螺栓",
+        "重型螺母",
+        "定制螺栓"
+      ],
+      "cta_zh": "提交项目询价"
+    },
+    {
+      "slug": "equipment-manufacturing",
+      "name": "Equipment Manufacturing",
+      "headline": "OEM & Drawing-Based Fasteners",
+      "description": "Repeat-supply fasteners for equipment, trailer, agricultural and heavy machinery producers.",
+      "products": [
+        "Custom bolts",
+        "Flange bolts",
+        "Socket screws",
+        "Weld nuts",
+        "Pins"
+      ],
+      "cta": "Request OEM Quote",
+      "name_zh": "设备制造",
+      "headline_zh": "OEM与来图定制紧固件",
+      "description_zh": "为设备、拖车、农机及重型机械制造商提供持续稳定供货的紧固件。",
+      "products_zh": [
+        "定制螺栓",
+        "法兰螺栓",
+        "内六角螺钉",
+        "焊接螺母",
+        "销"
+      ],
+      "cta_zh": "获取OEM报价"
+    },
+    {
+      "slug": "towers",
+      "name": "Towers",
+      "headline": "Tower Fastening Components",
+      "description": "Tower nuts and structural fastening components.",
+      "products": [
+        "Tower nuts",
+        "High-strength bolts",
+        "Washers",
+        "Anchor bolts"
+      ],
+      "cta": "Request Project Quote",
+      "name_zh": "塔架",
+      "headline_zh": "塔架紧固组件",
+      "description_zh": "塔用螺母及结构紧固组件。",
+      "products_zh": [
+        "塔用螺母",
+        "高强度螺栓",
+        "垫圈",
+        "地脚螺栓"
+      ],
+      "cta_zh": "获取项目报价"
+    },
+    {
+      "slug": "heavy-duty",
+      "name": "Heavy-Duty Applications",
+      "headline": "Oversized & Special Fasteners",
+      "description": "Large-diameter and special fasteners for applications beyond standard fastener ranges.",
+      "products": [
+        "Custom bolts M30 – M120",
+        "Special-shaped bolts",
+        "Hot-forged heavy nuts"
+      ],
+      "cta": "Request Large Bolt Quote",
+      "name_zh": "重载应用",
+      "headline_zh": "超大规格及特种紧固件",
+      "description_zh": "适用于超出标准紧固件规格范围的大直径及特种紧固件。",
+      "products_zh": [
+        "定制螺栓 M30 – M120",
+        "异形螺栓",
+        "热锻重型螺母"
+      ],
+      "cta_zh": "获取大规格螺栓报价"
+    }
+  ],
+  "buyer_types": [
+    "Distributor",
+    "Wholesaler",
+    "Importer",
+    "Manufacturer",
+    "Construction Company",
+    "Steel Structure Company",
+    "Solar Company",
+    "EPC",
+    "Engineering Company",
+    "Project Buyer",
+    "Other"
+  ],
+  "workflow": [
+    {
+      "step": "01",
+      "title": "Requirement",
+      "text": "Product list, specification or application.",
+      "title_zh": "需求提出",
+      "text_zh": "产品清单、规格要求或应用场景。"
+    },
+    {
+      "step": "02",
+      "title": "Drawing / Sample",
+      "text": "Drawing, dimensions or physical sample.",
+      "title_zh": "图纸/样品",
+      "text_zh": "图纸、尺寸或实物样品。"
+    },
+    {
+      "step": "03",
+      "title": "Technical Review",
+      "text": "Feasibility and specification check.",
+      "title_zh": "技术评审",
+      "text_zh": "可行性及规格核查。"
+    },
+    {
+      "step": "04",
+      "title": "Specification Confirmation",
+      "text": "Agreed technical definition.",
+      "title_zh": "规格确认",
+      "text_zh": "确认后的技术定义。"
+    },
+    {
+      "step": "05",
+      "title": "Commercial Quotation",
+      "text": "Pricing against confirmed specification.",
+      "title_zh": "商务报价",
+      "text_zh": "根据确认规格进行的报价。"
+    },
+    {
+      "step": "06",
+      "title": "Production",
+      "text": "Manufacturing to the confirmed specification.",
+      "title_zh": "生产制造",
+      "text_zh": "按确认规格进行生产。"
+    },
+    {
+      "step": "07",
+      "title": "Inspection",
+      "text": "Dimensional and visual inspection.",
+      "title_zh": "检验",
+      "text_zh": "尺寸及外观检验。"
+    },
+    {
+      "step": "08",
+      "title": "Shipment",
+      "text": "Packing and export dispatch.",
+      "title_zh": "发货",
+      "text_zh": "包装及出口发运。"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What fasteners do you supply?",
+      "q_zh": "你们供应哪些紧固件？",
+      "a": "Bolts, nuts, threaded rods and studs, anchor and foundation fasteners, expansion anchors, self-drilling and self-tapping screws, pins, rivets and retaining components, solar / PV fasteners, and custom non-standard fasteners.",
+      "a_zh": "螺栓、螺母、螺纹杆及螺柱、地脚与基础紧固件、膨胀锚栓、自钻及自攻螺钉、销/铆钉及挡圈组件、光伏紧固件，以及定制非标紧固件。"
+    },
+    {
+      "q": "Which bolt sizes are available?",
+      "q_zh": "有哪些螺栓规格可选？",
+      "a": "Hex bolts in grade 4.8 are listed from M6 to M24, high-strength hex bolts from M8 to M30, flange bolts from M6 to M16, countersunk socket screws from M4 to M24 and tension control bolts from M16 to M24. Custom large bolts are handled in the M30 to M120 category.",
+      "a_zh": "4.8级六角螺栓规格为M6至M24，高强度六角螺栓为M8至M30，法兰螺栓为M6至M16，内六角沉头螺钉为M4至M24，扭剪型高强度螺栓为M16至M24。定制大规格螺栓则在M30至M120范围内处理。"
+    },
+    {
+      "q": "Do you supply high-strength bolts?",
+      "q_zh": "你们是否供应高强度螺栓？",
+      "a": "Yes. Grades 8.8, 10.9 and 12.9 are listed for high-strength hex bolts and socket head cap screws.",
+      "a_zh": "是的。高强度六角螺栓及内六角圆柱头螺钉提供8.8、10.9和12.9级。"
+    },
+    {
+      "q": "Do you offer large-diameter bolts?",
+      "q_zh": "你们是否提供大直径螺栓？",
+      "a": "Yes. Custom bolts are handled in an M30 to M120 category. Length, grade, material and finish are confirmed case by case against your drawing.",
+      "a_zh": "是的。定制螺栓涵盖M30至M120范围，长度、强度等级、材质及表面处理将根据您的图纸逐案确认。"
+    },
+    {
+      "q": "Can you manufacture non-standard fasteners?",
+      "q_zh": "你们能生产非标紧固件吗？",
+      "a": "Yes. Drawing-based custom components, special geometries, oversized and extra-long parts are reviewed against your technical documentation.",
+      "a_zh": "是的。来图定制零件、特殊形状、超大规格及超长零件均可根据您的技术文件进行评审。"
+    },
+    {
+      "q": "Do you manufacture reverse-thread products?",
+      "q_zh": "你们是否生产反牙（左旋）产品？",
+      "a": "Reverse-thread (left-hand) screws and trapezoidal threaded rods are part of the custom portfolio.",
+      "a_zh": "反牙（左旋）螺钉及梯形螺纹杆均属于定制产品系列。"
+    },
+    {
+      "q": "Do you supply solar fasteners?",
+      "q_zh": "你们是否供应光伏紧固件？",
+      "a": "Yes — PV bolts and nuts, pressure-block bolts, support brace rods, seismic support accessories, C-channel matching bolts, clamps, triangle connectors and tile hooks.",
+      "a_zh": "是的——包括光伏专用螺栓螺母、压块螺栓、支撑拉杆、抗震支架配件、C型钢配套螺栓、压块、三角连接件及瓦钩。"
+    },
+    {
+      "q": "How can I request pricing?",
+      "q_zh": "如何获取报价？",
+      "a": "Add products to your RFQ list and submit it, or send your product list directly through the Request Center.",
+      "a_zh": "将产品添加至询价清单并提交，或通过需求中心直接发送您的产品清单。"
+    },
+    {
+      "q": "Can I upload a BOM?",
+      "q_zh": "我可以上传BOM清单吗？",
+      "a": "Yes. XLS, XLSX, CSV and PDF purchasing lists can be submitted instead of entering each item manually.",
+      "a_zh": "是的。可提交XLS、XLSX、CSV或PDF格式的采购清单，无需逐项手动录入。"
+    },
+    {
+      "q": "Can I send a drawing?",
+      "q_zh": "我可以发送图纸吗？",
+      "a": "Yes. PDF, DWG, DXF, STEP/STP, JPG, PNG and XLSX files can be submitted with a custom fastener request.",
+      "a_zh": "是的。可随定制紧固件需求一并提交PDF、DWG、DXF、STEP/STP、JPG、PNG及XLSX格式文件。"
+    },
+    {
+      "q": "Do you work with distributors?",
+      "q_zh": "你们是否与经销商合作？",
+      "a": "Yes. Distributor and importer cooperation is handled through the distributor application.",
+      "a_zh": "是的。经销商及进口商合作请通过经销商申请渠道办理。"
+    },
+    {
+      "q": "What information should I provide for an RFQ?",
+      "q_zh": "提交询价时需要提供哪些信息？",
+      "a": "Product type, diameter, length, thread, grade, material, surface treatment, standard or drawing, and quantity. Provide what you have — missing details are clarified during technical review.",
+      "a_zh": "产品类型、直径、长度、螺纹、强度等级、材质、表面处理、执行标准或图纸以及数量。请提供您已有的信息——缺失的细节将在技术评审阶段进一步确认。"
+    }
+  ],
+  "translations": {
+    "Products": "产品中心",
+    "Bolts": "螺栓",
+    "Nuts": "螺母",
+    "Threaded Rods": "螺杆与双头螺栓",
+    "Anchors": "地脚螺栓",
+    "Self-Drilling Screws": "自钻自攻螺钉",
+    "Solar Fasteners": "光伏紧固件",
+    "Custom Fasteners": "非标紧固件",
+    "Industries": "应用行业",
+    "Construction": "建筑工程",
+    "Steel Structures": "钢结构",
+    "Machinery": "机械设备",
+    "Solar": "太阳能光伏",
+    "Infrastructure": "基础设施",
+    "Heavy Industry": "重工业",
+    "Custom Manufacturing": "非标定制",
+    "Large Bolts": "大规格螺栓",
+    "Drawing-Based Fasteners": "图纸定制紧固件",
+    "Special Fasteners": "特殊紧固件",
+    "Upload Drawing": "上传图纸",
+    "Wholesale": "批发供应",
+    "Submit RFQ": "提交询价",
+    "Upload BOM": "上传 BOM",
+    "Distributor Cooperation": "经销合作",
+    "RFQ List": "询价单",
+    "Resources & Company": "资料与公司",
+    "Catalog & Datasheets": "产品目录与数据表",
+    "Manufacturing": "生产制造",
+    "Quality": "质量管理",
+    "Contact": "联系我们",
+    "Hebei Xiangjinxin Metal Products Co., Ltd.": "河北向锦鑫金属制品有限公司",
+    "Xiangjinxin": "向锦鑫",
+    "Row 2 No. 3, West Industrial Zone, Xisuining Village, Liuying Town, Yongnian District, Handan, Hebei, China": "中国河北省邯郸市永年区刘营镇西苏宁村西工业区2排3号",
+    "Industrial fastener manufacturer and wholesale supplier for standard, high-strength and drawing-based custom applications.": "面向标准件、高强度紧固件及来图定制应用的工业紧固件制造商与批发供应商。",
+    "Industrial Bolts": "工业螺栓",
+    "Standard, high-strength and structural bolts, plus large-diameter custom bolts manufactured to drawing.": "标准螺栓、高强度螺栓、结构螺栓，以及按图纸定制的大直径螺栓。",
+    "Industrial Nuts": "工业螺母",
+    "Hex, flange, locking, heavy forged and application-specific nuts for industrial and project supply.": "面向工业及项目供货的六角螺母、法兰螺母、防松螺母、重型锻造螺母及各类专用螺母。",
+    "Threaded Rods & Stud Bolts": "螺纹杆与双头螺柱",
+    "Threaded Rods & Studs": "螺纹杆与螺柱",
+    "Double-end studs and fully threaded rods for flanges, structures and equipment.": "用于法兰、结构件和设备的双头螺柱及全螺纹杆。",
+    "Anchor & Foundation Fasteners": "地脚与基础紧固件",
+    "Anchor Fasteners": "地脚紧固件",
+    "Foundation and embedded fastening components for structures and machinery bases.": "用于结构件及机械基础的地脚与预埋紧固组件。",
+    "Expansion & Anchoring Systems": "膨胀与锚固系统",
+    "Expansion Anchors": "膨胀锚栓",
+    "Mechanical and chemical anchoring systems for concrete and masonry.": "适用于混凝土及砌体的机械锚固与化学锚固系统。",
+    "Self-Drilling & Self-Tapping Fasteners": "自钻与自攻紧固件",
+    "Self-Drilling Fasteners": "自钻紧固件",
+    "Drilling and tapping screws for sheet metal, roofing, board and interior systems.": "用于金属板材、屋面、板材及室内装修系统的自钻自攻螺钉。",
+    "Pins, Rivets & Retaining Components": "销、铆钉与挡圈组件",
+    "Pins & Rivets": "销与铆钉",
+    "Positioning, joining and retaining components for machinery and fabrication.": "用于机械与制造加工的定位、连接及紧固挡圈组件。",
+    "Solar & Photovoltaic Fasteners": "光伏太阳能紧固件",
+    "Fastening and connection components for PV mounting systems, ground structures and rooftop installations.": "用于光伏支架系统、地面结构和屋顶安装的紧固与连接组件。",
+    "Custom & Non-Standard Fasteners": "定制与非标紧固件",
+    "Drawing-based components, special geometries, oversized and reverse-thread fasteners reviewed case by case.": "根据来图定制的零件、特殊形状、超大规格及反向螺纹紧固件，均按案例逐一评审。",
+    "Hex Bolts — Grade 4.8": "六角头螺栓 — 4.8级",
+    "General purpose hex head bolts for standard industrial assembly.": "适用于标准工业装配的通用六角头螺栓。",
+    "Diameter": "直径",
+    "Grade": "强度等级",
+    "Head type": "头型",
+    "Hex": "六角",
+    "General assembly": "通用装配",
+    "Equipment mounting": "设备安装",
+    "High-Strength Hex Bolts": "高强度六角螺栓",
+    "High-strength hex bolts for structural and demanding load applications.": "适用于结构件及高承载要求的高强度六角螺栓。",
+    "Steel structures": "钢结构",
+    "Heavy equipment": "重型设备",
+    "Extra-Large Custom Bolts": "超大规格定制螺栓",
+    "Large-diameter custom bolts manufactured to customer drawing for heavy industrial applications.": "按客户图纸定制生产的大直径螺栓，适用于重工业应用。",
+    "Basis": "依据",
+    "Customer drawing / specification": "客户图纸/规格",
+    "Contact us for details": "详情请联系我们",
+    "Heavy machinery": "重型机械",
+    "Energy": "能源",
+    "Mining equipment": "矿山设备",
+    "Hex Flange Bolts": "六角法兰螺栓",
+    "Integrated flange head bolts distributing load without a separate washer.": "带一体化法兰头的螺栓，无需额外垫圈即可分散载荷。",
+    "Hex flange": "六角法兰",
+    "Vehicle and trailer assembly": "车辆与拖车装配",
+    "Socket Head Cap Screws": "内六角圆柱头螺钉",
+    "Internal hex drive cap screws for compact, high-torque assemblies.": "内六角驱动的圆柱头螺钉，适用于紧凑、高扭矩装配。",
+    "Drive": "驱动方式",
+    "Internal hex": "内六角",
+    "Tooling": "工装工具",
+    "Equipment manufacturing": "设备制造",
+    "Countersunk Socket Screws": "内六角沉头螺钉",
+    "Flat head socket screws for flush-mounted assemblies.": "平头内六角螺钉，适用于齐平安装的装配。",
+    "Countersunk": "沉头",
+    "Panels and fixtures": "面板与夹具",
+    "Tension Control / Torshear Bolts": "扭剪型高强度螺栓",
+    "Torshear type bolt assemblies for controlled structural bolting.": "扭剪型螺栓组件，用于可控结构连接。",
+    "Bridges": "桥梁",
+    "Towers": "塔架",
+    "Special-Shaped Bolts": "异形螺栓",
+    "T-slot bolts, eye bolts, articulated and lifting eye bolts, square-head and reverse-thread bolts.": "T型槽螺栓、吊环螺栓、活节吊环螺栓、方头螺栓及反牙螺栓。",
+    "Standard range or customer drawing": "标准系列或客户图纸",
+    "Lifting": "起重吊装",
+    "Machine tooling": "机床工装",
+    "Special fixtures": "专用夹具",
+    "Hex Nuts": "六角螺母",
+    "Standard hex nuts, coarse and fine thread variants where applicable.": "标准六角螺母，视需要提供粗牙和细牙螺纹规格。",
+    "Thread": "螺纹",
+    "Coarse / fine": "粗牙/细牙",
+    "Flange Nuts": "法兰螺母",
+    "Flanged nuts with integrated bearing surface.": "带一体化承压面的法兰螺母。",
+    "Type": "类型",
+    "Flange": "法兰",
+    "Vehicle assembly": "车辆装配",
+    "Nylon Lock Nuts & Slotted Self-Locking Nuts": "尼龙锁紧螺母与开槽自锁螺母",
+    "Prevailing-torque and nylon insert locking nuts for vibration environments.": "适用于振动环境的预紧扭矩型及尼龙嵌件锁紧螺母。",
+    "Nylon insert / slotted self-locking": "尼龙嵌件/开槽自锁",
+    "Transport equipment": "运输设备",
+    "Thick / Heavy & Hot-Forged Nuts": "厚型/重型及热锻螺母",
+    "Heavy pattern and hot-forged nuts for high-load structural connections.": "适用于高承载结构连接的重型和热锻螺母。",
+    "Heavy hex / hot forged": "重型六角/热锻",
+    "Weld Nuts": "焊接螺母",
+    "Weldable nuts for fabricated and OEM assemblies.": "适用于制造加工及OEM装配的可焊接螺母。",
+    "Weld": "焊接",
+    "Fabrication": "加工制造",
+    "OEM manufacturing": "OEM制造",
+    "Round, Wing, Cap, Slotted, Cylindrical & Anti-Theft Nuts": "圆螺母、蝶形螺母、盖形螺母、开槽螺母、圆柱螺母及防盗螺母",
+    "Application-specific nut families available across the portfolio.": "涵盖多种应用场景的专用螺母系列。",
+    "Multiple families": "多种系列",
+    "Equipment": "设备",
+    "Fixtures": "夹具",
+    "Security fastening": "防护紧固",
+    "Solar / PV Nuts & Tower Nuts": "光伏螺母与塔用螺母",
+    "Nuts supplied for photovoltaic mounting systems and tower structures.": "适用于光伏支架系统及塔架结构的螺母。",
+    "PV / tower": "光伏/塔架",
+    "Solar mounting": "光伏支架安装",
+    "Double-End Studs": "双头螺柱",
+    "Double-end stud bolts for flanged and bolted connections.": "用于法兰及螺栓连接的双头螺柱。",
+    "Double-end stud": "双头螺柱",
+    "Flange connections": "法兰连接",
+    "Fully Threaded Rods": "全螺纹杆",
+    "Fully threaded rod supplied in standard and cut-to-requirement lengths.": "提供标准长度及按需切割长度的全螺纹杆。",
+    "Fully threaded": "全螺纹",
+    "Suspension systems": "悬挂系统",
+    "Anchoring": "锚固",
+    "Trapezoidal Threaded Rods": "梯形螺纹杆",
+    "Trapezoidal thread rods for motion and load transfer applications.": "适用于运动传动及载荷传递应用的梯形螺纹杆。",
+    "Trapezoidal": "梯形",
+    "Lifting equipment": "起重设备",
+    "Anchor Bolts / Foundation Bolts": "地脚螺栓/基础螺栓",
+    "Embedded anchor and foundation bolts, standard shapes or to drawing.": "预埋地脚及基础螺栓，提供标准形状或按图定制。",
+    "Machinery foundations": "机械基础",
+    "U-Bolts": "U型螺栓",
+    "U-shaped clamping bolts for pipe, tube and structural fixing.": "用于管道、管材及结构固定的U型夹紧螺栓。",
+    "U-bolt": "U型螺栓",
+    "Piping": "管道",
+    "Transport": "运输",
+    "Washers, Spring Washers & Special Washers": "平垫圈、弹簧垫圈及特殊垫圈",
+    "Flat, spring and special washers supplied with bolt assemblies.": "配套螺栓组件供应的平垫圈、弹簧垫圈及特殊垫圈。",
+    "Flat / spring / special": "平垫/弹簧/特殊",
+    "All bolted connections": "所有螺栓连接",
+    "External Expansion Bolts": "外露式膨胀螺栓",
+    "Through-bolt style expansion anchors.": "穿孔式膨胀锚栓。",
+    "External expansion": "外露式膨胀",
+    "Internal & Countersunk Expansion Anchors": "内胀式及沉头膨胀锚栓",
+    "Internally set anchors including countersunk versions.": "内置式锚栓，含沉头款式。",
+    "Internal / countersunk": "内置式/沉头",
+    "Concrete fixing": "混凝土固定",
+    "Interior structures": "室内结构",
+    "Chemical Anchors": "化学锚栓",
+    "Chemically bonded anchoring components.": "化学粘结式锚固组件。",
+    "Chemical": "化学",
+    "Concrete": "混凝土",
+    "Retrofit anchoring": "改造加固锚固",
+    "Sleeve & Wedge / Heavy-Duty Anchors": "套筒锚栓/楔形及重型锚栓",
+    "Sleeve, wedge and heavy-duty anchoring fasteners.": "套筒式、楔形及重型锚固紧固件。",
+    "Sleeve / wedge / heavy duty": "套筒/楔形/重型",
+    "Structural fixing": "结构固定",
+    "Machinery bases": "机械底座",
+    "Hex Self-Drilling Screws": "六角自钻螺钉",
+    "Hex washer head self-drilling screws.": "六角法兰头自钻螺钉。",
+    "Hex washer": "六角法兰头",
+    "Roofing": "屋面",
+    "Steel sheet": "钢板",
+    "Cladding": "外墙覆板",
+    "Stainless Steel Self-Drilling Screws": "不锈钢自钻螺钉",
+    "Stainless self-drilling screws for corrosion-exposed assemblies.": "适用于易腐蚀环境装配的不锈钢自钻螺钉。",
+    "Material": "材质",
+    "Stainless steel": "不锈钢",
+    "Outdoor structures": "户外结构",
+    "Coastal projects": "沿海项目",
+    "Self-Tapping & Countersunk Self-Tapping Screws": "自攻螺钉与沉头自攻螺钉",
+    "Self-tapping screws in multiple head types.": "多种头型的自攻螺钉。",
+    "Multiple": "多种",
+    "Sheet metal": "金属板材",
+    "Assembly": "装配",
+    "Drywall & Fiberboard Screws": "石膏板与纤维板螺钉",
+    "Board fixing screws for interior construction.": "用于室内装修的板材固定螺钉。",
+    "Drywall / fiberboard": "石膏板/纤维板",
+    "Interior construction": "室内装修",
+    "Board systems": "板材系统",
+    "Cylindrical, Taper, Cotter & Locating Pins": "圆柱销、锥销、开口销及定位销",
+    "Pin families for positioning and securing components.": "用于零件定位及固定的各类销。",
+    "Cylindrical / taper / cotter / locating": "圆柱销/锥销/开口销/定位销",
+    "Equipment assembly": "设备装配",
+    "Round-Head & Blind Rivets": "圆头铆钉与抽芯铆钉",
+    "Solid and blind rivets for permanent joints.": "用于永久连接的实心铆钉及抽芯铆钉。",
+    "Round head / blind": "圆头/抽芯",
+    "Sheet assembly": "板材装配",
+    "Structural Welding Studs": "结构焊钉",
+    "Shear connector style welding studs for structural work.": "用于结构工程的剪力钉式焊钉。",
+    "Welding stud": "焊钉",
+    "Composite decks": "组合楼板",
+    "Shaft & Internal Retaining Rings / Circlips": "轴用及孔用挡圈/卡簧",
+    "External and internal retaining rings.": "轴用（外部）及孔用（内部）挡圈。",
+    "External / internal": "轴用/孔用",
+    "Drive assemblies": "传动装置",
+    "PV Bolts & Nuts": "光伏专用螺栓螺母",
+    "Bolt and nut components for photovoltaic mounting structures.": "用于光伏支架结构的螺栓螺母组件。",
+    "Application": "应用",
+    "PV mounting": "光伏支架安装",
+    "EPC projects": "EPC工程项目",
+    "Pressure Block Bolts": "压块螺栓",
+    "Module pressure block bolt sets.": "组件压块螺栓套件。",
+    "Module clamping": "组件压紧",
+    "C-Channel Matching Bolts": "C型钢配套螺栓",
+    "Bolts matched to C-channel mounting profiles.": "与C型钢安装型材配套的螺栓。",
+    "C-channel profiles": "C型钢型材",
+    "Solar structures": "光伏支架结构",
+    "Support Brace Rods & Seismic Support Accessories": "支撑拉杆与抗震支架配件",
+    "Bracing rods and seismic support accessory components.": "支撑拉杆及抗震支撑配件组件。",
+    "Support / bracing": "支撑/拉撑",
+    "Building services": "建筑机电设施",
+    "Clamps, Triangle Connectors & Tile Hooks": "压块、三角连接件与瓦钩",
+    "Connection hardware for rooftop and ground-mount systems.": "适用于屋顶及地面光伏系统的连接五金件。",
+    "Clamp / connector / hook": "压块/连接件/挂钩",
+    "Rooftop PV": "屋顶光伏",
+    "Ground mount PV": "地面光伏",
+    "Custom Special-Shaped Bolts": "定制异形螺栓",
+    "Non-standard geometries manufactured to customer drawing.": "按客户图纸生产的非标形状螺栓。",
+    "Customer drawing": "客户图纸",
+    "OEM": "OEM",
+    "Special equipment": "特种设备",
+    "Oversized & Extra-Long Components": "超大规格及超长零件",
+    "Components beyond standard catalogue dimensions.": "超出标准目录规格范围的零件。",
+    "Custom bolts M30 – M120": "定制螺栓 M30 – M120",
+    "Heavy industry": "重工业",
+    "Reverse-Thread Screws": "反牙螺钉",
+    "Left-hand thread fasteners for specific mechanical requirements.": "满足特定机械需求的左旋螺纹紧固件。",
+    "Left-hand / reverse": "左旋/反牙",
+    "Rotating assemblies": "旋转装置",
+    "Drawing-Based Custom Components": "来图定制零件",
+    "Send a drawing, sample or specification for technical and commercial review.": "提交图纸、样品或规格以进行技术与商务评审。",
+    "Input": "输入方式",
+    "PDF / DWG / DXF / STEP / sample": "PDF/DWG/DXF/STEP/样品",
+    "All industrial sectors": "所有工业领域",
+    "Construction Fasteners & Anchoring": "建筑紧固与锚固",
+    "Anchoring and structural fastening components for building, civil and site works.": "用于建筑、土木及现场施工的锚固与结构紧固组件。",
+    "Anchor bolts": "地脚螺栓",
+    "Foundation bolts": "基础螺栓",
+    "Expansion bolts": "膨胀螺栓",
+    "Chemical anchors": "化学锚栓",
+    "Sleeve anchors": "套筒锚栓",
+    "U-bolts": "U型螺栓",
+    "Washers": "垫圈",
+    "Request Construction Quote": "获取建筑项目报价",
+    "Fasteners for Steel Structures": "钢结构用紧固件",
+    "High-strength and structural fastening components for fabricated steel construction.": "用于钢结构制造的高强度结构紧固组件。",
+    "High-strength bolts": "高强度螺栓",
+    "Tension control bolts": "扭剪型高强度螺栓",
+    "Heavy nuts": "重型螺母",
+    "Welding studs": "焊钉",
+    "Request Structural Fastener Quote": "获取结构紧固件报价",
+    "Fasteners for Machinery Manufacturing": "机械制造用紧固件",
+    "Standard and drawing-based fasteners for OEM machinery production.": "适用于OEM机械制造的标准及来图定制紧固件。",
+    "Socket screws": "内六角螺钉",
+    "Studs": "螺柱",
+    "Locking nuts": "锁紧螺母",
+    "Pins": "销",
+    "Retaining rings": "挡圈",
+    "Custom components": "定制零件",
+    "Discuss OEM Requirements": "洽谈OEM需求",
+    "Solar / Photovoltaic": "太阳能/光伏",
+    "Solar & Photovoltaic Fastening Solutions": "光伏紧固解决方案",
+    "Mounting hardware and connection components for PV manufacturers, EPC contractors and installers.": "面向光伏制造商、EPC承包商及安装商的支架五金及连接组件。",
+    "PV bolts and nuts": "光伏螺栓螺母",
+    "Pressure-block bolts": "压块螺栓",
+    "Bracing components": "支撑组件",
+    "C-channel bolts": "C型钢螺栓",
+    "Clamps": "压块",
+    "Triangle connectors": "三角连接件",
+    "Tile hooks": "瓦钩",
+    "Request Solar Fastener Quote": "获取光伏紧固件报价",
+    "Infrastructure Fasteners": "基础设施紧固件",
+    "Heavy fasteners and anchoring components for infrastructure projects.": "适用于基础设施项目的重型紧固及锚固组件。",
+    "Large-diameter custom bolts": "大直径定制螺栓",
+    "Threaded rods": "螺纹杆",
+    "Submit Project RFQ": "提交项目询价",
+    "Industrial & Project Fasteners for Energy": "能源工业与项目用紧固件",
+    "Fastening components for energy plants, equipment and project supply.": "用于能源电厂、设备及项目供货的紧固组件。",
+    "Stud bolts": "双头螺柱",
+    "Custom bolts": "定制螺栓",
+    "Equipment Manufacturing": "设备制造",
+    "OEM & Drawing-Based Fasteners": "OEM与来图定制紧固件",
+    "Repeat-supply fasteners for equipment, trailer, agricultural and heavy machinery producers.": "为设备、拖车、农机及重型机械制造商提供持续稳定供货的紧固件。",
+    "Flange bolts": "法兰螺栓",
+    "Weld nuts": "焊接螺母",
+    "Request OEM Quote": "获取OEM报价",
+    "Tower Fastening Components": "塔架紧固组件",
+    "Tower nuts and structural fastening components.": "塔用螺母及结构紧固组件。",
+    "Tower nuts": "塔用螺母",
+    "Request Project Quote": "获取项目报价",
+    "Heavy-Duty Applications": "重载应用",
+    "Oversized & Special Fasteners": "超大规格及特种紧固件",
+    "Large-diameter and special fasteners for applications beyond standard fastener ranges.": "适用于超出标准紧固件规格范围的大直径及特种紧固件。",
+    "Special-shaped bolts": "异形螺栓",
+    "Hot-forged heavy nuts": "热锻重型螺母",
+    "Request Large Bolt Quote": "获取大规格螺栓报价",
+    "Distributor": "经销商",
+    "Wholesaler": "批发商",
+    "Importer": "进口商",
+    "Manufacturer": "制造商",
+    "Construction Company": "建筑公司",
+    "Steel Structure Company": "钢结构公司",
+    "Solar Company": "光伏公司",
+    "EPC": "EPC总承包商",
+    "Engineering Company": "工程公司",
+    "Project Buyer": "项目采购方",
+    "Other": "其他",
+    "Requirement": "需求提出",
+    "Product list, specification or application.": "产品清单、规格要求或应用场景。",
+    "Drawing / Sample": "图纸/样品",
+    "Drawing, dimensions or physical sample.": "图纸、尺寸或实物样品。",
+    "Technical Review": "技术评审",
+    "Feasibility and specification check.": "可行性及规格核查。",
+    "Specification Confirmation": "规格确认",
+    "Agreed technical definition.": "确认后的技术定义。",
+    "Commercial Quotation": "商务报价",
+    "Pricing against confirmed specification.": "根据确认规格进行的报价。",
+    "Production": "生产制造",
+    "Manufacturing to the confirmed specification.": "按确认规格进行生产。",
+    "Inspection": "检验",
+    "Dimensional and visual inspection.": "尺寸及外观检验。",
+    "Shipment": "发货",
+    "Packing and export dispatch.": "包装及出口发运。",
+    "What fasteners do you supply?": "你们供应哪些紧固件？",
+    "Bolts, nuts, threaded rods and studs, anchor and foundation fasteners, expansion anchors, self-drilling and self-tapping screws, pins, rivets and retaining components, solar / PV fasteners, and custom non-standard fasteners.": "螺栓、螺母、螺纹杆及螺柱、地脚与基础紧固件、膨胀锚栓、自钻及自攻螺钉、销/铆钉及挡圈组件、光伏紧固件，以及定制非标紧固件。",
+    "Which bolt sizes are available?": "有哪些螺栓规格可选？",
+    "Hex bolts in grade 4.8 are listed from M6 to M24, high-strength hex bolts from M8 to M30, flange bolts from M6 to M16, countersunk socket screws from M4 to M24 and tension control bolts from M16 to M24. Custom large bolts are handled in the M30 to M120 category.": "4.8级六角螺栓规格为M6至M24，高强度六角螺栓为M8至M30，法兰螺栓为M6至M16，内六角沉头螺钉为M4至M24，扭剪型高强度螺栓为M16至M24。定制大规格螺栓则在M30至M120范围内处理。",
+    "Do you supply high-strength bolts?": "你们是否供应高强度螺栓？",
+    "Yes. Grades 8.8, 10.9 and 12.9 are listed for high-strength hex bolts and socket head cap screws.": "是的。高强度六角螺栓及内六角圆柱头螺钉提供8.8、10.9和12.9级。",
+    "Do you offer large-diameter bolts?": "你们是否提供大直径螺栓？",
+    "Yes. Custom bolts are handled in an M30 to M120 category. Length, grade, material and finish are confirmed case by case against your drawing.": "是的。定制螺栓涵盖M30至M120范围，长度、强度等级、材质及表面处理将根据您的图纸逐案确认。",
+    "Can you manufacture non-standard fasteners?": "你们能生产非标紧固件吗？",
+    "Yes. Drawing-based custom components, special geometries, oversized and extra-long parts are reviewed against your technical documentation.": "是的。来图定制零件、特殊形状、超大规格及超长零件均可根据您的技术文件进行评审。",
+    "Do you manufacture reverse-thread products?": "你们是否生产反牙（左旋）产品？",
+    "Reverse-thread (left-hand) screws and trapezoidal threaded rods are part of the custom portfolio.": "反牙（左旋）螺钉及梯形螺纹杆均属于定制产品系列。",
+    "Do you supply solar fasteners?": "你们是否供应光伏紧固件？",
+    "Yes — PV bolts and nuts, pressure-block bolts, support brace rods, seismic support accessories, C-channel matching bolts, clamps, triangle connectors and tile hooks.": "是的——包括光伏专用螺栓螺母、压块螺栓、支撑拉杆、抗震支架配件、C型钢配套螺栓、压块、三角连接件及瓦钩。",
+    "How can I request pricing?": "如何获取报价？",
+    "Add products to your RFQ list and submit it, or send your product list directly through the Request Center.": "将产品添加至询价清单并提交，或通过需求中心直接发送您的产品清单。",
+    "Can I upload a BOM?": "我可以上传BOM清单吗？",
+    "Yes. XLS, XLSX, CSV and PDF purchasing lists can be submitted instead of entering each item manually.": "是的。可提交XLS、XLSX、CSV或PDF格式的采购清单，无需逐项手动录入。",
+    "Can I send a drawing?": "我可以发送图纸吗？",
+    "Yes. PDF, DWG, DXF, STEP/STP, JPG, PNG and XLSX files can be submitted with a custom fastener request.": "是的。可随定制紧固件需求一并提交PDF、DWG、DXF、STEP/STP、JPG、PNG及XLSX格式文件。",
+    "Do you work with distributors?": "你们是否与经销商合作？",
+    "Yes. Distributor and importer cooperation is handled through the distributor application.": "是的。经销商及进口商合作请通过经销商申请渠道办理。",
+    "What information should I provide for an RFQ?": "提交询价时需要提供哪些信息？",
+    "Product type, diameter, length, thread, grade, material, surface treatment, standard or drawing, and quantity. Provide what you have — missing details are clarified during technical review.": "产品类型、直径、长度、螺纹、强度等级、材质、表面处理、执行标准或图纸以及数量。请提供您已有的信息——缺失的细节将在技术评审阶段进一步确认。"
+  },
+  "assets": [
+    {
+      "file": "hero-fasteners.jpg",
+      "source": "src/assets/hero-fasteners.jpg",
+      "alt": "Heavy industrial hex bolts and nuts on a dark steel surface"
+    },
+    {
+      "file": "large-bolts.jpg",
+      "source": "src/assets/large-bolts.jpg",
+      "alt": "Large diameter forged industrial bolt in a factory"
+    },
+    {
+      "file": "solar-fasteners.jpg",
+      "source": "src/assets/solar-fasteners.jpg",
+      "alt": "Stainless steel solar mounting clamps and bolts on a photovoltaic structure"
+    },
+    {
+      "file": "custom-drawing.jpg",
+      "source": "src/assets/custom-drawing.jpg",
+      "alt": "Technical drawing with dimension lines beside machined fastener components"
+    }
+  ],
+  "menus": {
+    "primary": [
+      {
+        "key": "products",
+        "title": "Products",
+        "path": "/products"
+      },
+      {
+        "title": "Bolts",
+        "path": "/products/bolts",
+        "parent": "products"
+      },
+      {
+        "title": "Nuts",
+        "path": "/products/nuts",
+        "parent": "products"
+      },
+      {
+        "title": "Threaded Rods & Studs",
+        "path": "/products/threaded-rods",
+        "parent": "products"
+      },
+      {
+        "title": "Anchor Fasteners",
+        "path": "/products/anchor-bolts",
+        "parent": "products"
+      },
+      {
+        "title": "Expansion Anchors",
+        "path": "/products/expansion-anchors",
+        "parent": "products"
+      },
+      {
+        "title": "Self-Drilling Fasteners",
+        "path": "/products/self-drilling-screws",
+        "parent": "products"
+      },
+      {
+        "title": "Pins & Rivets",
+        "path": "/products/pins-rivets",
+        "parent": "products"
+      },
+      {
+        "title": "Solar Fasteners",
+        "path": "/products/solar-fasteners",
+        "parent": "products"
+      },
+      {
+        "title": "Custom Fasteners",
+        "path": "/products/custom-fasteners",
+        "parent": "products"
+      },
+      {
+        "key": "industries",
+        "title": "Industries",
+        "path": "/industries"
+      },
+      {
+        "title": "Construction",
+        "path": "/industries/construction",
+        "parent": "industries"
+      },
+      {
+        "title": "Steel Structures",
+        "path": "/industries/steel-structures",
+        "parent": "industries"
+      },
+      {
+        "title": "Machinery",
+        "path": "/industries/machinery",
+        "parent": "industries"
+      },
+      {
+        "title": "Solar / Photovoltaic",
+        "path": "/industries/solar",
+        "parent": "industries"
+      },
+      {
+        "title": "Infrastructure",
+        "path": "/industries/infrastructure",
+        "parent": "industries"
+      },
+      {
+        "title": "Energy",
+        "path": "/industries/energy",
+        "parent": "industries"
+      },
+      {
+        "title": "Equipment Manufacturing",
+        "path": "/industries/equipment-manufacturing",
+        "parent": "industries"
+      },
+      {
+        "title": "Towers",
+        "path": "/industries/towers",
+        "parent": "industries"
+      },
+      {
+        "title": "Heavy-Duty Applications",
+        "path": "/industries/heavy-duty",
+        "parent": "industries"
+      },
+      {
+        "key": "custom",
+        "title": "Custom Manufacturing",
+        "path": "/custom-manufacturing"
+      },
+      {
+        "title": "Custom Bolts",
+        "path": "/products/custom-fasteners",
+        "parent": "custom"
+      },
+      {
+        "title": "Large-Diameter Fasteners",
+        "path": "/products/custom-fasteners",
+        "parent": "custom"
+      },
+      {
+        "title": "Drawing-Based Parts",
+        "path": "/custom-manufacturing",
+        "parent": "custom"
+      },
+      {
+        "title": "Wholesale",
+        "path": "/wholesale"
+      },
+      {
+        "title": "Manufacturing",
+        "path": "/manufacturing"
+      },
+      {
+        "title": "Quality",
+        "path": "/quality"
+      },
+      {
+        "title": "Resources",
+        "path": "/resources"
+      }
+    ],
+    "footer": [
+      {
+        "title": "Products",
+        "path": "/products"
+      },
+      {
+        "title": "Wholesale",
+        "path": "/wholesale"
+      },
+      {
+        "title": "Custom Manufacturing",
+        "path": "/custom-manufacturing"
+      },
+      {
+        "title": "Quality",
+        "path": "/quality"
+      },
+      {
+        "title": "Resources",
+        "path": "/resources"
+      },
+      {
+        "title": "Distributors",
+        "path": "/distributors"
+      },
+      {
+        "title": "Contact",
+        "path": "/contact"
+      },
+      {
+        "title": "Privacy",
+        "path": "/legal/privacy"
+      },
+      {
+        "title": "Terms",
+        "path": "/legal/terms"
+      },
+      {
+        "title": "Cookies",
+        "path": "/legal/cookies"
+      }
+    ]
+  }
+}

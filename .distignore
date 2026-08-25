@@ -1,0 +1,11 @@
+/.git
+/.github
+/.gitignore
+/.distignore
+/.wordpress-playground
+/node_modules
+/.output
+/.tanstack
+/.wrangler
+/*.zip
+/*.log
