@@ -3,7 +3,7 @@ Theme Name: Xiangjinxin Industrial
 Theme URI: https://github.com/davidk15042001/custom-bolt-forge
 Author: Xiangjinxin
 Description: Production-ready bilingual B2B WordPress theme for industrial fasteners, RFQs, product catalogs and drawing-based manufacturing.
-Version: 4.0.0
+Version: 4.0.1
 Requires at least: 6.4
 Requires PHP: 7.4
 License: GNU General Public License v2 or later
@@ -89,6 +89,7 @@ Text Domain: lulu-base
     --lulu-white: #fff;
     --lulu-page: #fdfdfe;
     --lulu-container: 1280px;
+    --lulu-gutter: clamp(20px, 3vw, 40px);
     --lulu-radius: 3px;
     --lulu-body-font: "Barlow", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     --lulu-display-font: "Barlow Condensed", "Barlow", sans-serif;
@@ -168,7 +169,9 @@ a {
 }
 
 .container {
-    width: min(var(--lulu-container), calc(100% - 40px));
+    width: 100%;
+    max-width: calc(var(--lulu-container) + (var(--lulu-gutter) * 2));
+    padding-inline: var(--lulu-gutter);
     margin-inline: auto;
 }
 
@@ -2973,20 +2976,25 @@ body.admin-bar .source-site-header.is-sticky {
 
 .source-home-two-column {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1.08fr) minmax(320px, .92fr);
     align-items: center;
-    gap: 40px;
+    gap: clamp(32px, 5vw, 72px);
     margin-top: 40px;
+}
+
+.source-home-two-column > * {
+    min-width: 0;
 }
 
 .source-home-section-image {
     width: 100%;
+    aspect-ratio: 4 / 3;
     border: 1px solid var(--lulu-line);
     object-fit: cover;
 }
 
 .source-home-solar .source-home-section-image {
-    max-height: 520px;
+    min-height: 360px;
 }
 
 .source-home-solar .source-home-two-column {
@@ -3024,6 +3032,15 @@ body.admin-bar .source-site-header.is-sticky {
 
 .source-home-solar .actions {
     margin-top: 28px;
+}
+
+.source-home-custom .source-home-two-column {
+    align-items: start;
+}
+
+.source-home-custom .source-home-section-image {
+    height: 100%;
+    min-height: 480px;
 }
 
 .source-home-workflow-list {
@@ -3096,6 +3113,16 @@ body.admin-bar .source-site-header.is-sticky {
 @media (max-width: 900px) {
     .source-home-two-column {
         grid-template-columns: 1fr;
+        gap: 32px;
+        margin-top: 32px;
+    }
+
+    .source-home-section-image,
+    .source-home-custom .source-home-section-image {
+        width: 100%;
+        height: auto;
+        min-height: 0;
+        aspect-ratio: 16 / 9;
     }
 }
 
@@ -3704,8 +3731,7 @@ body.admin-bar .source-site-header.is-sticky {
 
     .source-two-column,
     .source-contact-layout,
-    .source-category-rfq-layout,
-    .source-home-two-column {
+    .source-category-rfq-layout {
         grid-template-columns: 1fr;
     }
 }
@@ -3757,8 +3783,12 @@ body.admin-bar .source-site-header.is-sticky {
 }
 
 @media (max-width: 700px) {
+    :root {
+        --lulu-gutter: 14px;
+    }
+
     .container {
-        width: min(var(--lulu-container), calc(100% - 28px));
+        width: 100%;
     }
 
     .topbar-inner {

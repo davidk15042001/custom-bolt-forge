@@ -179,7 +179,9 @@ function lulu_base_design_tokens_css() {
     $muted = lulu_base_clean_color(lulu_base_option('muted_color'), $defaults['muted_color']);
     $line = lulu_base_clean_color(lulu_base_option('line_color'), $defaults['line_color']);
     $soft = lulu_base_clean_color(lulu_base_option('soft_color'), $defaults['soft_color']);
-    $width = min(1600, max(960, absint(lulu_base_option('container_width'))));
+    // Keep legacy/custom values from collapsing the desktop layout below the
+    // minimum width required by the navigation and editorial two-column grids.
+    $width = min(1600, max(1120, absint(lulu_base_option('container_width'))));
     $radius = min(24, max(0, absint(lulu_base_option('corner_radius'))));
     $body_font = lulu_base_font_stack(sanitize_key(lulu_base_option('body_font')));
     $display_font = lulu_base_font_stack(sanitize_key(lulu_base_option('display_font')));

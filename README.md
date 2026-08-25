@@ -44,7 +44,7 @@ Submissions are processed through WordPress core and sent with `wp_mail()`. The 
 
 ## Content updates
 
-The bundled content version is `2026-08-25.1`; theme assets are versioned as `4.0.0`. A newer content package can synchronize records previously created by the theme without overwriting unrelated editorial content.
+The bundled content version is `2026-08-25.1`; theme assets are versioned as `4.0.1`. A newer content package can synchronize records previously created by the theme without overwriting unrelated editorial content.
 
 ## Requirements
 

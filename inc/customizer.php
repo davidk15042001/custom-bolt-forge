@@ -142,7 +142,7 @@ function lulu_base_customize_register($wp_customize) {
         'humanist'  => __('Humanist sans-serif', 'lulu-base'),
         'serif'     => __('Serif', 'lulu-base'),
     ];
-    lulu_base_customize_text($wp_customize, 'container_width', __('Content width (px)', 'lulu-base'), 'lulu_base_design', __('Recommended range: 960–1600.', 'lulu-base'), 'lulu_base_customize_number', 'number');
+    lulu_base_customize_text($wp_customize, 'container_width', __('Content width (px)', 'lulu-base'), 'lulu_base_design', __('Recommended range: 1120–1600.', 'lulu-base'), 'lulu_base_customize_number', 'number');
     lulu_base_customize_text($wp_customize, 'corner_radius', __('Corner radius (px)', 'lulu-base'), 'lulu_base_design', __('Use 0 for a sharp technical style or a larger value for a softer style.', 'lulu-base'), 'lulu_base_customize_number', 'number');
 
     $wp_customize->add_section('lulu_base_footer', [

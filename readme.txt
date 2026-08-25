@@ -2,7 +2,7 @@
 Contributors: xiangjinxin
 Requires at least: 6.4
 Requires PHP: 7.4
-Stable tag: 4.0.0
+Stable tag: 4.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -50,6 +50,12 @@ No. It sends enquiries through wp_mail() and removes temporary attachments after
 Yes. Products, specifications, pages, images, menus and theme settings remain editable in WordPress.
 
 == Changelog ==
+
+= 4.0.1 =
+
+* Rebuilt the fluid container and gutter system for consistent horizontal alignment.
+* Corrected the solar and custom-manufacturing split layouts across desktop, tablet and mobile widths.
+* Protected upgraded sites from legacy content-width values that made the production layout too narrow.
 
 = 4.0.0 =
 

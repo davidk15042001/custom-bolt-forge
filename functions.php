@@ -10,7 +10,7 @@ if (!defined('ABSPATH')) {
     exit;
 }
 
-define('LULU_BASE_VERSION', '4.0.0');
+define('LULU_BASE_VERSION', '4.0.1');
 define('LULU_BASE_SOURCE_CONTENT_VERSION', '2026-08-25.1');
 define('LULU_BASE_DIR', get_template_directory());
 define('LULU_BASE_URI', get_template_directory_uri());
