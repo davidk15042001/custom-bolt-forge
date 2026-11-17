@@ -16,6 +16,8 @@ export const Route = createFileRoute("/quality")({
         property: "og:description",
         content: "Inspection stages and standards handling for industrial fasteners.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
       { property: "og:url", content: "/quality" },
     ],
     links: [{ rel: "canonical", href: "/quality" }],

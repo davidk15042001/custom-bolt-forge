@@ -16,6 +16,8 @@ export const Route = createFileRoute("/manufacturing")({
         property: "og:description",
         content: "Standard supply and drawing-based production for industrial fasteners.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
       { property: "og:url", content: "/manufacturing" },
     ],
     links: [{ rel: "canonical", href: "/manufacturing" }],

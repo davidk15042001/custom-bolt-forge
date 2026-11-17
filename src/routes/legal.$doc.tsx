@@ -78,7 +78,10 @@ export const Route = createFileRoute("/legal/$doc")({
         { title },
         { name: "description", content: loaderData.doc.body[0]?.en.slice(0, 150) ?? "" },
         { property: "og:title", content: title },
-        { property: "og:url", content: `/legal/${params.doc}` },
+        { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:description", content: loaderData.doc.body[0]?.en.slice(0, 150) ?? "" },
+      { property: "og:url", content: `/legal/${params.doc}` },
       ],
       links: [{ rel: "canonical", href: `/legal/${params.doc}` }],
     };

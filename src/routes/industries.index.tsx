@@ -17,6 +17,8 @@ export const Route = createFileRoute("/industries/")({
         property: "og:description",
         content: "Fastener supply by industrial application and project type.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
       { property: "og:url", content: "/industries" },
     ],
     links: [{ rel: "canonical", href: "/industries" }],

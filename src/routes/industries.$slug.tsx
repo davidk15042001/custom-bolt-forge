@@ -22,7 +22,9 @@ export const Route = createFileRoute("/industries/$slug")({
         { name: "description", content: industry.description },
         { property: "og:title", content: industry.headline },
         { property: "og:description", content: industry.description },
-        { property: "og:url", content: `/industries/${params.slug}` },
+        { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:url", content: `/industries/${params.slug}` },
       ],
       links: [{ rel: "canonical", href: `/industries/${params.slug}` }],
     };

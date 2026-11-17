@@ -17,6 +17,8 @@ export const Route = createFileRoute("/distributors")({
         property: "og:description",
         content: "Apply for distribution cooperation across the fastener portfolio.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
       { property: "og:url", content: "/distributors" },
     ],
     links: [{ rel: "canonical", href: "/distributors" }],

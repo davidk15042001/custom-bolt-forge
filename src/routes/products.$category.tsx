@@ -27,7 +27,8 @@ export const Route = createFileRoute("/products/$category")({
         { property: "og:title", content: title },
         { property: "og:description", content: category.intro },
         { property: "og:type", content: "product.group" },
-        { property: "og:url", content: `/products/${params.category}` },
+        { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:url", content: `/products/${params.category}` },
       ],
       links: [{ rel: "canonical", href: `/products/${params.category}` }],
       scripts: [
