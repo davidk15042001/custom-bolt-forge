@@ -17,6 +17,8 @@ export const Route = createFileRoute("/wholesale")({
         property: "og:description",
         content: "Fastener supply for distributors, importers and industrial buyers.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
       { property: "og:url", content: "/wholesale" },
     ],
     links: [{ rel: "canonical", href: "/wholesale" }],

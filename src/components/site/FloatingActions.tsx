@@ -2,8 +2,7 @@ import { useState } from "react";
 import { MessageCircle } from "lucide-react";
 import { ChatWidget } from "@/components/site/ChatWidget";
 import { useT } from "@/lib/i18n";
-
-export const WHATSAPP_NUMBER = "4917641474606";
+import { COMPANY_WHATSAPP_URL } from "@/data/contact";
 
 function WhatsAppIcon({ className }: { className?: string }) {
   return (
@@ -29,7 +28,7 @@ export function FloatingActions() {
     <>
       <div className="fixed bottom-20 right-4 z-50 flex flex-col items-end gap-3 sm:bottom-6">
         <a
-          href={`https://wa.me/${WHATSAPP_NUMBER}?text=${waText}`}
+          href={`${COMPANY_WHATSAPP_URL}?text=${waText}`}
           target="_blank"
           rel="noopener noreferrer"
           aria-label={t("Chat on WhatsApp", "WhatsApp 咨询")}

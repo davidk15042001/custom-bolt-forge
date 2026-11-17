@@ -40,6 +40,8 @@ export const Route = createFileRoute("/")({
         content:
           "Bolts, nuts, anchors, threaded components, solar fasteners and custom hardware for distributors, manufacturers and project buyers.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
       { property: "og:url", content: "/" },
     ],
     links: [{ rel: "canonical", href: "/" }],

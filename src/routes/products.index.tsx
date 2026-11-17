@@ -22,6 +22,8 @@ export const Route = createFileRoute("/products/")({
         property: "og:description",
         content: "Nine fastener categories for wholesale, OEM and project supply.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
       { property: "og:url", content: "/products" },
     ],
     links: [{ rel: "canonical", href: "/products" }],

@@ -21,6 +21,8 @@ export const Route = createFileRoute("/custom-manufacturing")({
         property: "og:description",
         content: "Send us your drawing, dimensions or sample for technical and commercial review.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
       { property: "og:url", content: "/custom-manufacturing" },
     ],
     links: [{ rel: "canonical", href: "/custom-manufacturing" }],

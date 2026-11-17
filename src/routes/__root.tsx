@@ -6,6 +6,7 @@ import {
   useRouter,
   HeadContent,
   Scripts,
+  type ErrorComponentProps,
 } from "@tanstack/react-router";
 import { useEffect, type ReactNode } from "react";
 
@@ -18,6 +19,7 @@ import { SiteHeader } from "@/components/site/SiteHeader";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { Toaster } from "@/components/ui/sonner";
 import { COMPANY } from "@/data/catalog";
+import { COMPANY_PHONE } from "@/data/contact";
 
 function NotFoundComponent() {
   return (
@@ -41,11 +43,11 @@ function NotFoundComponent() {
   );
 }
 
-function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
+function ErrorComponent({ error, reset }: ErrorComponentProps) {
   console.error(error);
   const router = useRouter();
   useEffect(() => {
-    reportLovableError(error, { boundary: "tanstack_root_error_component" });
+    reportLovableError(error instanceof Error ? error : new Error(String(error)), { boundary: "tanstack_root_error_component" });
   }, [error]);
 
   return (
@@ -120,6 +122,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
             streetAddress: COMPANY.address,
           },
           email: COMPANY.email,
+          telephone: COMPANY_PHONE,
         }),
       },
     ],

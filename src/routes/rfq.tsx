@@ -20,6 +20,8 @@ export const Route = createFileRoute("/rfq")({
         property: "og:description",
         content: "Combine multiple fastener products into a single quotation request.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
       { property: "og:url", content: "/rfq" },
       { name: "robots", content: "noindex" },
     ],

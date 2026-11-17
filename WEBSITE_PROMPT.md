@@ -42,7 +42,7 @@ The website must present the company as a credible, export-oriented industrial s
 - **Year established:** 2020 (per business license)
 - **Location:** Row 2 No. 3, West Industrial Zone, Xisuining Village, Liuying Town, Yongnian District, Handan, Hebei, China
 - **Email:** sales@xiangjinxin-fasteners.com
-- **WhatsApp:** +49 176 41474606
+- **Telephone / WhatsApp:** +86 13633204771
 - **Website languages:** English, 简体中文
 
 ### 2.2 Business Description
@@ -423,7 +423,7 @@ interface RfqContext {
 
 ### 9.1 Sticky Floating WhatsApp Button
 - Position: bottom-right, above chatbot button.
-- Number: `+49 176 41474606`.
+- Number: `+86 13633204771` (also the company telephone number).
 - Pre-filled message in current language.
 - Green WhatsApp brand color.
 - Accessible label: "Chat on WhatsApp" / "WhatsApp 咨询".
@@ -437,7 +437,7 @@ interface RfqContext {
 - Role: online sales assistant of Hebei Xiangjinxin Metal Products Co., Ltd.
 - Scope: hex bolts, high-strength bolts, nuts, washers, threaded rods, anchor bolts, chemical/expansion anchors, solar fasteners, stud bolts, screws, drawing-based custom bolts M30–M120.
 - Services: wholesale, OEM, project/BOM supply, export, custom manufacturing from DWG/STEP/PDF, material certificates, inspection reports.
-- Contact: sales@xiangjinxin-fasteners.com, WhatsApp +49 176 41474606.
+- Contact: sales@xiangjinxin-fasteners.com, telephone / WhatsApp +86 13633204771.
 - Rules:
   - Answer as knowledgeable B2B technical sales contact: concise, factual, professional.
   - Never invent prices, delivery dates, or certificates.
@@ -596,7 +596,7 @@ interface RfqContext {
 
 - [ ] All 14 routes render correctly in English and Chinese.
 - [ ] Language switcher works and persists in `localStorage`.
-- [ ] WhatsApp button opens `https://wa.me/4917641474606` with pre-filled message.
+- [ ] WhatsApp button opens `https://wa.me/8613633204771` with pre-filled message.
 - [ ] Chatbot responds in selected language and never invents prices.
 - [ ] RFQ list persists in `localStorage` and supports add/remove/edit.
 - [ ] Product catalog is searchable/filterable.

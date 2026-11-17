@@ -5,6 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { PageHero, Section } from "@/components/site/Section";
 import { RfqForm } from "@/components/site/RfqForm";
 import { COMPANY } from "@/data/catalog";
+import { COMPANY_PHONE, COMPANY_PHONE_URI, COMPANY_WHATSAPP_URL } from "@/data/contact";
 import { useRfq } from "@/lib/rfq";
 import { useT } from "@/lib/i18n";
 
@@ -22,6 +23,8 @@ export const Route = createFileRoute("/contact")({
         property: "og:description",
         content: "One place to submit RFQs, BOMs, drawings and partnership requests.",
       },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
       { property: "og:url", content: "/contact" },
     ],
     links: [{ rel: "canonical", href: "/contact" }],
@@ -109,6 +112,12 @@ function Contact() {
                 <p className="font-semibold">{COMPANY.name}</p>
                 <p className="mt-2 text-muted-foreground">{COMPANY.address}</p>
                 <p className="mt-2 text-muted-foreground">{COMPANY.email}</p>
+                <p className="mt-2 text-muted-foreground">
+                  {t("Phone", "电话")}: <a href={COMPANY_PHONE_URI} className="hover:text-primary">{COMPANY_PHONE}</a>
+                </p>
+                <p className="mt-2 text-muted-foreground">
+                  WhatsApp: <a href={COMPANY_WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-primary">{COMPANY_PHONE}</a>
+                </p>
               </div>
               <div className="border border-border bg-card p-5 text-sm">
                 <p className="eyebrow mb-2">{t("Helpful for a fast quotation", "有助于快速报价的信息")}</p>

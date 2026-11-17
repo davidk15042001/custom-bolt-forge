@@ -20,6 +20,8 @@ address:     Row 2 No. 3, West Industrial Zone, Xisuining Village,
              Liuying Town, Yongnian District, Handan, Hebei, China
 established: 19 June 2025
 email:       sales@xiangjinxin-fasteners.com
+telephone:   +86 13633204771
+whatsapp:    +86 13633204771 (https://wa.me/8613633204771)
 positioning: Industrial fastener manufacturer and wholesale supplier for
              standard, high-strength and drawing-based custom applications.
 ```
@@ -79,7 +81,7 @@ Regeln für **jede** Seite:
 
 ### 1.3 FloatingActions
 > Fixiert unten rechts, `z-50`, vertikaler Stack mit 12px Abstand:
-> 1. WhatsApp-Button (grün, MessageCircle-Icon) → `https://wa.me/4917641474606`, `target="_blank" rel="noopener"`, `aria-label="Chat on WhatsApp"`.
+> 1. WhatsApp-Button (grün, MessageCircle-Icon) → `https://wa.me/8613633204771`, `target="_blank" rel="noopener"`, `aria-label="Chat on WhatsApp"`.
 > 2. Chat-Trigger (Navy, Bot-Icon) öffnet das ChatWidget.
 
 ### 1.4 ChatWidget
