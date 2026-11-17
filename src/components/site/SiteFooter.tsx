@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useT } from "@/lib/i18n";
 import { COMPANY } from "@/data/catalog";
+import { COMPANY_PHONE, COMPANY_PHONE_URI, COMPANY_WHATSAPP_URL } from "@/data/contact";
 
 const columns: { title: string; links: { label: string; to: string; params?: Record<string, string> }[] }[] = [
   {
@@ -105,6 +106,10 @@ export function SiteFooter() {
         <div className="mt-12 border-t border-graphite-foreground/15 pt-6 text-xs text-graphite-foreground/60">
           <p className="font-medium text-graphite-foreground/85">{t(COMPANY.name)}</p>
           <p className="mt-1">{t(COMPANY.address)}</p>
+          <p className="mt-1">
+            {t("Phone", "电话")}: <a href={COMPANY_PHONE_URI} className="hover:text-safety">{COMPANY_PHONE}</a>
+            {" · "}WhatsApp: <a href={COMPANY_WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="hover:text-safety">{COMPANY_PHONE}</a>
+          </p>
           <p className="mt-1">
             {t("Unified social credit code", "统一社会信用代码")} {COMPANY.creditCode} ·{" "}
             {t("Established", "成立时间")} {COMPANY.established}

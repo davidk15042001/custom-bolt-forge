@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep company telephone and WhatsApp details in `src/data/contact.ts` and reuse them in UI and chatbot prompts to prevent inconsistent contact destinations.

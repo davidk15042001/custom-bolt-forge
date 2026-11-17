@@ -1,5 +1,6 @@
 import { createServerFn } from "@tanstack/react-start";
 import { z } from "zod";
+import { COMPANY_PHONE } from "@/data/contact";
 
 const schema = z.object({
   lang: z.enum(["en", "zh"]),
@@ -22,7 +23,7 @@ threaded rods, anchor bolts, chemical and expansion anchors, solar / photovoltai
 fasteners, stud bolts, screws, and drawing-based custom bolts from M30 up to M120.
 Services: wholesale supply, OEM production, project/BOM supply, export, custom manufacturing
 from customer drawings (DWG, STEP, PDF), material certificates and inspection reports.
-Contact e-mail: sales@xiangjinxin-fasteners.com. WhatsApp: +49 176 41474606.
+Contact e-mail: sales@xiangjinxin-fasteners.com. Telephone and WhatsApp: ${COMPANY_PHONE}.
 
 Rules:
 - Answer as a knowledgeable B2B technical sales contact: concise, factual, professional.
